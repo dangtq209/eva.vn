@@ -1,0 +1,341 @@
+  
+/* Begin: Tytv - 10/07/2017 - tinh_ngay_rung_trung */
+/*Start tinh ngay rung trung*/
+* {
+    box-sizing: border-box;
+}
+.marB20 {
+    margin-bottom: 20px;
+}
+.marT20 {
+    margin-top: 20px;
+}
+.color-white {
+    color: #fff;
+}
+.color-featured {
+    color: #d2577e;
+}
+/*.text-uppercase {
+    text-transform: uppercase;
+}*/
+.bold {
+    font-weight: 700;
+}
+.text-center {
+    text-align: center;
+}
+.pinkBoxTitle {
+    background: #d2577e;
+    color: #fff;
+    text-align: center;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-tool-ovulation .title-ovulation > span {
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+}
+.form-tool-ovulation-body {
+    padding: 0px 20px 10px 20px;
+    border: 1px solid #ddd;
+}
+.tool-date {
+    margin-left: 0;
+}
+.tool-date .form-control{
+    width: 40%;
+    margin-left: 0;
+}
+.tool-date .form-control {
+    height: 40px;
+    line-height: 24px;
+    border-radius: 3px;
+}
+.tool-date-first .choose-date .form-control {
+    background: url(//image.eva.vn/images/icon-datetime.png) no-repeat 98% 10px;
+}
+/*.tool-date i {
+    font-size: 12px;
+}*/
+.tool-date-first .choose-date {
+    position: relative;
+}
+/*.tool-date-first .choose-date:after {
+    content: "";
+    background: url("//image.eva.vn/images/icon-datetime.png") no-repeat;
+    width: 20px;
+    height: 19px;
+    right: 10px;
+    top: 9px;
+    display: block;
+    position: absolute;
+}*/
+.tool-date-first .choose-date:hover {
+    cursor: pointer;
+}
+.tool-date label {
+    display: block;
+}
+.tool-ovulation-footer {
+    display: inline-block;
+    width: 100%;
+}
+.see-results {
+    width: 150px;
+    float: left;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+.see-results.pinkBoxTitle a, .tinh-lai {
+    height: 40px;
+    line-height: 40px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    text-decoration: none;
+}
+.lichThangTitle {
+    font-size: 20px;
+}
+.lich-thang-title {
+    height: 70px;
+    line-height: 70px;
+}
+.lich-thu {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #b0365d;
+    font-size: 14px;
+}
+table.lich-thu {
+    border-collapse: collapse;
+}
+table.list-ngay {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.list-ngay td:hover {
+    cursor: pointer;
+}
+.ngay-thuong {
+    color: #9e9e9e;
+    position: relative;
+}
+.ngay-hong {
+    color: #c35e89;
+    background-color: #f8d4e6;
+    border: 1px solid #EAA3BA;
+}
+.rung-nho, .rung-to {
+    position: relative;
+}
+.rung-nho:after {
+    content: "";
+    background: url(//image.eva.vn/images/icon-datefirst.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    right: 3px;
+    top: 3px;
+    display: block;
+    position: absolute;
+    background-size: 15px;
+}
+.rung-to:after {
+    content: "";
+    background: url(//image.eva.vn/images/icon-datelast.png) no-repeat;
+    width: 24px;
+    height: 25px;
+    right: 3px;
+    top: 3px;
+    display: block;
+    position: absolute;
+    background-size: 20px;
+}
+.tooltip {
+    position: relative;
+}
+.tooltiptext {
+    width: 120px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #212121;
+    -webkit-box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    -moz-box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    box-shadow: 0 0 12px rgba(51,51,51,0.5);
+}
+#tt { position: absolute;}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.des-tool-ovulation-correct, .des-tool-attendance-correct{
+    display: inline-block;
+    padding: 5px;
+    width: 130px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.des-tool-ovulation-correct {
+    background-color: #894794;
+}
+.des-tool-attendance-correct {
+    background-color: #52bed9;
+}
+.tool-ovulation-correct-img {
+    float: left;
+}
+.tool-ovulation-correct-content .color-white {
+    font-size: 11px;
+}
+.tool-ovulation-correct-content {
+    margin-left: 35px;
+    line-height: 12px;
+    text-align: left;
+}
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+.ngay-hong-gach {
+    background: url("//image.eva.vn/images/rungtrung_curves.png") no-repeat;
+    color: #9e9e9e;
+}
+/*End tinh ngay rung trung*/
+
+/*Start ngay sinh*/
+.ngay-sinh {
+    background-color: #e5faff;
+    border: 1px solid #EAA3BA;
+}
+.ngay-sinh-chuan {
+    position: relative;
+}
+.ngay-sinh-chuan:after {
+    content: "";
+    background: url("//image.eva.vn/images/icon-dateborn.png") no-repeat;
+    width: 29px;
+    height: 25px;
+    right: 8px;
+    top: 12px;
+    display: block;
+    position: absolute;
+}
+.list-ngay td {
+    border: 1px solid #ddd;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
+}
+td, th {
+    display: table-cell;
+}
+.ngay-dam {
+    position: relative;
+}
+.lbl-stt {
+    position: absolute;
+    left: 5px;
+    bottom: -5px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #757575;
+}
+.ngay-hong1 {
+    background-color: #d2577e;
+}
+.ngay-hong2 {
+    background-color: #ee779d;
+}
+.ngay-hong3 {
+    background-color: #fc9dba;
+}
+.ngay-hong4 {
+    background-color: #fbbbcf;
+}
+.ngay-hong1, .ngay-hong2, .ngay-hong3, .ngay-hong4 {
+    color: #fff;
+}
+.lich-thu td{
+    border: 1px solid #ddd;
+    border-bottom: 0;
+}
+.ui-widget-header {
+    border: 1px solid #424242;
+    background: #424242;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #bdbdbd;
+    background: #bdbdbd;
+    
+}
+.ui-widget-content .ui-datepicker-calendar .ui-state-hover {
+    color: #fff;
+    background: #d2577e;
+    border: 1px solid #d2577e;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #424242;
+    /*background-color: #fff;*/
+}
+/*End ngay sinh*/
+@media only screen and (min-width: 500px) {
+    .tool-date-first {
+        width: 55%;
+        margin-right: 4%;
+    }
+    .tool-date-second {
+        width: 55%;
+    }
+    .tool-date-lenght {
+        clear: both;
+        width: 55%;
+    }
+    .tool-date .form-control {
+        width: 100%;
+    }
+    .form-control {
+        font-size: 16px; 
+    }
+}
+@media only screen and (max-width: 499px) {
+    .tool-date .form-control {
+        width: 100%;
+    }
+    /*.tool-date label {
+        height: 19px;
+    }*/
+    .form-control {
+        font-size: 14px;
+    }
+    .rung-nho:after {
+        width: 10px;
+        height: 10px;
+        background-size: 10px;
+    }
+    .rung-to:after {
+        width: 12px;
+        height: 12px;
+        background-size: 12px;
+    }
+}
+/* End: Tytv - 10/07/2017 - tinh_ngay_rung_trung */

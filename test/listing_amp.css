@@ -1,0 +1,338 @@
+/*-----Start newsList------*/
+.breakingNewsImg {
+    position: relative;
+}
+.newsListTitle h2, .newsListTitle h2 a, .newsListTitle h3, .newsListTitle h3 a {
+    font-size: 18px;
+}
+.eventBoxLeft {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin: 0 4% 0 0;
+    display: block;
+    background: #f5f5f5;
+    position: relative;
+}
+.eventBoxRight {
+    float: right;
+    width: 56%;
+}
+.eventBoxSapo {
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.eventBoxImg {
+    position: relative;
+}
+/*-----End newsList------*/
+
+/*-----Start Listing------*/
+.breadcrum {
+    position: relative;
+}
+.breadcrum ul li {
+    display: inline;
+}
+.icon-breadcrum {
+    padding: 0 3px;
+}
+.breadcrum ul li a {
+    font-size: 16px;
+}
+/*-----End Listing------*/
+
+/*-----Start Profile------*/
+.profile-star a {
+    width: 88%;
+    color: #757575;
+}
+.sub-img {
+    width: 33%;
+    float: left;
+    margin-right: 3%;
+    border: 1px solid #ddd;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.sub-info-profile {
+    width: 62%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.info-profile-inner {
+    width: 100%;
+    display: inline-table;
+    position: relative;
+}
+.info-profile {
+    margin-top: -15%;
+}
+.title-sub-info span{
+    font-size: 18px;
+}
+.profile-star .collapse {
+    position: relative;
+}
+.profile-star .collapse:after {
+    position: absolute;
+    content: "";
+    background: url(//image.eva.vn/images/m2017/icon-up.png) no-repeat;
+    width: 12px;
+    height: 16px;
+    right: -20px;
+    top: 2px;
+}
+.profile-content .color-title {
+    font-size: 16px;
+}
+/*-----End Profile------*/
+
+/*-----Start Tin hay Ă„â€˜Ă¡Â»Â«ng bĂ¡Â»Â lĂ¡Â»Â¡------*/
+.boxnewsgood-title {
+    border-top: 2px solid #d2577e;
+}
+.boxnewsgood-bg {
+    background-color: #fbefef;
+}
+.boxnewsgood-bg .itemsBothBoxContent {
+    display: inline-table;
+    border-bottom: 2px solid #d2577e;
+    width: 100%;
+}
+.boxnewsgood-title span {
+    font-size: 22px;
+}
+.boxnewsgood .sponsor {
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+/*-----End Tin hay Ă„â€˜Ă¡Â»Â«ng bĂ¡Â»Â lĂ¡Â»Â¡------*/
+
+/*-----Start common------*/
+@media only screen and (min-width: 480px) {
+    .infoNecessary-recruitment {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -95px no-repeat;
+    }
+    .btn-social-inner a {
+        width: 28%;
+    }
+}
+@media only screen and (min-width: 568px) {
+    .pagination a.btnPrev {
+        background: url(//image.eva.vn/images/m2017/icon-prev.png) no-repeat 0 20px;
+    }
+    .pagination a.btnNext {
+        background: url(//image.eva.vn/images/m2017/icon-next.png) no-repeat right 20px;
+    }
+    .cateOther ul li a {
+        background: url(//image.eva.vn/images/m2017/meva-icon-cm-2017.png) no-repeat 0px 18px;
+    }
+    .topic a amp-img {
+        margin-top: 10px;
+    }
+    .itemsBothBoxList a {
+        background: url(//image.eva.vn/images/m2017/meva-icon-cm-2017.png) no-repeat 0px 12px;
+    }
+    .infoNecessary-gold {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px 17px no-repeat;
+    }
+    .infoNecessary-lottery {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -35px no-repeat;
+    }
+    .infoNecessary-recruitment {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -88px no-repeat;
+    }
+    .infoNecessary-rate {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -135px no-repeat;
+    }
+    .infoNecessary-weather {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -189px no-repeat;
+    }
+    .infoNecessary-calendar {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -245px no-repeat;
+    }
+    .infoNecessary-music {
+        background: url(//image.eva.vn/images/m2017/ttcb.png) 5px -295px no-repeat;
+    }
+    .profile-star .collapse:after {
+        top: 8px;
+    }
+    .btn-social-inner a {
+        height: 26px;
+        line-height: 23px;
+        background-size: 16px;
+    }
+    .itemsBothBoxList a.lst-greenStar {
+        background: url(//image.eva.vn/images/m2017/green-star.gif) 0 10px no-repeat;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+    .text-banner, .btn-social-inner a span {
+        font-size: 18px;
+    }
+    .menuTop ul li a, .copyright span, .copyright span *, .publishedDate span, .sponsor, .sponsor span {
+        font-size: 20px;
+    }
+    .topic a, .itemsBothBoxTitle ul li a, .btn, .color-news {
+        font-size: 22px;
+    }
+    .sapo, .sapo h4, .itemsBothBoxList a, .infodnBox span,.infodnAbove a, .breadcrum ul li a, .profile-content .color-title,
+
+    .pagination a, .pagination span, .infoNecessaryItems li a, .cateFooterTitle span, .cateOther ul li a, .itemsBothBoxContent h3 a, .itemsBothBoxContent h3, 
+    .itemsBothBoxContent h4 a, .itemsBothBoxContent h4, .itemsBothBoxContent h5 a, .itemsBothBoxContent h5, .boxnewsgood a, .relatedNewsCenterTitle span, 
+    .box-relatedContent h4, .author span{
+        font-size: 24px;
+    }
+    .newsListTitle h2, .newsListTitle h2 a, .title-sub-info span, .newsListTitle h3, .newsListTitle h3 a, .boxeventNewsTitle .color-white{
+        font-size: 26px;
+    }
+    .infodnTitle span {
+        font-size: 28px;
+    }
+    h2, h2 a, .itemsBothBoxTitle ul li a.active, .boxnewsgood-title span, .relatedNewsTitle span {
+        font-size: 30px;
+    }
+    .infoNecessary .infodnTitle:before, .infoNecessary .infodnTitle:after {
+        width: 26%;
+    }
+    p {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+@media only screen and (min-width: 568px) and (max-width: 666px) {
+    .text-banner, .btn-social-inner a span {
+        font-size: 16px;
+    }
+    .menuTop ul li a, .copyright span, .copyright span *, .publishedDate span, .sponsor, .sponsor span {
+        font-size: 18px;
+    }
+    .topic a, .itemsBothBoxTitle ul li a, .btn, .color-news {
+        font-size: 20px;
+    }
+    .sapo, .sapo h4, .infodnBox span, .itemsBothBoxList a, .infodnAbove a, .breadcrum ul li a, .profile-content .color-title,
+
+    .pagination a, .pagination span, .infoNecessaryItems li a, .cateFooterTitle span, .cateOther ul li a , .itemsBothBoxContent h3 a, .itemsBothBoxContent h3, 
+    .itemsBothBoxContent h4 a, .itemsBothBoxContent h4, .itemsBothBoxContent h5 a, .itemsBothBoxContent h5, .boxnewsgood a, .relatedNewsCenterTitle span, 
+    .box-relatedContent h4, .author span{
+        font-size: 22px;
+    }
+    .newsListTitle h2, .newsListTitle h2 a, .title-sub-info span, .newsListTitle h3, .newsListTitle h3 a, .boxeventNewsTitle .color-white {
+        font-size: 24px;
+    }
+    .infodnTitle span {
+        font-size: 26px;
+    }
+    h2, h2 a, .itemsBothBoxTitle ul li a.active, .boxnewsgood-title span, .relatedNewsTitle span {
+        font-size: 28px;
+    }
+    .infoNecessary .infodnTitle:before, .infoNecessary .infodnTitle:after {
+        width: 26%;
+    }
+    p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 567px) {
+    .text-banner, .btn-social-inner a span {
+        font-size: 14px;
+    }
+    .menuTop ul li a, .copyright span, .copyright span *, .publishedDate span, .sponsor, .sponsor span {
+        font-size: 16px;
+    }
+    .topic a, .itemsBothBoxTitle ul li a, .btn, .color-news {
+        font-size: 18px;
+    }
+    .sapo, .sapo h4,.infodnBox span, .itemsBothBoxList a, .infodnAbove a, .breadcrum ul li a, .profile-content .color-title,
+
+    .pagination a, .pagination span, .infoNecessaryItems li a, .cateFooterTitle span, .cateOther ul li a,.itemsBothBoxContent h3 a, .itemsBothBoxContent h3, 
+    .itemsBothBoxContent h4 a, .itemsBothBoxContent h4, .itemsBothBoxContent h5 a, .itemsBothBoxContent h5, .boxnewsgood a, .relatedNewsCenterTitle span, 
+    .box-relatedContent h4, .author span {
+        font-size: 20px;
+    }
+    .newsListTitle h2, .newsListTitle h2 a, .title-sub-info span, .newsListTitle h3, .newsListTitle h3 a, .boxeventNewsTitle .color-white {
+        font-size: 22px;
+    }
+    .infodnTitle span {
+        font-size: 24px;
+    }
+    h2, h2 a, .itemsBothBoxTitle ul li a.active, .boxnewsgood-title span, .relatedNewsTitle span {
+        font-size: 26px;
+    }
+    .infodnTitle:before, .infodnTitle:after {
+        width: 12%;
+    }
+    .infoNecessary .infodnTitle:before, .infoNecessary .infodnTitle:after {
+        width: 24%;
+    }
+    p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .itemsBothBoxList a {
+        background: url(//image.eva.vn/images/m2017/meva-icon-cm-2017.png) no-repeat 0px 12px;
+    }
+}
+@media only screen and (min-width: 361px) and (max-width: 479px) {
+    .text-banner, .btn-social-inner a span {
+        font-size: 12px;
+    }
+    .menuTop ul li a, .copyright span, .copyright span *, .publishedDate span, .sponsor, .sponsor span {
+        font-size: 14px;
+    }
+    .topic a, .itemsBothBoxTitle ul li a, .btn, .color-news {
+        font-size: 16px;
+    }
+    .sapo, .sapo h4, .infodnBox span, .itemsBothBoxList a, .infodnAbove a, .breadcrum ul li a, .profile-content .color-title,
+
+    .pagination a, .pagination span, .infoNecessaryItems li a, .cateFooterTitle span, .cateOther ul li a, .itemsBothBoxContent h3 a, .itemsBothBoxContent h3, 
+    .itemsBothBoxContent h4 a, .itemsBothBoxContent h4, .itemsBothBoxContent h5 a, .itemsBothBoxContent h5, .boxnewsgood a, .relatedNewsCenterTitle span, 
+    .box-relatedContent h4, .author span{
+        font-size: 18px;
+    }
+    .newsListTitle h2, .newsListTitle h2 a, .newsListTitle h3, .newsListTitle h3 a, .title-sub-info span, .newsListTitle h3, .newsListTitle h3 a, .boxeventNewsTitle .color-white {
+        font-size: 20px;
+    }
+    .infodnTitle span {
+        font-size: 22px;
+    }
+    h2, h2 a, .itemsBothBoxTitle ul li a.active, .boxnewsgood-title span, .relatedNewsTitle span {
+        font-size: 24px;
+    }
+    .infodnTitle:before, .infodnTitle:after {
+        width: 6%;
+    }
+    .pagination a.btnPrev {
+        background: url(//image.eva.vn/images/m2017/icon-prev.png) no-repeat 0 17px;
+    }
+    .pagination a.btnNext {
+        background: url(//image.eva.vn/images/m2017/icon-next.png) no-repeat right 17px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .btn-social-inner a {
+        width: 28%;
+    }
+    .itemsBothBoxList a {
+        background: url(//image.eva.vn/images/m2017/meva-icon-cm-2017.png) no-repeat 0px 12px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .infodnTitle:before, .infodnTitle:after {
+        width: 3%;
+    }
+}
+/*-----End common------*/
+.amp-carousel-button-prev {
+    left : 0px; 
+}
+.amp-carousel-button-next {
+    right: 0px; 
+}

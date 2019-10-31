@@ -1,0 +1,4185 @@
+@font-face {
+    font-family: SFUIText;
+    font-style: italic;
+    font-weight: normal;
+    src: url("//image.eva.vn/css/fonts/SFUIText-Italic.otf");
+}
+@font-face {
+    font-family: SFUIText;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/SFUIText-Bold.otf");
+}
+@font-face {
+    font-family: SFUIText;
+    font-style: normal;
+    font-weight: normal;
+    src: url("//image.eva.vn/css/fonts/SFUIText-Regular.otf");
+}
+@font-face {
+    font-family: SFUIText;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/SFUIText-Semibold.otf");
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    src: url("//image.eva.vn/css/fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/Oswald-SemiBold.ttf");
+}
+@font-face {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    src: url("//image.eva.vn/css/fonts/Prata-Regular.ttf");
+}
+@font-face {
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url("//image.eva.vn/css/fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url("//image.eva.vn/css/fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: OpenSans;
+    font-style: italic;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/SFUIText-Italic.otf");
+}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #212121;
+}
+/*-----End font------*/
+
+/*-----Start Common------*/
+a:hover {
+    color: #d2577e;
+}
+.tpmnRt ul>li:hover>a, .shwalbm .ctsldr a:hover, .full-info .info-show a:hover {
+    color: #fff;
+}
+.pkBxTit>span {
+    font-family: OpenSans;
+}
+.seInfo i {
+    font-family: SFUIText;
+}
+.contnr {
+    margin: 0 auto;
+    width: 1024px;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+.bld {
+    font-weight: 700;
+}
+.contnr {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p {
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.txtTrf, .txtUpca {
+    text-transform: uppercase;    
+}
+.clF {
+    clear: both;
+}
+ul,li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.fs16 {
+    font-size: 16px;
+}
+.txtCent {
+    text-align: center;
+}
+.txtLt {
+    text-align: left;
+}
+.txtrt {
+    text-align: right;
+}
+input:focus, textarea:focus, select:focus {
+    outline-offset: -0px;
+    outline: #b43b61 auto 0px;
+}
+.fs12 {
+    font-size: 12px;
+}
+.width100 {
+    width: 100%;
+}
+.itBthBx img {
+    display: block;
+}
+/*-----End Common------*/
+
+/*-----Start color------*/
+.clrTit {
+    color: #000;
+}
+.clrWh {
+    color: #fff;
+}
+.clrGr {
+    color: #757575;
+}
+.clrDf {
+    color: #d2577e;
+}
+/*-----End color------*/
+
+/*-----Start distance------*/
+.pdT5 {
+    padding-top: 5px;
+}
+.pdB5 {
+    padding-bottom: 5px;
+}
+.pdT10 {
+    padding-top: 10px;
+}
+.pdB10 {
+    padding-bottom: 10px;
+}
+.pdB15 {
+    padding-bottom: 15px;
+}
+.pdT15 {
+    padding-top: 15px;
+}
+.pdT20 {
+    padding-top: 20px;
+}
+.pdB20 {
+    padding-bottom: 20px;
+}
+.mrT10 {
+    margin-top: 10px;
+}
+.mrB10 {
+    margin-bottom: 10px;
+}
+.mrT20 {
+    margin-top: 20px;
+}
+.mrB15 {
+    margin-bottom: 15px;
+}
+.mrT15 {
+    margin-top: 15px;
+}
+.mrT05 {
+    margin-top: -5px;
+}
+.mrB20 {
+    margin-bottom: 20px;
+}
+.mrR10 {
+    margin-right: 10px;
+}
+.mrL10 {
+    margin-left: 10px;
+}
+.mrR5 {
+    margin-right: 5px;
+}
+.mrL5 {
+    margin-left: 5px;
+}
+.mrT5 {
+    margin-top: 5px;
+}
+.mrB5 {
+    margin-bottom: 5px;
+}
+.lin {
+    border-bottom: 1px solid #eee;
+}
+/*-----End distance------*/
+
+/*-----Start Heading------*/
+h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+h6 {
+    font-size: 10px;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 400;
+    display: inline;
+}
+/*-----End Heading------*/
+
+/*-----Start icon------*/
+.bbIco {
+    background-image: url("/images/m2017/bb-sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+}
+/*-----End icon------*/
+
+/*-----Start Box------*/
+.newsBoxLeft {
+    width: 48%;
+    float: left;
+}
+.newsBoxRight {
+    width: 48%;
+    float: right;
+}
+/*-----End Box------*/
+
+/*-----Start Header------*/
+.hdr {
+	height: 50px;
+	background: #d2577e;
+	/*overflow: hidden;*/
+	width: 100%;
+	position: relative;
+}
+
+/*.hdrCm {
+	position: relative;
+}*/
+
+.lgoEva .bbIco {
+	background-image: url(//image.eva.vn/images/responsive/sprites_pc.png);
+	background-position: -196px -115px;
+	width: 100px;
+	height: 50px;
+}
+
+.lgoEva {
+	display: inline-block;
+	line-height: 0;
+}
+
+.mnCat {
+	position: absolute;
+	right: 0px;
+	top: 7px;
+}
+
+.mnCat a .bbIco {
+	background-position: -72px -70px;
+	width: 23px;
+	height: 30px;
+	margin-top: 3px;
+}
+
+.icoHbger {
+	float: left;
+}
+
+.logInOut {
+	margin-left: 10px;
+	display: inline-block;
+	line-height: 1;
+}
+
+.logInOut span {
+	font-size: 11px;
+}
+
+.logInOut a {
+	font-size: 11px;
+	font-weight: 700;
+}
+
+.logInOut a:hover {
+	color: #fff;
+}
+
+.schBx {
+	width: 230px;
+	height: 50px;
+	top: 0;
+	right: 0px;
+	position: absolute;
+}
+
+.schBx input {
+	height: 32px;
+	line-height: 32px;
+	border-radius: 25px;
+	background-color: #b43b61;
+	border: 0;
+	width: 100%;
+	margin: 9px 0px;
+	padding: 0 10px 0 30px;
+	color: #e5a2b7;
+}
+
+.schbtn {
+	position: absolute;
+	top: 15px;
+	left: 5px;
+	cursor: pointer;
+}
+
+.schbtn .bbIco {
+	background-position: -53px -69px;
+	width: 20px;
+	height: 20px;
+}
+
+.mnHbger {
+	float: left;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	padding-right: 20px;
+        padding-left: 10px;
+	border-right: 1px solid #b24a6b;
+	width: 155px;
+        border-left: 1px solid #b24a6b;
+}
+
+.mnHbger a {
+	font-size: 12px;
+}
+
+.mnHbger a:hover {
+	color: #fff;
+}
+
+.log {
+	width: 100px;
+	float: left;
+	height: 50px;	
+}
+
+.ico-hbger .ico-sprt {
+	background-position: -42px -34px;
+	width: 24px;
+	height: 18px;
+	margin-right: 5px;
+	margin-bottom: -3px;
+}
+
+.tpmnRt {
+	position: absolute;
+	left: 260px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.tpmnRt ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.tpmnRt a {
+	font-size: 12px;
+}
+
+.ico-close .ico-sprt {
+	width: 19px;
+	height: 20px;
+	margin-right: 10px;
+	margin-bottom: -3px;
+	background: url("./images/icon-close.png") no-repeat;
+}
+
+.mnexwrp {
+	height: 745px;
+	overflow-y: auto;
+	background: #fff;
+	box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 9999;
+	visibility: visible;
+	opacity: 1;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	width: 100%;
+}
+
+.mnicoCls {
+	background-color: #b24a6b;
+}
+
+.ico-close {
+	padding-left: 15px;
+}
+
+.mnexwrpCm {
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+	width: 100%;
+}
+
+.mnexwrpCm:last-child {
+	border-bottom: 0;
+}
+
+.ltmnexTit a {
+	font-size: 16px;
+	font-family: Oswald;
+}
+.lstothr {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ltmnex {
+	width: 160px;
+	float: left;
+	margin-right: 20px;
+}
+
+.rtmnex {
+	float: left;
+	width: 824px;
+	padding-top: 2px;
+}
+
+.rtmnexTit .clrTit {
+	font-size: 14px;
+}
+
+.ltmnexTit .bbIco {
+	background-position: -30px 1px;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.semiBld {
+	font-weight: 500;
+}
+
+.rtmnexCt li {
+	display: inline-block;
+	position: relative;
+	width: 130px;
+	height: 40px;
+	margin-right: 7px;
+    margin-bottom: 3px;
+}
+
+.rtmnexCt li a {
+	width: 130px;
+	height: 40px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0px 15px;
+	font-size: 12px;
+	background-color: #f5f5f5;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+        color: #000;
+}
+
+.rtmnexCt li a:hover {
+	background-color: #d2577e;
+	color: #fff;
+}
+
+.ltmnexTit {
+	text-align: right;
+}
+.mnCat .icoclsmn {
+    right: 10px;
+    top: 12px;
+}
+.icoclsmn .ico-sprt {
+    width: 30px;
+    height: 25px;
+    background-size: 387px;
+    background-position: -235px -42px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
+.sb-li{
+    color: #fff;
+    text-transform: uppercase;
+}
+/*-----End Header------*/
+
+
+/*-----Start Home------*/
+.brcrm li h1, .brcrm li h2, .brcrm li h3, .brcrm li h4 {
+    display: inline;
+    line-height: 1;
+    font-size: 16px;
+}
+.brcrm, .artHilgImg {
+    position: relative;
+}
+.sbMenu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background-size: 10px; */
+    display: block;
+    right: 0;
+    top: 0;
+    background: url(//image.eva.vn/images/responsive/droplist_icon.png) no-repeat center;
+    background-size: 13px;
+}
+.brkNwsHm {
+    position: relative;
+}
+.brkNsImg a, .brkNsImg img {
+    line-height: 0;
+    display: block;
+}
+.brkNsImg img {
+	height: 340px;	
+}
+.brkNsbd {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: url(//image.eva.vn/images/responsive/bg-bknws.png);
+	background-size: cover;
+}
+.brkNsbdLt {
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+}
+.brkNsWk, .brkNsDte {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;  
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+.brkNsWk {
+    background-color: #d2577e;
+    z-index: 2;
+}
+.brkNsDte {
+    background-color: #e683a2;
+    margin-left: -13px;
+    z-index: 1;
+}
+.brkNsWkCm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.brkNumb {
+    font-family: Prata;
+    font-size: 28px;
+}
+.brkNsbdRt {
+    height: 72px;
+    position: relative;
+    margin-left: 150px;
+}
+.brkNsbdRt a {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-right: 0;
+    transform: translate(0%, -50%);
+}
+.flLt {
+    float: left;
+}
+.flRt {
+    float: right;
+}
+.brkNwsbg {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fbefef;
+}
+.colLt {
+    width: 684px;
+	float: left;
+}
+.colRt {
+    width: 300px;
+    margin-left: 9px;
+    margin-top: -15px;
+    float: right;
+}
+.brkNwsHm {
+    width: 441px;
+}
+.brkNwsHmRt {
+    width: 213px;
+}
+.brkNwsCm {
+    position: relative;
+    
+}
+.bkNws {
+    position: absolute;
+    bottom: 0;
+    padding: 2px 7px 7px 7px;
+    background: url(//image.eva.vn/images/responsive/bg-bknws.png);
+	background-size: cover;
+}
+.bkNws a {
+    display: block;
+}
+.bxLtImg a, .bxLtImg a img {
+    display: block;
+}
+.bgTit {
+    background-color: #d2577e;
+}
+.bkNwslt {
+    float: left;
+    width: 444px;
+    position: relative;
+}
+.bkNwsrt {
+    width: 220px;
+    float: right;
+}
+.lsttit a {
+    font-size: 22px;
+}
+.img-bk a, .img-bk a img {
+    display: block;
+}
+.sb-tpic, .itBthBxCt a.sb-tpic {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+.tpic .bbIco {
+    background-position: -84px -14px;
+    width: 20px;
+    height: 14px;
+}
+.bkNwsrt .clrTit {
+    font-size: 18px;
+}
+.bkNwsrt h2 {
+    line-height: 14px;
+}
+.Ltrt {
+    width: 331px;
+    float: left;
+}
+.nsLstTit .clrTit {
+    font-size: 18px;
+}
+.sp {
+    font-size: 13px;
+    color: #757575;
+}
+.itBthBxLt {
+    display: inline-block;
+    width: 100%;
+}
+.itBthBxLtImg {
+        width: 113px;
+    float: left;
+    position: relative;
+}
+.itBthBxLtCt a {
+    font-size: 16px;
+}
+.txtbanrvert {
+    position: absolute;
+    left: -8px;
+    top: 35px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+}
+.brcrm {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.brcrm ul {
+    float: left;
+    padding-right: 10px;
+}
+.brcrm ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    color: #d2577e;
+}
+.brcrm ul li a {
+    font-size: 16px;
+}
+.icobrcrm {
+    padding: 0 3px;
+}
+.tpseoblk {
+    float: right;
+    margin-left: 15px;
+}
+.clrGra, .clrGre {
+    color: #757575;
+}
+.tpseoblk a {
+    display: inline;
+    font-size: 14px;
+}
+.tpseoblk a:first-child {
+    margin-right: 30px;
+    margin-left: 0;
+}
+.icotpc:before {
+    background-position: -282px -72px;
+    background-image: url(https://image.eva.vn/images/responsive/sprites_pc.png);
+    width: 20px;
+    height: 12px;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+}
+.brcrmlst {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.brcrmlstul>li {
+    display: inline;
+    float: left;
+}
+.brcrmlst a {
+    font-size: 14px;
+}
+.grey {
+    border-left: 1px solid #ccc;
+    padding-left: 6px;
+    margin-left: 6px;
+}
+.dnselctupdn .dnselctupblk {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.dnselctupblk .icodnselct {
+    margin-right: 5px;
+}
+.dnselctupblk a {
+    display: initial;
+    float: left;
+}
+.dnselctupblk img {
+	margin-bottom: 3px;	
+}
+.icodnselctop .ico-sprt {
+    padding-left: 15px;
+    background-position: -28px -288px;
+    width: 5px;
+    height: 9px;
+}
+.brcrmlstuldn {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 684px;
+}
+.brcrmlstuldncm {
+    width: 33.33%;
+    float: left;
+    padding-bottom: 20px !important;
+}
+.brcrmlstuldncm li a {
+    padding: 5px 5px 5px 12px;
+    display: block;
+    position: relative;
+}
+.brcrmlstuldncm li a:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-right: 3px;
+    background-color: #d2577e;
+    border-radius: 50%;
+    background-image: initial;
+    vertical-align: middle;
+    margin-top: -3px;
+    left: 0;
+    top: 14px;
+    position: absolute;
+}
+.sbmnLst {
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    z-index: 1;
+}
+.brcrm ul li:hover .sbmnLst {
+    display: block;
+    z-index: 2;
+    top: 31px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+.brcrm ul li .sbmnLst .brcrmlstuldn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(228, 228, 228, 1);
+    width: 600px;
+}
+.sbmnLst .brcrmlstuldn {
+    width: 410px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+}
+.brcrm ul li .sbmnLst:before {
+    content: "";
+    position: absolute;
+    top: -21px;
+    left: 5px;
+    border-width: inherit;
+    border-style: inherit;
+    border-color: inherit;
+    background-image: url(//image.eva.vn/images/2017/icon-tooltip.png);
+    width: 50px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.sbmnLst:before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 60px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.icotpc {
+    position: relative;
+}
+/*-----End Home------*/
+
+/*-----Start Right------*/
+.pkBxTit {
+    background: #d2577e;
+    text-align: center;
+    color: #fff;
+}
+.pkBxTit>a, .pkBxTit>span {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+}
+.pkBxTit .txtUpca a {
+	color: #fff;
+}
+.pkBxTit>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ads_unit .infort {
+    background: url(https://image.eva.vn/images/2017/box4T-bg.png) repeat;
+}
+.infort {
+    border: #eee solid 1px;
+    padding: 0 10px;
+}
+.infobx-cmon {
+    display: inline-block;
+    width: 100%;
+}
+.infobx-cmon .imgFlt {
+    width: 100px;
+    float: left;
+    position: relative;
+}
+.cntFlt {
+    width: 166px;
+    float: left;
+}
+.info-links {
+    font-size: 14px;
+    display: block;
+    margin-top: -5px;
+    color: #212121;
+}
+.nwsup, .nwsdwn {
+    width: 40px;
+    height: 20px;
+    background: url(//image.eva.vn/images/responsive/sprites_pc.png) no-repeat;
+    z-index: 100;
+    display: block;
+}
+.nwsup {
+    background-position: -314px -116px;
+    margin-bottom: 5px;
+}
+.nwsdwn {
+    background-position: -111px -46px;
+}
+/*-----End Right------*/
+
+/*-----Start Dang ki------*/
+.regisInfo {
+    background-color: #fbefef;
+    display: inline-block;
+    width: 100%;
+}
+.seInfo {
+    padding-top: 10px;
+}
+.seInfo i {
+    font-size: 12px;
+}
+.seInfo a {
+    font-size: 12px;
+    padding: 4px 10px;
+    border: 1px solid #d2577e;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.itBthBx .bxLt {
+    float: left;
+    width: 48%;
+}
+.itBthBx .bxRt {
+    float: right;
+    width: 48%;
+}
+/*-----End Dang ki------*/
+
+/*-----Start chu de------*/
+.tpicCm {
+    padding: 10px 0;
+}
+.tpicCmTit {
+    padding: 10px 0;
+}
+.tpicCmTit span {
+    font-size: 18px;
+    font-family: Oswald;
+}
+.tpicCmbd {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 20px 20px 10px 20px;
+    position: relative;
+}
+.tpicCmbd .txtLt {
+    display: inline-block;
+    padding: 0 5px;
+    height: 80px;
+}
+.tpicCmImg {
+    float: left;
+}
+.tpicCmbdIn header {
+    float: left;
+    line-height: 1;
+    margin-top: 15px;
+}
+.tpicCmbd a:hover {
+    text-decoration: underline;
+}
+.tpicCmImg img {
+	width: 80px;
+	height: 80px;
+}
+.xem-tat-ca-chu-de img {
+	margin-top : -5px;	
+}
+.tpicCmImg4 {
+    margin-top: 7px;
+}
+.tpPrv {
+    position: absolute;
+    background: url(//image.eva.vn/images/responsive/bb-sbprv.png) center no-repeat;
+    width: 30px;
+    height: 94px;
+    top: 0;
+    left: 0;
+    display: inline-block;  
+}
+.tpNxt {
+    position: absolute;
+    background: rgba(255,255,255,0.8) url(//image.eva.vn/images/responsive/bb-sbnxt.png) center no-repeat;
+    width: 30px;
+    height: 94px;
+    top: 0;
+    right: 0;
+    display: inline-block;  
+}
+/*-----End chu de------*/
+
+/*-----Start video chon loc------*/
+.vidChso {
+    background-color: #462658;
+	padding-bottom: 10px;
+}
+.vidChsoTit {
+    padding: 20px 20px 10px 20px;
+}
+.vidChsoTit a {
+    color: #ff9fb4;
+    font-family: Oswald;
+    font-size: 22px;
+}
+.icoVidTit .bbIco {
+    background-position: -88px 2px;
+    width: 25px;
+    height: 18px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.bbIco {
+    background-image: url(//image.eva.vn/images/responsive/bb-sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+}
+.vidChsoBd {
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+}
+.topic-list-items {
+    overflow: hidden;
+}
+.vidChsoCm {
+    display: inline-block;
+    width: 240px;
+    margin-right: 15px;
+}
+.vidChsoImg {
+    position: relative;
+}
+.vidChsoImg:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: transparent url("//image.eva.vn/images/responsive/bb-videoicon.png") center center no-repeat;
+    display: block;
+    z-index: 1;
+}
+.vidChsoImg img {
+    display: block;
+	width: 100%;
+}
+.icoVidPrv {
+    position: absolute;
+    background: url(//image.eva.vn/images/responsive/vidPrv.png) center no-repeat;
+    width: 30px;
+    height: 94px;
+    top: 55px;
+    left: 0;
+    display: inline-block;
+    z-index: 2;
+}
+.icoVidNxt {
+    position: absolute;
+    background: url(//image.eva.vn/images/responsive/vidNxt.png) center no-repeat;
+    width: 30px;
+    height: 94px;
+    top: 55px;
+    right: 0;
+    display: inline-block;
+    z-index: 2;
+}
+.itmpg ul li {
+    display: inline-block;
+}
+.itmpg .swiper-pagination-bullet {
+    background-color: #fff;
+	opacity: 1;
+    width: 6px;
+    height: 6px;
+    margin: 2px 4px !important;
+}
+.itmpg .swiper-pagination-bullet-active {
+    background-color: #d2577e;
+}
+.itmpg {
+	bottom: -5px !important;	
+}
+/*-----End video chon loc------*/
+
+/*-----Start box don------*/
+.newsBx {
+    display: inline-block;
+    width: 100%;
+}
+.newsBxTit {
+    padding: 15px 10px 10px 0px;
+    background: url("//image.eva.vn/images/responsive/bb-bntop.png") center top no-repeat;
+    width: 686px;
+    height: 53px;
+}
+.newsBxTit h2 {
+    float: left;
+    margin-top: 6px;
+}
+.newsBxTit a, .newsBxTit span {
+    font-family: Oswald;
+    font-size: 22px;
+}
+.newsBxTit a .bbIco, .newsBxTit span .bbIco{
+        background-position: -30px 1px;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.newsBxbd {
+    clear: both;
+}
+.newsBxTitRt {
+    float: left;
+    line-height: 32px;
+    margin-left: 10px;
+}
+.newsBxTit .newsBxTitRt a, .newsBxTitRt span {
+    font-size: 14px;
+    color: #757575;
+}
+.newsBxTitRt span {
+    vertical-align: top;
+}
+.newsBxImg img, .newsBxImg a {
+    display: block;
+}
+.newsLnk {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.evtBxImg {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+.evtBxImg a, .evtBxImg a img {
+    display: block;
+}
+.evtBxRt {
+    width: 57%;
+    margin-left: 3%;
+    float: right;
+}
+.nsLstIn {
+    display: inline-block;
+    width: 100%;
+}
+.width-100 {
+    width: 100%;
+}
+.evtBxSpo {
+    margin-top: -5px;
+}
+.evtBxSpo h2 {
+    line-height: 0.8;
+}
+.evtBxSpo a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.seMr {
+    background-color: #f8f8f8;
+}
+.seMr a {
+    font-family: Oswald;
+    font-size: 14px;
+    padding-right: 15px;
+}
+.seMr a .bbIco {
+    background-position: -84px -14px;
+    width: 20px;
+    height: 14px;
+}
+.xemthem a, .thugon a {
+	padding: 5px 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-family: Oswald;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.xemthem .bbIco {
+    background: url(//image.eva.vn/images/responsive/bb_xemthem.png) no-repeat;
+    width: 12px;
+    height: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+.thugon .bbIco {
+    background: url(//image.eva.vn/images/responsive/bb_thugon.png) no-repeat;
+    width: 12px;
+    height: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+.icoImg .bbIco {
+    width: 15px;
+    height: 11px;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-left: 4px;
+    background: url("//image.eva.vn/images/responsive/bb-iconimg.png") no-repeat;
+}
+.itBthBxLt span {
+    /*vertical-align: middle;*/
+    /*margin-left: 4px;*/
+}
+.itBthBxLt header {
+    font-size: 18px;
+}
+/*-----End box don------*/
+
+/*-----Start tin lien quan------*/
+.clrFeatr, .shwalbm .ctsldr a, .full-info .info-show a {
+    color: #d2577e;
+}
+.bold {
+    font-weight: 700;
+}
+.reNsAveTit span {
+    font-size: 22px;
+}
+.nsLstIn, .infdBx, .evtBox {
+    width: 100%;
+    display: inline-table;
+}
+.evtBoxLt {
+    width: 40%;
+    float: left;
+    margin: 0 4% 0 0;
+    display: block;
+}
+.evtBoxImg {
+    position: relative;
+}
+.evtBoxLt a, .evtBoxLt a img, .itBthBxTt .ctOthr ul li {
+    display: block;
+}
+.evtBoxRt {
+    float: right;
+    width: 56%;
+}
+.evtBoxRt .clrTit a {
+    margin-right: 5px;
+}
+.mrT05 {
+    margin-top: -5px;
+}
+.sapo {
+    color: #757575;
+}
+.reNsAve .evtBoxRt h4 {
+    font-size: 16px;
+}
+.lnRla {
+    border-bottom: 1px solid #ddd;
+}
+.reNsAveTit span, .nsevtTit span, .nsevtTit a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.reNsAveTit:after, .nsevtTit:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    color: #d2577e;
+    bottom: 0;
+    border-bottom: 2px solid;
+    right: 0;
+}
+.reNsAve .ltrt {
+    width: 342px;
+    height: 125px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.ltrt {
+    float: left;
+}
+.reNsAve .evtBoxImg {
+    width: 130px;
+    float: left;
+    margin-right: 10px;
+	max-height: 120px;
+}
+.evtBoxImg, .reNsAveTit {
+    position: relative;
+}
+.reNsAve .evtBoxImg a img {
+    height: 98px;
+}
+.reNsAve .evtBoxRt {
+    width: 182px;
+    float: left;
+	height: 120px;
+    overflow: hidden;
+}
+.evtBoxPrTp {
+    background: url(https://image.eva.vn/images/2017/box4T-bg.png) repeat;
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+}
+.evtBoxPrTp .evtBoxImg img {
+    width: 120px;
+    height: 90px;
+    margin-right: 10px;
+}
+.evtBoxPrTp .evtBoxRt {
+    padding: 5px 0;
+    width: 370px;
+}
+.evtBoxPrTp .evtBoxRt .clrTit a {
+    color: #999;
+    font-size: 14px;
+}
+/*-----End tin lien quan------*/
+
+/*-----Start cùng chủ đề------*/
+.bxevtTit {
+    background-color: #d2577e;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+.bxevtTitIn {
+    margin-left: 0;
+}
+.bxevtTit .clrWh {
+    font-size: 18px;
+}
+.infdBxLt {
+    width: 56%;
+    float: left;
+    margin-right: 4%;
+}
+.infdBxLt span {
+    font-size: 16px;
+    font-weight: 700;
+}
+.iconw {
+    width: 24px;
+    height: 12px;
+    margin-left: 5px;
+    background-position: -15px -268px;
+}
+.ico-sprt {
+    background-image: url(//image.eva.vn/images/responsive/sprites_pc.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 0;
+}
+.infdBxRt {
+    width: 40%;
+    float: right;
+    position: relative;
+}
+.infdBxRt a, .infdBxRt a img {
+    display: block;
+}
+.infdBxLt .spsr span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.btnDf {
+    background-color: #fff;
+    border-color: #ddd;
+    padding: 8px 24px;
+}
+.prfStr.txtCent {
+    text-align: right;
+}
+.prfStr a {
+    color: #d2577e;
+    position: relative;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Oswald;
+}
+.prfStr a:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 2px;
+    background-image: url(//image.eva.vn/images/responsive/bb-sprite.png);
+    background-position: -84px -14px;
+    width: 20px;
+    height: 14px;
+}
+.evtBoxPrBt {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.evtBoxPrBt .evtBoxImg a {
+    display: block;
+}
+.quoteTit {
+    font-family: SFUIText;
+    font-size: 14px;
+    color: #1259b9;
+}
+.evtBoxPrBt .sap, .evtBoxPrBt .btnSe {
+    display: none;
+}
+.evtBoxPrBt .sap.clrTit {
+    display: block;
+    margin: 0;
+}
+.evtBoxPrBt .evtBoxImg img, .evtBoxPrTp .evtBoxImg {
+    width: 40%;
+    float: left;
+    margin: 0 4% 0 0;
+    display: block;
+}
+.evtBoxPrBt .evtBoxRt .clrTit a {
+    font-weight: 600;
+    font-size: 17px;
+}
+.sap {
+    font-size: 16px;
+}
+.nwsCt img {
+    max-width: 660px;
+    width: inherit;
+    height: auto;
+}
+.nsevtTit {
+    position: relative;
+}
+.nsevt .evtBox {
+    width: 162.5px;
+    float: left;
+}
+/*-----End cùng chủ đề------*/
+
+/*-----Start tin hay dung bo lo------*/
+.bxnsgdbg {
+    background-color: #fbefef;
+    display: inline-block;
+    width: 100%;
+    padding: 0 10px;
+}
+.spsr, .spsr span {
+    margin-bottom: 5px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #ccc;
+}
+.bxnsgdtit {
+    position: relative;
+}
+.bxnsgdtit:before, .bxnsgdtit:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30%;
+    color: #d2577e;
+    top: 57%;
+    border-bottom: 2px solid;
+}
+.bxnsgdtit span {
+    font-size: 22px;
+}
+.bxnsgdtit:after {
+    right: 10px;
+}
+.bxnsgdtit:before {
+    left: 10px;
+}
+.itBthBxCt {
+    width: 100%;
+    display: inline-block;
+}
+.bxthre {
+    float: left;
+    width: 201px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.bxthreImg {
+    position: relative;
+}
+.bxnsgd a {
+    font-size: 16px;
+}
+.bxnsgd {
+    display: inline-block;
+    width: 100%;
+}
+/*-----End tin hay dung bo lo------*/
+
+/*-----Start thong tin doanh nghiep------*/
+.infdTit {
+    position: relative;
+}
+.infdTit:before {
+    left: 0;
+}
+.infdTit:before, .infdTit:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30%;
+    color: #d2577e;
+    top: 40%;
+    border-bottom: 2px solid;
+}
+.infdTit span {
+    font-size: 22px;
+}
+.infdTit:after {
+    right: 0;
+}
+.infdTit:before, .infdTit:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30%;
+    color: #d2577e;
+    top: 40%;
+    border-bottom: 2px solid;
+}
+.boxinfo-body {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #d2577e;
+    padding: 0 10px;
+    border-radius: 3px;
+    background: url(//image.eva.vn/images/2017/box4T-bg.png) repeat;
+    position: relative;
+}
+.nsprv {
+    position: absolute;
+    left: 5px;
+    top: 45%;
+    z-index: 100;
+}
+.nsprv .ico-sprt {
+    width: 20px;
+    height: 40px;
+    background-position: -321px -72px;
+}
+.nsnxt {
+    position: absolute;
+    right: 5px;
+    top: 45%;
+    z-index: 100;
+}
+.nsnxt .ico-sprt {
+    width: 20px;
+    height: 40px;
+    background-position: -346px -74px;
+}
+.boxinfo-cmon:nth-of-type(3n+1) {
+    clear: both;
+}
+.boxinfo-cmon {
+    width: 220px;
+    float: left;
+    overflow: hidden;
+}
+.boxinfoImg {
+    width: 90px;
+    height: 70px;
+    float: left;
+    position: relative;
+}
+.boxinfoImg a, .img-bk {
+    position: relative;
+}
+.img-ico, .vid-ico, .icoMz, .icon-ava {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+.vid-ico {
+    background-position: -126px -220px;
+	/*margin-bottom: 4px;*/
+}
+.boxinfo-content {
+    width: 114px;
+    float: left;
+}
+.boxinfo-content .clrTit {
+    font-size: 14px;
+    margin-top: -3px;
+    display: block;
+}
+.itBthBxTt {
+    font-size: 18px;
+    position: relative;
+    line-height: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.boxinfoImg img {
+        width: 100%;
+    height: inherit!important;
+}
+/*-----End thong tin doanh nghiep------*/
+
+/*-----Start banner------*/
+.banr-pstion {
+    position: relative;
+}
+.banrtxtHrzt span{
+    position: relative;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    font-size: 8px;
+    margin-right: 10px;
+}
+.banrtxtHrzt span:before {
+    content: "ad zone of eva";
+}
+/*-----End banner------*/
+
+/*-----Start footer------*/
+.grItm {
+    display: inline-block;
+    width: 100%;
+    background-color: #eee;
+    padding: 10px;
+}
+.grItm ul li {
+    display: inline-block;
+    list-style: none;
+    width: 120px;
+    padding: 0 5px 0 0;
+    vertical-align: top;
+    float: left;
+    line-height: 16px;
+}
+.grItm ul li a {
+    font-size: 12px;
+}
+.grItm>ul>li>a {
+    margin-bottom: 5px;
+    display: block;
+}
+.grItm .ico-sprt, .brcrmlstuldncm .ico-sprt {
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+    background-color: #d2577e;
+    border-radius: 50%;
+    background-image: initial;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.ft-men2 {
+    background: #d2577e;
+    padding: 0px 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+}
+.ft-men2 a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 12px;
+    display: inline;
+}
+.imgGt, .imgQc {
+    position: relative;
+}
+.imgGt:before {
+    content: "";
+    position: absolute;
+    left: -45px;
+    top: -12px;
+    background: url("//image.eva.vn/images/responsive/bb-icoftlt.png") no-repeat;
+    width: 27px;
+    height: 40px;
+}
+.imgQc:before {
+    content: "";
+    position: absolute;
+        right: -50px;
+    top: -14px;
+    background: url("//image.eva.vn/images/responsive/bb-icoftrt.png") no-repeat;
+    width: 35px;
+    height: 46px;
+}
+.copyRt {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.copyRt p {
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #757575;
+}
+/*-----End footer------*/
+
+/*-----Start listing------*/
+.lstLvlIn {
+    position: relative;
+}
+.lstLvlIn a, .lstLvlIn img {
+    display: block;
+}
+.lstTit {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    background: rgba(70, 38, 88, 0.5);
+}
+.lstTit a {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: Oswald;
+}
+.lstLvlCt {
+    background-color: #462658;
+    padding: 10px;
+}
+.lstLvlCt span {
+    font-size: 14px;
+}
+.sbMnLst li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: block;
+}
+.lstMnTit a {
+    font-family: Oswald;
+    font-size: 22px;
+}
+.sbMnLst li:first-child {
+    padding-top: 0px;
+}
+.sbMnLst li:last-child {
+    border-bottom: 0;
+}
+.sbMnLst li a {
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    color: #000;
+}
+.sbMnLst li a:before {
+    content: "";
+    background: url(//image.eva.vn/images/responsive/bb-sbnxt.png) no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 10000;
+    width: 12px;
+    height: 12px;
+    border: none;
+    text-indent: 999999px;
+    background-size: contain;
+}
+.artHilgTit {
+    padding: 20px 20px 0 20px;
+}
+.artHilgTit a , .artHilgTit span{
+    font-family: Oswald;
+    font-size: 22px;
+}
+.artHilg {
+    background-color: #fbefef;
+}
+.lstLvl2Ct {
+    background: rgba(37, 27, 72, 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+}
+.brkNsTit h2 {
+	font-family: Oswald;
+    font-size: 38px;
+    font-weight: 500;
+}
+.brkNsSap {
+    font-size: 14px;
+}
+.brkNwsLst {
+    display: inline-block;
+    width: 100%;
+}
+.brkNwsLstCm {
+    width: 454px;
+    position: relative;
+}
+.brkNwsLstRt {
+    width: 220px;
+}
+.brkNwsC2 {
+    display: inline-block;
+    width: 100%;
+}
+.brkNwsC2Lt {
+    width: 430px;
+}
+.brkNwsC2Rt {
+    width: 254px;
+    height: auto;
+    padding: 0 20px;
+}
+.brkNwsC2Rt .brkNsTit .clrTit {
+    font-weight: 500;
+    font-size: 24px;
+}
+.newsSpe {
+    padding: 0 20px;
+    border: 1px solid #d2577e;
+    padding-bottom: 15px;
+}
+.newsSpe .Ltrt {
+    width: 311px;
+}
+/*-----End listing------*/
+
+/*-----Start pg------*/
+.pgpge {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.pgpge ul {
+    display: inline-block;
+}
+.pgpge ul li {
+    margin: 0;
+    float: left;
+}
+.pgpge .prv, .pgpge .nxt {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    float: left;
+}
+.pgpge ul li a {
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-family: Oswald;
+}
+.pgpge .prv img, .pgpge .nxt img {
+    width: 9px;
+    height: 14px!important;
+}
+.pgpge ul li .actv, .pgpge ul li a:hover {
+    background-color: #d2577e;
+    color: #fff;
+}
+.pgpge .prv:hover, .pgpge .nxt:hover {
+    background-color: initial;
+}
+.pgpge ul li .span-dot {
+    border: 0;
+    float: left;
+    margin-right: 5px;
+    width: 30px;
+    height: 40px;
+    padding: 10px;
+}
+/*-----End pg------*/
+/*-----Start article------*/
+.brkNsTit h1 span {
+    font-size: 28px;
+    font-family: Prata;
+}
+.pubDte span {
+    font-size: 12px;
+}
+.nsSap span {
+    font-size: 18px;
+}
+.nsSap h2 {
+    line-height: 1;
+}
+.nsLstRld {
+    background: url("//image.eva.vn/images/responsive/bb-blq.png") repeat;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.nsLstRld .nsLstIn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.clrEx {
+    font-size: 14px;
+    color: #1259b9;
+}
+.artleMn .banrResive, .artleRldBt {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.artleRldBt {
+    background-color: #f5f5f5;
+}
+.artleRldBt .clrTit {
+    font-family: SFUIText;
+    padding-left: 12px;
+    position: relative;
+    background: url(//image.eva.vn/images/m2017/meva-icon-cm-2017.png) no-repeat 0 50%;
+    display: inline;
+    font-weight: 400;
+}
+/*-----End article------*/
+
+/*-----Start article topic------*/
+.BxTpicLt {
+    width: 57%;
+    margin-right: 3%;
+    float: left;
+}
+.BxTpicRt {
+    width: 40%;
+    float: right;
+}
+.BxTpicRt a, .BxTpicRt img {
+    display: block;
+}
+.BxTpicSpo a {
+    font-size: 16px;
+    font-weight: 500;
+}
+/*-----End article topic------*/
+
+/*-----End article tag------*/
+.tags span {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.tags .icoTag {
+    background: url("//image.eva.vn/images/responsive/bb-tag.png");
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.lstTg li {
+    display: inline-block;
+    padding: 2px 10px 5px 10px;
+    border: 1px solid #d2577e;
+    border-radius: 5px;
+    margin: 5px 3px;
+}
+.lstTg li a, .lstTg li h3 {
+    color: #d2577e;
+    font-size: 14px;
+}
+/*-----End article tag------*/
+
+/*-----Start social------*/
+.btn-social-inner {
+    padding: 0 10px;
+    border-radius: 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.btn-social-like-share {
+    width: 100%;
+}
+.btn-social-like-share, .btn-social-fanpage {
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn-social-like-share .btn-social-fb:nth-of-type(1), .btn-social-like-share .btn-social-google-plus {
+    margin: 8px 0;
+    float: left;
+    text-align: left;
+}
+.btn-social {
+    display: inline;
+}
+.btn-social-like-share .btn-social {
+    margin: 8px;
+}
+.btn-social-like-share .btn-social {
+    float: left;
+}
+.btn-social-fb .fb_iframe_widget, .btn-social .zalo-follow-only-button, .btn-social .zalo-share-button {
+    display: inherit!important;
+    text-align: left;
+}
+.fb-share-button {
+    margin: 0;
+}
+.icoSocial {
+    float: right;
+}
+.icoSocial {
+    margin: 5px 0;
+}
+.icoSocial a {
+    margin-left: 5px;
+    display: inline-block;
+}
+.icoSocial a img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+/*-----End social------*/
+.video_chon_loc_ba_bau .swiper-slide, .bai_noi_bat_listing1 .swiper-slide {
+	width: 40%;
+	margin: initial;
+}
+.video_chon_loc_ba_bau {
+	padding-bottom: 10px !important;	
+}
+.qua-trinh-mang-thai-img img{
+	height: 331px;
+	display:block;
+}
+.chu_de_pho_bien .swiper-slide {
+	width: 25%;	
+}
+.chu_de_pho_bien .txtLt header {
+	max-width: 65px;	
+}
+.hdr_contnr_up {
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    background: #d2577e;
+    width: 100%;
+    background-size: 100%!important
+}
+.clF, .clrF {
+    clear: both;
+}
+.nsevt .evtBoxRt{
+    width: 100%;
+}
+.bv-lq a {
+    color: #00F;
+    font-weight: 700;
+}
+.txtNwsblq {
+    color: #00F;
+    float: left;
+    font-weight: 700;
+    padding-right: 5px;
+    line-height: 24px;
+}
+.brkNsSap p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.newsBxtit {
+    padding: 20px 10px 10px 0px;
+    width: 686px;
+    height: 50px;
+}
+.bai_noi_bat_listing1 {
+	padding-bottom: 15px !important;	
+}
+.icon_chuyen_gia_tu_van{
+    margin-left: 5px;
+    display: inline-block;
+}
+#bai_pr_trong_bai_viet_1 .evtBoxImg{
+    width: 26%;
+    float: left;
+    margin: 0 0 0 0;
+    display: block;
+}
+.evtBoxPrBt .sap{
+    display: block !important;
+    padding-top: 10px;
+}
+.artleRldBt{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.rdMrNxt a {
+    padding-right: 30px;
+    position: relative;
+}
+.rdMrNxt a:before {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    background-image: url(//image.eva.vn/images/responsive/bb-sprite.png);
+    background-position: -84px -14px;
+    width: 20px;
+    height: 14px;
+}
+
+.box-nhom-profile .newsBxTit {
+    background: url("//image.eva.vn/images/responsive/bb-bntop.png") center top no-repeat;
+    padding: 10px 10px 10px 0px;
+    height: 55px;
+    
+}
+/* quote nam ben trai */
+.sp-anhleft {
+    width: 40%;
+    margin-right: 15px;
+    float: left
+}
+/* quote nam ben trai */
+
+/* quote nam ben phai */
+.sp-anhright {
+    width: 40%;
+    margin-left: 15px;
+    float: right
+}
+/* quote nam ben phai */
+
+.sp-anhleft img,
+.sp-anhright img {
+    width: 100%;
+    max-width: 100%
+}
+/* quote kieu 1 */
+.sp-quotedep {
+    position: relative;
+    padding: 15px 5px;
+    border-top: 3px solid #e33270;  /* doi mau */
+    margin-top: 30px
+}
+
+.sp-quotedep p {
+    font-size: 21px;
+    font-family: 'Yeseva One';
+    line-height: 1.3
+}
+
+.sp-quotemarktop {
+    font-family: 'Yeseva One';
+    color: #909090;  /* doi mau */
+    position: absolute;
+    font-size: 40px;
+    top: 10px
+}
+
+.sp-quotemarkbottom {
+    font-family: 'Yeseva One';
+    color: #909090;  /* doi mau */
+    position: absolute;
+    font-size: 40px;
+    bottom: 5px;
+    right: 5px
+}
+/* quote kieu 1 */
+
+/* quote kieu 2 */
+.sp-quotedep1 {
+    position: relative;
+    padding: 0px 5px;
+    margin-top: 0px;
+    width: 40%;
+    margin-left: 15px
+}
+
+.sp-quotedep1 p {
+    font-size: 18px;
+    font-family: 'Noto Serif';
+    background: #7265bc;  /* doi mau */
+    color: #ffffff;
+    line-height: 30px;
+    padding: 4px 8px 4px 5px !important
+}
+/* quote kieu 2 */
+
+/* quote kieu 3 */
+.sp-quotedep2 {
+    position: relative;
+    padding: 5px 0px 5px 20px;
+    margin-top: 30px;
+    border-left: 3px solid #e33270; /* doi mau */
+}
+
+.sp-quotedep2 p {
+    font-size: 21px;
+    font-family: 'Yeseva One';
+    line-height: 1.3;
+}
+
+.sp-quotedep2 .sp-tacgia {
+    font-size: 18px;
+    color: #909090;
+    font-family: 'Yeseva One';
+    line-height: 1.3;
+    text-align: center
+}
+/* quote kieu 3 */
+
+/* quote kieu 4 */
+.sp-quotedep3 {
+    position: relative;
+    padding: 10px 15px 0px 15px;
+    border: 3px solid #e33270;
+    margin: 10px 0px 10px 15px;
+}
+
+.sp-quotedep3 p {
+    font-size: 18px;
+    font-family: 'Yeseva One';
+    line-height: 1.3;
+    /* color:#696969; */
+}
+/* .sp-quotedep3 p:last-child { */
+    /* font-style: italic; */
+    /* color: #D3D3D3; */
+/* } */
+
+.sp-quotemarktop1 {
+    font-family: 'Yeseva One';
+    color: #909090; /* doi mau */
+    position: absolute;
+    font-size: 50px;
+    top: 0px;
+    background: #ffffff;
+    z-index: 9999;
+    line-height: 20px;
+    padding: 10px 15px 0px 15px;
+    margin-top: -11px;
+    left: 40%;
+}
+/* quote kieu 4 */
+
+/* quote kieu 5 */
+.sp-quotedep4 {
+    position: relative;
+    padding: 10px 15px 0px 15px;
+    border: 3px solid #D0567D; /* doi mau */
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+.sp-quotedep4 p {
+    font-size: 18px;
+    font-family: 'Yeseva One';
+    line-height: 1.3
+}
+
+.sp-quotemarktop2 {
+    font-family: 'Yeseva One';
+    color: #909090; /* doi mau */
+    position: absolute;
+    font-size: 50px;
+    top: 0px;
+    background: #ffffff;
+    z-index: 9999;
+    line-height: 20px;
+    padding: 10px 112px 0px 10px;
+    margin-top: -11px;
+    left: 10%;
+    text-align: left;
+}
+
+.sp-quotemarkbottom2 {
+    font-family: 'Yeseva One';
+    color: #909090; /* doi mau */
+    position: absolute;
+    font-size: 50px;
+    bottom: 0px;
+    background: #ffffff;
+    z-index: 9999;
+    line-height: 20px;
+    padding: 10px 10px 0px 120px;
+    right: 10%;
+    margin-bottom: -20px;
+}
+/* quote kieu 5 */
+
+/* quote kieu 6 */
+.sp-quotedep5 {
+    position: relative;
+    padding: 10px 15px 0px 15px;
+    border-top: 3px solid #8a8a8a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8a8a8a;
+    background: #f0f0f0;
+}
+
+.sp-quotedep5 p {
+    font-size: 18px;
+    font-family: 'Noto Serif';
+    line-height: 1.3;
+    padding-left: 20px
+}
+
+.sp-quotemarktop3 {
+    font-family: 'Yeseva One';
+    color: #909090;
+    position: absolute;
+    font-size: 50px;
+    top: 20px;
+    z-index: 9999;
+    line-height: 20px;
+    text-align: left;
+}
+
+.sp-quotemarkbottom3 {
+    font-family: 'Yeseva One';
+    color: #909090;
+    position: absolute;
+    font-size: 50px;
+    bottom: 0px;
+    z-index: 9999;
+    line-height: 20px;
+    right: 10px
+}
+/* quote kieu 6 */
+
+/* quote tieu de */
+.sp-titlebg span {
+    font-size: 18px;
+    font-family: 'Noto Serif';
+    background: #f26f98; /* doi mau */
+    color: #ffffff;
+    text-align: left;
+    line-height: 36px;
+    padding: 5px 10px 5px 10px !important
+}
+/* quote tieu de */
+.sp-anhleft p, .sp-anhright p{
+    text-align: left;
+}
+/* Begin TungVN 31/3/2017 ocm_player_tieng_rieng_eva */
+.audio-player {
+    padding: 0 0 1px;
+    margin: 0 0 10px;
+    background-color: #2c2c2c; 
+}
+.audio-player .time-progress {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #444;
+    cursor: pointer;
+    clear: both;
+}
+.audio-player .time-remain {
+    position: absolute;
+    top: 0; left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2882BC;
+}
+.audio-player .current-time {
+    position: absolute;
+    top: -2px; 
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border: 4px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: -6px;
+    background-color: #999;
+    cursor: pointer;
+}
+.audio-player .audio-desc {
+    padding: 10px;
+    background-color: #000;
+}
+.audio-player .audio-avt {
+    float: left;
+    width: 110px;
+    margin-right: 10px;
+}
+.audio-player .audio-avt img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.audio-player .audio-title p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+}
+.audio-player .audio-btns {
+    margin: 10px;
+}
+.audio-player .audio-btn {
+    float: left;
+    height: 20px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+}
+.audio-player .audio-btn.play {
+    width: 20px;
+    background-image: url(//image.eva.vn/images/m2014/images/audio-play.png);
+}
+.audio-player .audio-btn.play.paused {
+    background-image: url(//image.eva.vn/images/m2014/images/audio-pause.png);
+}
+.audio-player .audio-btn.prev {
+    width: 20px;
+    background-image: url(//image.eva.vn/images/m2014/images/audio-prev.png);
+}
+.audio-player .audio-btn.next {
+    width: 20px;
+    background-image: url(//image.eva.vn/images/m2014/images/audio-next.png);
+}
+.audio-player .time {
+    font-size: 14px;
+    line-height: 20px;
+}
+.audio-player .audio-btn.volume {
+    float: right;
+    width: 20px;
+    background-image: url(//image.eva.vn/images/m2014/images/audio-volume.png);
+    background-position: 0 0;
+}
+.audio-player .audio-btn.volume.mute {
+    background-image: url(//image.eva.vn/images/m2014/images/audio-mute.png);
+}
+.audio-player .audio-btn.volume-level {
+    float: right;
+    margin: 0;
+    background-image: none;
+}
+.audio-player .volume-level > * {
+    float: left;
+    width: 3px;
+    height: 8px;
+    margin: 6px 0 0;
+    border-right: 2px solid #2c2c2c;
+    background: #666;
+    cursor: pointer;
+}
+.audio-player .volume-level > .on {
+    background-color: #2882BC;
+}
+/* End TungVN 31/3/2017 ocm_player_tieng_rieng_eva */
+
+/*Start album anh*/
+.nwsalbm h1 span {
+    font-size: 18px;
+}
+.nwsalbm .colRt, .nwsalbm .colRtin {
+    margin-top: -5px;
+}
+.nwsalbm {
+    background-color: #212121;
+}
+.nwsalbm .athr span, .pubDte span {
+    font-size: 12px;
+}
+.shwalbmImg {
+    margin-top: 10px;
+    position: relative;
+    min-height: 200px;
+    text-align: center;
+}
+.shwalbmImg #MainIMG {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.shwalbmImg .btnPre {
+    position: absolute;
+    top: 48%;
+    left: 15px;
+}
+.shwalbmImg .btnNet {
+    position: absolute;
+    top: 48%;
+    right: 15px;
+    z-index: 2;
+}
+.shwalbmImg .btnNet .ico-sprt {
+    background-position: -65px -66px;
+    width: 50px;
+    height: 50px;
+    background-size: 387px;
+}
+.shwalbmImg .btnPre .ico-sprt {
+    background-position: -120px -66px;
+    width: 50px;
+    height: 50px;
+    background-size: 387px;
+    position: absolute;
+    left: 5%;
+}
+.shwalbmImg .icobtnPrv img {
+    position: absolute;
+    left: 5%;
+}
+.shwalbmImg img {
+    width: inherit;
+}
+.shwalbmCt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: inline-block;
+    width: 100%;
+}
+.ztitImg {
+    display: inline-block;
+}
+.ztitImg {
+    background: rgba(0, 0, 0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+    text-align: left;
+    font-size: 1em;
+	font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+}
+.sldralbmrt {
+    width: 15%;
+    height: 34px;
+    line-height: 34px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.ctsldr p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 24px;
+}
+.sldrsml {
+    box-shadow: 0 10px 10px -5px #333 inset;
+    background: #555;
+}
+.sldrsml .icosldrPrv, .sldrsml .icosldrNxt {
+    width: 20px;
+    height: 112px;
+    display: inline-block;
+    line-height: 112px;
+    position: relative;
+}
+.icosldrPrv .ico-sprt, .icosldrNxt .ico-sprt {
+    width: 10px;
+    height: 18px;
+}
+.icosldrPrv .ico-sprt {
+    /*background-position: -217px -96px;*/
+    position: absolute;
+    top: 45px;
+    left: 4px;
+    background-image: url(https://image.eva.vn/images/2017/icon-slider-prev.png);
+}
+.icosldrNxt .ico-sprt {
+    /*background-position: -207px -96px;*/
+    position: absolute;
+    top: 45px;
+    right: 4px;
+    background-image: url(https://image.eva.vn/images/2017/icon-slide-next.png);
+}
+#slidethumb {
+    overflow: hidden;
+}
+.sldrthb {
+    position: relative;
+    border: 0 solid #000;
+    width: 630px;
+    height: 110px;
+    margin-left: -4px;
+}
+.sldrthbIn {
+    position: absolute;
+}
+.smlImg a {
+    display: block;
+    margin: 15px 3px;
+}
+.smlImg a .imgthb {
+    width: 80px;
+    height: 80px;
+    border: #ddd solid 1px;
+    opacity: .7;
+}
+.thbactv {
+    opacity: 1;
+    border: 4px solid #fff;
+    overflow: hidden;
+}
+.colRtalbm {
+    margin-top: 20px;
+}
+/*End album anh*/
+
+/*Start article img*/
+.sldralbmrt a {
+    height: 34px;
+    line-height: 34px;
+    width: 34px;
+    color: #e0e0e0;
+    display: inline-block;
+}
+.sldralbmrt .seato {
+    margin-right: 2px;
+    background: #424242 url(//image.eva.vn/images/2017/icon-autoplay.png) no-repeat 14px 10px;
+}
+.sldralbmrt .flscn {
+    background: #424242 url(//image.eva.vn/images/2017/icon-full.png) no-repeat 9px 8px;
+}
+.sldralbmrt .stpseato {
+    background: #424242 url(//image.eva.vn/images/2017/icon-pauseSlide.png) no-repeat 0 0;
+}
+.full-album-inner {
+    background: #212121;
+    position: relative;
+    overflow: hidden;
+}
+.full-album-show {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.prevslideimage {
+    left: 10px;
+}
+.nextslideimage {
+    right: 10px;
+}
+.prevslideimage, .nextslideimage {
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+.right-full-album {
+    position: absolute;
+    border-left: 1px solid #333;
+    right: 1px;
+    top: 0;
+    height: 100%;
+    width: 52px;
+}
+.zoom-in, .video-autoplay, .full-info, .icon-album-slide {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    border-bottom: 1px solid #333;
+}
+.zoom-in a, .video-autoplay a, .full-info a, .icon-album-slide a {
+    display: block;
+    width: 52px;
+    height: 52px;
+}
+.zoom-in a img {
+    width: 19px;
+    height: 19px!important;
+}
+.zoom-in img, .video-autoplay img, .full-info img, .icon-album-slide img, .number-img-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 0;
+}
+.info-show {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 65px;
+    width: 200px;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+    z-index: 99999;
+    font-size: 12px;
+    background-color: #424242;
+    overflow: hidden;
+    opacity: .8;
+}
+.info-show p {
+    margin: 0;
+    text-align: left;
+}
+.info-show:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 100%;
+    margin-top: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #424242;
+}
+.number-img {
+    position: absolute;
+    bottom: 0;
+    width: 52px;
+    height: 52px;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    color: #fff;
+}
+.right-full-album .number-img-inner {
+    left: 0;
+    top: 40%;
+    transform: translateX(0%) translateY(0%);
+}
+.full-album-show .swiper-slide {
+    position: relative;
+}
+.full-album-show-img .list-show-img, .full-album-show-img img {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.full-album-show-img img {
+    width: auto;
+}
+.prevslideimage .icon-btnPrev, .nextslideimage .icon-btnNext {
+    display: block;
+    visibility: visible;
+}
+.number-img-inner {
+    width: 52px;
+}
+/*End article img*/
+/* Begin anhpt1 23/08/2016 toi_uu_bo_sung_bai_trac_nghiem_poll */
+.point_trac_nghiem{
+    background-color: #f9f3f5;
+    padding: 10px;
+}
+.count-point{
+    font-size: 14px;
+    font-weight: 700;
+}
+.count-point span{
+    font-size: 28px;
+	color: #800080;
+}
+.type-result{
+    font-size: 16px;
+}
+.danh-gia-chi-tiet{
+    font-size: 13px;
+    color: #333333;
+    line-height: normal;
+}
+.container-khoang-dem{
+    display: inline-block;
+    width: 100%;
+}
+.image-result-bai-trac-nghiem{
+    width: 40%;
+    float: left;
+}
+.text-count-point-trac-nghiem{
+    width: 57%;
+    float: right;
+}
+.text-rows{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+}
+.danh-gia-chi-tiet{
+    font-weight: 400;
+    font-size: 13px;
+    color: #333333;
+}
+.text_count_point{
+	padding: 1px !important;
+}
+/* End anhpt1 23/08/2016 toi_uu_bo_sung_bai_trac_nghiem_poll */
+/* Begin anhpt1 26/10/2016  hieu_chinh_giao_dien_bai_trac_nghiem_poll  */
+.question-poll {
+    margin-bottom: 20px;
+}
+.slide-poll,.total-point {
+    text-align: center;
+    background: #e1e3e4;
+    position: relative;
+    height: 41px;
+}
+.slide-poll a.prev {
+    position: absolute;
+    background: url("//image.eva.vn/images/prev.png");
+    left: 0;
+    top: 0;
+    width: 41px;
+    height: 41px;
+}
+.slide-poll a.next {
+    position: absolute;
+    background: url("//image.eva.vn/images/next.png");
+    right: 0;
+    top: 0;
+    width: 41px;
+    height: 41px;
+}
+.slide-poll a, .total-point span{
+    font-size: 18px;
+    color: #d2577e;
+    font-weight: 700;
+    line-height: 41px;
+}
+.images-poll a img {
+    width: 100%;
+}
+.display-result-images img {
+    width: 100%;
+}
+.display-result {
+    margin-bottom: 20px;
+	margin-top: 10px;
+}
+.number-question > span {
+    padding: 20px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+.number-question-one {
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    background: #e1e3e4;
+    cursor: pointer;
+}
+.number-question-one span{
+    font-size: 18px;
+}
+.number-question-one:hover {
+    background: #f5e3e9;
+}
+.display-result-content {
+    padding: 20px;
+    background: #e1e3e4;
+}
+.display-result-content h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.body-display-result p {
+    line-height: 1.4;
+}
+.body-display-result {
+    margin-bottom: 30px;
+}
+.play-repeat {
+    background: #d2577e;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-align: center;
+	margin-top:10px;
+}
+.play-repeat a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.list-point {
+    padding: 20px;
+}
+.list-point p {
+    line-height: 1.4;
+}
+/* End anhpt1 26/10/2016  hieu_chinh_giao_dien_bai_trac_nghiem_poll  */
+/*Start compare img*/
+.twentytwenty-container {
+    max-width: 550px;
+}
+.twentytwenty-container img {
+    max-width: 550px!important;
+}
+/*End compare img*/
+.banr-Rt{
+	padding-bottom: 10px;
+}
+.bxnsgdbg .pdT20{
+	padding-top: 10px;
+}
+.fs12 .sb-li{
+    color: #d2577e;
+}
+.brkNwsC2Lt img{
+	height: 241px !important;
+}
+.colLt  .mrT20{
+	margin-top: 0px ;
+}
+.colLt .pdT5{
+	margin-top: 0px ;
+}
+.content-question-quiz-4-1{
+	margin-top: -4px;
+}
+.nsbthIn {
+    border: 1px solid #d2577e;
+    position: relative;
+}
+.nsbthIn a {
+    padding: 10px;
+	display: inline-block;
+}
+.nsbthIn i {
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 22px;
+    background-position: -171px -94px;
+    top: 8px;
+}
+.nsSap{
+    padding-bottom: 20px;
+}
+.displaynone {
+    display: none;
+}
+.brkNs {
+    padding-top: 20px;
+    margin-top: -10px;
+}
+.evtBoxPrBt .evtBoxImg img {
+    width: 180px;
+    height: 135px;
+    margin-right: 15px;
+}
+.evtBoxPrBt .evtBoxRt{
+    width: 70%;
+}
+.newsSpe .newsBxtit{
+    padding: 10px 10px 10px 0px;
+}
+.itBthBxImg{
+    position: relative;
+}
+.img-quiz-question-item{
+    margin-bottom: -4px;
+}
+.newsBx .nsLstIn {
+    margin-top: 10px;
+}
+
+.img-ico {
+    background-position: -41px -221px;
+}
+.zPlayer_adVolume img {
+ width: auto;
+    height: 15px;
+}
+.miniMode .zPlayer_skipBtn {
+ top: 110px !important;
+ right: 79px !important;
+ width: 60px !important;
+    height: 25px !important;
+ line-height: 25px !important;
+ font-size: 12px !important;
+}
+.miniMode .zPlayer_adVolume {
+ top: 110px !important;
+    right: 143px !important;
+    width: 25px !important;
+ height: 25px !important;
+}
+.miniMode .zPlayer_adVolume img {
+ margin-top: 5px !important;
+}
+.bxthreImg .vid-ico{
+    bottom: 5px !important;
+}
+.infodn {
+    margin-top: -15px;
+}
+.icoMz {
+    background-position: -77px -221px;
+}
+.clgioithieu{
+    line-height: 0;
+}
+.clgioithieu a{
+    display: inline;
+}
+.newsSapo p, p {
+    text-align: justify;
+}
+/* begin 12/6/2018 TuyenNT xu_ly_hien_thi_dang_bai_nhieu_ky_trang_ba_bau */
+/*Nhieu ky*/
+.pgmulti{
+    display: inline-block;
+}
+.pgmulti ul li {
+    display: inline;
+}
+
+.pgmulti a {
+    padding: 6px;
+}
+.pgmulti a, .pgmulti .pgspan {
+    font-size: 12px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+.pgspan {
+    display: block;
+    padding: 6px 8px;
+    height: 30px;
+    line-height: 13px;
+}
+.pgmulti a:hover, .pgmulti .active {
+    background-color: #d2577e;
+    color: #fff;
+}
+.pgmulti .frstprid:hover, .pgmulti .bfrprid:hover, .pgmulti .nxtprid:hover, .pgmulti .nwprid:hover {
+    background-color: initial;
+    color: #d2577e;
+}
+.pgmulti .frstprid, .pgmulti .bfrprid {
+    position: relative;
+    padding-left: 20px;
+}
+.pgmulti .nxtprid, .pgmulti .nwprid {
+    position: relative;
+    padding-right: 20px;
+}
+.pgmulti .frstprid:before, .pgmulti .bfrprid:before, .pgmulti .nxtprid:before, .pgmulti .nwprid:before {
+    content: "";
+    position: absolute;
+    background-image: url(//image.eva.vn/images/responsive/sprites_pc.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.pgmulti .frstprid:before {
+    background-position: -39px -195px;
+    left: 2px;
+    top: 5px;
+    width: 19px;
+    height: 18px;
+}
+.pgmulti .bfrprid:before {
+    background-position: -215px -94px;
+    left: 2px;
+}
+.pgmulti .nxtprid:before {
+    background-position: -204px -94px;
+    right: 2px;
+}
+.pgmulti .bfrprid:before, .pgmulti .nxtprid:before {
+    top: 5px;
+    width: 13px;
+    height: 18px;
+}
+.pgmulti .nwprid:before {
+    background-position: -56px -188px;
+    display: inline-block;
+    right: 2px;
+    top: 5px;
+    width: 19px;
+    height: 18px;
+}
+/*End nhieu ky*/
+/* end 12/6/2018 TuyenNT xu_ly_hien_thi_dang_bai_nhieu_ky_trang_ba_bau */
+/* begin 12/6/2018 fix_loi_khong_thong_bao_khi_nhap_sai_ma_capcha */
+.plQA{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 13px;
+}
+/* end 12/6/2018 fix_loi_khong_thong_bao_khi_nhap_sai_ma_capcha */
+/* Begin 17-07-2018 : Thangnb fix_lech_anh_ba_bau */
+p[align="center"] {
+    text-align: center;
+}
+/* End 17-07-2018 : Thangnb fix_lech_anh_ba_bau */
+/* Begin 06-07-2018 : Thangnb tao_muc_luc_trong_noi_dung_bai_viet */
+.nwsCt .mucluc {
+    width: 650px;
+    border: 1px solid #ddd;
+}
+.nwsCt .muclucleft {
+    float:left;   
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+}
+.nwsCt .muclucright {
+    float:right;   
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+}
+.nwsCt .muclucCtn {
+    padding: 20px;
+}
+.nwsCt .muclucTit {
+    text-align: center;
+}
+.nwsCt .muclucTit span {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nwsCt .mucluc a, .nwsCt .muclucleft a, .nwsCt .muclucright a {
+    color: #d2577e;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+	text-decoration: none;
+}
+.nwsCt .mucluc a:hover ,.nwsCt .muclucleft a:hover, .nwsCt .muclucright a:hover {
+    text-decoration: underline;
+}
+.nwsCt .stepMl {
+    padding-left: 15px;
+}
+.nwsCt .stepMl a {
+    position: relative;
+}
+.nwsCt .stepMl a:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: -15px;
+    top: 11px;
+    background-color: #d2577e;
+}
+.nwsCt .addInfo {
+    padding-left: 30px;
+}
+.nwsCt .addInfo .addInfoLk {
+    position: relative;
+}
+.nwsCt .addInfoLk:before {
+    position: absolute;
+    content: "";
+    display: block;
+    left: -15px;
+    top: 8px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #d2577e;
+}
+.toc_heading, .toc_heading * {
+    font-size: 16px;
+    font-weight: 700;
+}
+.toc_heading {
+	display:block;
+	padding: 5px 0px;	
+}
+/* End 06-07-2018 : Thangnb tao_muc_luc_trong_noi_dung_bai_viet */
+/* //Begin 16-08-2018 : Thangnb banner_cong_chao_pc */
+#leftBannerBackground .collapse_div_slot_dfp {
+    text-align: right;
+}
+#rightBannerBackground .collapse_div_slot_dfp {
+    text-align: left;
+}
+/* //End 16-08-2018 : Thangnb banner_cong_chao_pc */
+/* Begin 25-09-2018 : Thangnb chinh_sua_text_quang_cao_eva */
+.txtbanrHrzt span, .txtbanrvert span {
+    color: #999;
+    font-size: 10px;
+    position: relative;
+}
+.txtbanrHrzt span:before, .txtbanrvert span:before {
+    content: "Advertisement";
+}
+/* End 25-09-2018 : Thangnb chinh_sua_text_quang_cao_eva */
+.full-info .info-show a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+/* Begin 09-01-2018 : Thangnb xu_ly_bai_infographic_eva */
+.icoInfo {
+    background: url(//image.eva.vn/images/responsive/icon_info_black.png) no-repeat;
+    background-size: cover;
+    left: -1px;
+    height: 30px;
+}
+/* End 09-01-2018 : Thangnb xu_ly_bai_infographic_eva */
+.flLt-im {
+    float: left !important;
+}
+.pdL10 {
+    padding-left: 10px;
+}
+.pdR10 {
+    padding-right: 10px;
+}
+.infog-news img {
+    max-width: 100%;
+}
+/* BEGIN Vudl box_su_kien_noi_bat 24-05-2019*/
+.box_sknb{
+	background: url('//test.eva.vn/images/responsive/sknb_nengiay.jpg') no-repeat;
+	background-size: cover;
+	position: relative;
+        margin: 10px 0px;
+}
+.logoHoaTo{
+	display: inline-block;
+	background: url('//test.eva.vn/images/responsive/sknb_hoato.png') no-repeat;
+	width: 149px;
+	height: 119px;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.logoHoaNho{
+	display: inline-block;
+	background: url('//test.eva.vn/images/responsive/sknb_hoanho.png') no-repeat;
+	width: 65px;
+	height: 52px;
+	background-size: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+.box_sknb *{
+	font-family: Roboto Medium, Open Sans, sans-serif;
+	font-size: 15px;
+	color: #616161;
+}
+.logoEva{
+	display: inline-block;
+	background: url('//test.eva.vn/images/responsive/logoEva.png') no-repeat;
+	width: 48px;
+	height: 30px;
+	background-size: 100%;
+}
+.txtRight{
+	text-align: right;
+}
+.box_sknb .txtRight{
+	padding-right: 15px;
+	padding-top: 5px;
+	height: 40px;
+}
+.bgOpa{
+	height: 10px;
+	background-color: #ff83a8;
+	opacity: 0.3;
+}
+.box_sknb header{
+    text-align: right;
+    background-color: #ff83a8;
+}
+.box_sknb header a{
+	height: 60px;	
+	color: #fff;
+	font-size: 20px;	
+	padding-right: 10px;
+	line-height: 60px;
+	text-shadow: 3px 3px 3px #cf587e;
+        
+}
+.box_sknb .list{
+	padding: 30px 25px;
+}
+.box_sknb .lin{
+	border-bottom: 1px dashed;
+	margin: 15px 0 10px 0;
+}
+.box_sknb article{
+	padding-left: 18px;
+	position: relative;
+}
+.box_sknb article:before{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 13px;
+	height: 13px;
+	background-color: #d2587e;
+	border-radius: 50%;
+}
+.box_sknb article:nth-child(3):before{
+	background-color: #d6688a;
+}
+.box_sknb article:nth-child(5):before{
+	background-color: #db7998;
+}
+.box_sknb article:nth-child(7):before{
+	background-color: #df89a4;
+}
+.box_sknb article:nth-child(9):before{
+	background-color: #e49ab1;
+}
+.box_sknb article:nth-child(11):before{
+	background-color: #e5a8bb;
+}
+.icoNew{
+	display: inline-block;
+	position: absolute;
+	top: -15px;
+    left: -10px;
+	width: 33px;
+	height: 11px;
+	background: url('//test.eva.vn/images/responsive/new.png') no-repeat;
+}
+/* END Vudl box_su_kien_noi_bat 24-05-2019*/
+
+/* Begin 17-06-2019 : Dangtq giao_dien_moi_footer */
+.newFooter *{
+    margin: unset;
+}
+.newFooterRow2, .newFooterRow2 p, .newFooterRow1 .col2{
+    text-align: left;
+    margin: 0;
+}
+.mgR30{
+    margin-right: 30px;
+}
+.mrB10{
+    margin-bottom: 10px;
+}
+.mrB20{
+    margin-bottom: 20px!important;
+}
+.mrB40{
+    margin-bottom: 40px;
+}
+.inbl{
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+.newFooter {
+    padding: 12px 0px;
+}
+.newFooterRow1>div{
+    width: 483px;
+}
+.newFooterRow1 .col1{
+    width: 477px;
+    height: 130px;
+    margin-right: 23px;
+    padding: 22px 25px 29px 25px;
+    border: 1px solid #959595;
+    font-size: 10px;
+    color: #777777;
+}
+.newFooter .txtDg{
+    font-size: 15px;
+    color: #565656;
+    margin-bottom: 10px;
+}
+.newFooter .txtEva{
+    font-size: 12px;
+    color: #777777;
+    display: inline-block;
+    margin-top: 10px;
+}
+.newFooter .txtCauHoi{
+    color: #343434;
+    background: url(//test.eva.vn/images/responsive/footer-mask.png) 4px no-repeat;
+    width: 157px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #c4c4c4;
+    padding: 5px;
+    padding-left: 32px;
+    margin-right: 20px;
+}
+.newFooter .mailTo{
+    color: #545452;
+    background: url(//test.eva.vn/images/responsive/footer-mail.png) 0 3px no-repeat;
+    display: inline-block;
+    padding-left: 24px;
+}
+.newFooterRow2 .tit{
+    font-size: 13px;
+    color: #555555;
+}
+.newFooterRow2 .txtInfo *{
+    font-size: 12px;
+    color: #777777;
+    line-height: 18px;
+}
+.newFooterRow2 .viewMap{
+    font-size: 9px;
+    color: #545452;
+}
+.newFooterRow2 .icoMap{
+    background: url(//test.eva.vn/images/responsive/footer-map-icon.jpg) no-repeat;
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    vertical-align: -1px;
+    margin-right: 2px;
+}
+.newFooterRow2 .icoMail{
+    background: url(//test.eva.vn/images/responsive/footer-mail-copy.jpg) no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    vertical-align: -2px;
+    margin-right: 2px;
+}
+.newFooterRow2 .icoTel{
+    background: url(//test.eva.vn/images/responsive/footer-phone.jpg) no-repeat;
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    vertical-align: -1px;
+    margin-right: 8px;
+}
+.newFooterRow2 .col{
+    width: 333px;
+}
+.newFooterRow2 .col1{
+    border-right: 1px solid #cdcdcd;
+}
+.newFooterRow2 .col2{
+    width: 320px;
+    padding-left: 25px;
+    padding-right: 22px;
+    border-right: 1px solid #cdcdcd;
+}
+.newFooterRow2 .col3{
+    padding-left: 25px;
+}
+
+/*popup_cau_hoi_thuong_gap*/
+.mrB60{
+    margin-bottom: 60px;
+}
+.chtg .colorPink{
+    color: #fd447f;
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src:url('fonts/opensans/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: OpenSans-Italic;
+    src:url('fonts/opensans/OpenSans-Italic.ttf') format('truetype');
+}
+.blurLayer{
+    background-color: rgba(0, 0, 0, 0.5686274509803921);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.chtg{
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    margin-left: -502px;
+    z-index: 9999;
+    bottom: 60px;
+}
+.chtg .inner{
+    background: url(//test.eva.vn/images/responsive/popup-rectangle-1.jpg) no-repeat;
+    background-size: cover;
+    padding: 70px 102px 70px 80px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+        text-align: left;
+}
+.chtg .inner::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f1f1f1;
+}
+.chtg .inner::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f1f1f1;
+}
+.chtg .inner::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #c0c0c0;
+}
+.chtg .bigTit{
+    font-size: 59px;
+    color: #fff;
+    text-align: center;
+    font-family: OpenSans-Light, Open Sans, sans-serif;
+    margin-bottom: 80px;
+}
+.chtg .smallTit{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.chtg .number{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #fd447f;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 5px;
+        font-size: 19px;
+        line-height: 22px; /*edit 18/6/2019: dangtq*/
+}
+.chtg p, .chtg .link a{
+    margin: 0;
+    line-height: 1.4;
+    color: #fff;
+    font-family: OpenSans-Light, Open Sans, sans-serif;
+    padding-left: 42px;
+        text-align: left;
+        font-size: 16px;
+}
+.chtg .link a{
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+.chtg .link a:hover{
+    color: #fd447f;
+}
+.chtg .link a:before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #fd447f;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.chtg i{
+    font-family: OpenSans-Italic, Open Sans, sans-serif;
+}
+.chtg .txtEnd{
+    font-size: 18px;
+    color: #fff;
+    background-color: #fd447f; /*edit 18/6/2019: dangtq*/
+    padding: 5px 17px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px; 
+    display: inline-block;
+    cursor: pointer;
+}
+.newFooterRow2 img{
+    display: inline-block;
+    vertical-align: -1px;
+    margin-right: 2px;
+}
+/*Begin text_cam_on 18/6/2019: dangtq*/
+.chtg .txtThanks{
+    padding-left: 40px;
+}
+/*End text_cam_on 18/6/2019: dangtq*/
+/* End 17-06-2019 : Dangtq giao_dien_moi_footer */
+
+.button-del {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    margin-top: 10px;
+}
+
+
+
+
+/* Begin 9/7/2019: dangtq tool_dat_ten_cho_con */
+
+.mgL20 {
+    margin-left: 20px;
+}
+
+.disFlex {
+    display: flex;
+}
+
+.mg0 {
+    margin: 0;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.mgR20 {
+    margin-right: 20px;
+}
+
+.mgT30 {
+    margin-top: 30px;
+}
+
+.rlt {
+    position: relative;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+/* End 9/7/2019: dangtq tool_dat_ten_cho_con */
+
+
+/* Begin 9/7/2019: dangtq tool_dat_ten_cho_con */
+
+.nameBaby {
+    background-color: #fffdfd;
+}
+
+.nameBabyHead {
+    text-align: center;
+    font-size: 20px;
+    background-color: #d1587c;
+    color: #fff;
+    height: 40px;
+    line-height: 43px;
+}
+
+.nameBabyHead img {
+    display: inline;
+    margin-bottom: -5px;
+}
+
+.inputSex {
+    vertical-align: -2px;
+}
+
+.infoBaby label {
+    display: block;
+    font-weight: 700;
+}
+
+.infoBaby .colorRed {
+    color: #d91f56;
+}
+
+.inputBasic {
+    height: 30px;
+    border: 1px solid #707070;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.inputBasic::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.keyName {
+    background-color: #fbeeee;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.icoTie {
+    position: absolute;
+    left: -4px;
+    top: -15px;
+    z-index: 1;
+    background: url('//image.eva.vn/images/responsive/Vector-Smart-Object.png') no-repeat;
+    width: 48px;
+    height: 46px;
+    display: inline-block;
+}
+
+.keyNameTit {
+    font-size: 14px;
+    color: #d1587c;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.keyName .inner {
+    padding: 15px 15px 0 15px;
+}
+
+.keyName .colorGrey {
+    font-size: 13px;
+    text-align: right;
+    padding-bottom: 10px;
+    color: #7f7f7f;
+}
+
+.keyName .item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.keyName .item:hover,
+.keyName .item:active,
+.keyName .item:focus {
+    background-color: #d1587c;
+    color: #fff;
+}
+
+.c_alphabet_select {
+    background-color: #d1587c !important;
+    color: #fff;
+}
+
+.btn-submit {
+    background-color: #d1587c;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 6px 20px;
+    outline: none;
+}
+
+.keyNameTit2 {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+.nameBabyBg {
+    background: url('//image.eva.vn/images/responsive/Vector-Smart-Object-copy-14.jpg') #fbeeee no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 25px 25px 25px;
+    overflow: hidden;
+}
+
+.nameBabyBgTit {
+    border-bottom: 1px solid #d1587c;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.nameBabyBgTit span {
+    color: #d1587c;
+}
+
+.suggestTit {
+    font-size: 20px;
+    color: #d1587c;
+    font-weight: 700;
+}
+
+.tblSuggestName {
+    border-left: 2px solid #d1587c;
+}
+
+.tblSuggestName thead {
+    background-color: #d1587c;
+}
+
+.tblSuggestName thead td {
+    height: 30px;
+    line-height: 30px;
+    border-right: 2px solid #ecbac9;
+}
+
+.tblSuggestName thead td:last-child {
+    border-right: 0;
+}
+
+.tblSuggestName tbody {
+    background-color: #fff;
+}
+
+.tblSuggestName tbody td {
+    border-right: 2px solid #d1587c;
+    border-bottom: 2px solid #d1587c;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.pgpgeNameBaby ul li a,
+.pgpgeNameBaby .prv,
+.pgpgeNameBaby .nxt {
+    border-radius: 50%;
+    background-color: #fff;
+    border-color: transparent;
+}
+.inner_alphabet_txt .mrB15:nth-child(4){
+    margin-bottom: 0px !important;
+}
+.infoBaby label.label_sex_baby{
+    display: inline-block;
+}
+.c_hr_flex{
+    margin-bottom: 25px;
+}
+.pgpgeNameBaby .pgpge ul {
+    margin-bottom: 17px;
+}
+/* End 9/7/2019: dangtq tool_dat_ten_cho_con */
+@font-face {
+	font-family: SVN-Aslang Barry;
+	src:url('//test.eva.vn/css/fonts/SVN-Aslang-Barry.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: VBOOKMN;
+	src:url('//test.eva.vn/css/fonts/VBOOKMN.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Quicksand-Medium;
+	src:url('//test.eva.vn/css/fonts/Quicksand-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.sknb0208{
+	width: 300px;
+    margin-bottom: 10px;
+    font-family: Quicksand-Medium;
+    font-size: 15px;
+}
+.sknb0208 header{
+    background: url('//test.eva.vn/images/responsive/sukien_noibat_1.jpg') no-repeat;
+    background-size: 100%;
+    padding: 25px 20px 0 20px;
+    height: 131px;
+}
+.sknb0208 .footBg{
+    background: url('//test.eva.vn/images/responsive/sukien_noibat_2.jpg') no-repeat;
+    background-size: 100%;
+    height: 77px;
+}
+.sknb0208 .txtSk{
+	font-family: SVN-Aslang Barry;
+	font-size: 52px;
+	color: #585858;
+	line-height: 40px;
+}
+@-webkit-keyframes glowing{
+	0% { color: #426e5f; -webkit-box-shadow: 0 0 3px #426e5f; }
+	50% { color: #f4f2e6; -webkit-box-shadow: 0 0 10px #f4f2e6; }
+	100% { color: #426e5f; -webkit-box-shadow: 0 0 3px #426e5f; }
+}
+@-moz-keyframes glowing{
+	0% { color: #426e5f; }
+	50% { color: #f4f2e6; }
+	100% { color: #426e5f; }
+}
+@-o-keyframes glowing{
+	0% { color: #426e5f; }
+	50% { color: #f4f2e6; }
+	100% { color: #426e5f; }
+}
+@keyframes glowing{
+	0% { color: #426e5f; }
+	50% { color: #f4f2e6; }
+	100% { color: #426e5f; }
+}
+.sknb0208 .txtNb{
+	font-family: VBOOKMN;
+	font-size: 37px;
+	color: #426e5f;
+	line-height: 1.2;
+	animation: glowing 1500ms infinite;
+	-webkit-animation: glowing 1500ms infinite;
+	-moz-animation: glowing 1500ms infinite;
+	-o-animation: glowing 1500ms infinite;
+}
+.sknb0208 .list{
+	padding: 0 20px;
+    background: url('//test.eva.vn/images/responsive/sukien_noibat_3.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+.sknb0208 article a{
+	width: 100%;
+	color: #252525;
+	line-height: 1.4;
+	padding-bottom: 5px;
+	margin-bottom: 12px;
+	border-bottom: 1px dashed #737371;
+}
+.sknb0208 article:last-child a{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.sknb0208 article a:hover{
+	color: #d2577e;
+}
+.icoClose{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url('/test.eva.vn/images/responsive/su_kien_nv_tem_2_x.png') no-repeat;
+	margin-right: 10px;
+	margin-top: 7px;
+	cursor: pointer;
+}
+/* END Vudl su_kien_nb_template_2 02-08-2019*/
+
+
+
+/* START Longqv them_menu_ba_bau 11-10-2019*/
+.mnHbger{
+    width: 145px;
+    padding-right: 0;
+}
+.icoHome{
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    background: url('//test.eva.vn/images/responsive/icoHome.png') no-repeat;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.hsfebk img{
+    display: block;
+}
+.tpmnRt{
+    width: 753px;
+}
+.tpmnRt .icosch {
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.tpmnRt .icosch:hover {
+    width: 100%;
+}
+.hsfebk {
+    float: right;
+    transition: all .35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    position: relative;
+}
+.icosch .hsfebk:hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+.hsfebk:hover .form-control {
+    width: 95%;
+    background-color: #fff;
+    float: left;
+    padding-left: 10px;
+}
+.hsfebk .form-control {
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    padding: 0;
+}
+.hsfebk a {
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+}
+.hsfebk a .ico-sprt {
+    background-position: 0px -17px;
+    width: 14px;
+    height: 18px;
+    background-size: 105px;
+}
+.icosch .hsfebk:hover input[placeholder] {
+    opacity: 1;
+}
+.icosch .hsfebk input[placeholder] {
+    opacity: 0;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+/* END Longqv them_menu_ba_bau 11-10-2019*/

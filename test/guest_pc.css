@@ -1,0 +1,24 @@
+.title-rss-eva {
+    margin-bottom: 20px;
+}
+.title-rss-eva a h1 {
+    color: #d2577e;
+    font-weight: 700;
+}
+.detail-rss-eva {
+    margin-bottom: 10px;
+}
+.table-rss-eva table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-rss-eva table td {
+    border: 1px solid #ddd;
+    padding: 6px 10px 6px 20px;
+}
+.summary-rss-eva {
+    margin-top: 20px;
+}
+.summary-rss-eva h3, .detail-rss-eva h2, .title-summary-rss-eva, .tcat-table {
+    font-weight: 700;
+}

@@ -1,0 +1,330 @@
+   /* Trang video*/
+#box_video_hot_clip video{
+    width: 100%;
+}
+.vidTit{
+	background-color: #fcf3f7;
+	border: 1px solid #d1577e;
+	margin: 2px 0;
+}
+.vidTop .clrTit{
+	font-size: 20px;
+	padding: 8px 6px 16px 6px;
+	display: inline-block;
+}
+
+/* Video Hot */
+.vidHotTit{
+	font-size: 18px;
+	padding: 12px 6px;
+	margin: 0;
+	color: #d0597e; 
+}
+.vidTit a{
+	padding: 0;
+	font-size: unset;
+}
+.vidHotInner{
+	padding: 5px 0 22px 5px;
+	overflow: hidden;
+}
+.fixW{
+	width: 149%;
+}
+.vidHot article:nth-child(2n+1){
+	margin-right: 2%;
+}
+.vidHot .clrTit{
+	font-size: 15px;
+	display: inline-block;
+	padding-top: 5px;
+}
+.icoVid{
+	display: inline-block;
+	width: 58px;
+	height: 80px;
+	background: url(//test.eva.vn/images/responsive/icoVid.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -40px;
+	margin-left: -29px;
+	z-index: 1;
+}
+.icoPrev{
+	display: inline-block;
+	width: 8px;
+	height: 16px;
+	background: url('//test.eva.vn/images/responsive/icoPrevM.png') no-repeat;
+}
+.icoNext{
+	display: inline-block;
+	width: 8px;
+	height: 16px;
+	background: url('//test.eva.vn/images/responsive/icoNextM.png') no-repeat;
+}
+.pgNumb{
+	font-size: 16px;
+	color: #e083b3;
+	margin: 0 14px;
+	vertical-align: 2px;
+}
+
+/* List Video */
+.listVid .vidHotTit{
+	background-color: #d2577e;
+	border: 0;
+	color: #fff;
+}
+.vidHot{
+	margin-bottom: 18px;
+}
+.txtMore{
+	display: inline-block;
+	font-size: 15px;
+	color: #e083b3;
+	border: 1px solid #e083b3;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-left: 23px;
+	vertical-align: 2px;
+}
+
+@media screen and (min-width: 375px) {
+	.vidTop .clrTit{
+		font-size: 22px;
+	}
+	.vidHotTit{
+		font-size: 20px;
+	}
+	.vidHot .clrTit, .txtMore{
+		font-size: 17px;
+	}
+	.pgNumb{
+		font-size: 18px;
+		vertical-align: 1px;
+	}
+}
+@media screen and (min-width: 568px) {
+	.vidTop .clrTit{
+		font-size: 26px;
+	}
+	.vidHotTit{
+		font-size: 24px;
+	}
+	.vidHot .clrTit, .txtMore{
+		font-size: 21px;
+	}
+	.pgNumb{
+		font-size: 22px;
+		vertical-align: 0;
+	}
+	.txtMore{
+		vertical-align: 0;
+	}
+}
+@media screen and (min-width: 667px) {
+	.vidTop .clrTit{
+		font-size: 28px;
+	}
+	.vidHotTit{
+		font-size: 26px;
+	}
+	.vidHot .clrTit, .txtMore{
+		font-size: 23px;
+	}
+	.pgNumb{
+		font-size: 24px;
+		vertical-align: 0;
+	}
+	.txtMore{
+		vertical-align: 0;
+	}
+}
+.video_hot_clip_muc_video .swiper-slide, 
+.box_hien_thi_theo_hang_ngang .swiper-slide,
+.box_slide_tin_theo_cm .swiper-slide {
+    width: 90%;    
+    position: relative;
+    margin: initial;
+}
+.vidHot article {    
+    width:96%;
+}
+.video_hot_clip_muc_video .vidChsoCm img,
+.box_hien_thi_theo_hang_ngang .vidChsoCm img,
+.box_slide_tin_theo_cm .vidChsoCm img
+{
+    width:100%;
+}
+.evtBoxPrBt {
+        background-color: #dddddd;
+    }
+
+    /**/
+    .newsBx .brkNs{
+    	background-color: #fcf3f7;
+    	border: 1px solid #d1577e;
+    	margin: 2px 0;
+    }
+    .brcrm li a{
+    	text-transform: uppercase;
+    }
+    .newsBx .newsBxTit{
+    	padding: 0;
+    }
+    .newsBxTit span{
+    	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 700;
+    }
+
+    /* Trang_chi_tiet_video */
+    .evtBoxPrBt{
+    	background-color: #dddddd;
+    }
+    .evtBoxPrBt .sap.clrTit{
+    	margin-bottom: 5px;
+    }
+    .evtBoxPrBt .btnSe{
+    	display: block;
+    	text-align: right;
+    }
+    .evtBoxPrBt .btnSe a{
+    	display: inline-block;
+    	font-size: 12px;
+    	color: #d2587d;
+    	border: 2px solid #d2587d;
+    	border-radius: 25px;
+    	-webkit-border-radius: 25px;
+    	-moz-border-radius: 25px;
+    	-o-border-radius: 25px;
+    	padding: 3px 10px;
+    }
+    .reNsAveTit{
+    	border-bottom: 2px solid #d2587c;
+    	padding-bottom: 5px;
+    }
+    .reNsAveTit span{
+    	font-size: 18px;
+    	text-transform: uppercase;
+    }
+    .bxevtTit{
+    	background: none;
+    	min-height: auto;
+    	border-bottom: 2px solid #d2587c;
+    	padding: 10px 0 5px 0;
+    	margin: 0 10px;
+    	text-transform: uppercase;
+    }
+    .bxevtTitIn{
+    	padding: 0;
+    }
+    .bxevtTitIn *{
+    	color: #d2577e;
+    }
+    .reNsAve .evtBox{
+    	padding: 10px 0;
+    }
+    .bxevtNs .btnDf{
+    	display: inline-block;
+    	color: #d2587d;
+    	border: 2px solid #d2587d;
+    	border-radius: 25px;
+    	-webkit-border-radius: 25px;
+    	-moz-border-radius: 25px;
+    	-o-border-radius: 25px;
+    	background: url(http://t.24h.com.vn/upload/dangtq/eva.vn/mobile/images/icoMore.png) no-repeat 94%;
+    	padding: 3px 6px;
+    	width: 110px;
+    	text-align: left;
+    	font-size: 14px;
+    	text-transform: unset;
+    }
+    .itBthBx.contnr.vidSet .vidTit{
+    	background: none;
+    	border: 0;
+    	margin: 0;
+    }
+    .bxevtNs .infdBxLt{
+        float: right;
+        margin-right: 0;
+    }
+    .bxevtNs .infdBxRt{
+        float: left;
+    }
+    
+    /*Begin 7/10*/
+    @media screen and (min-width: 360px) and (max-width: 370px){
+        .itBthBx.vidSet.pdB10.vidChsoBd.listVid .clrTit{
+            display: inline-block;
+            height: 86px;
+            overflow: hidden;
+        }
+    }
+    /*End 7/10*/
+    @media screen and (min-width: 375px) {
+    	.evtBoxPrBt .btnSe a{
+    		font-size: 14px;
+    	}
+    	.reNsAveTit span{
+    		font-size: 20px;
+    	}
+    	.bxevtNs .btnDf{
+    		width: 120px;
+    		font-size: 16px;
+    	}
+    }
+    /*Begin 7/10*/
+    @media screen and (min-width: 380px) and (max-width: 414px){
+        .itBthBx.vidSet.pdB10.vidChsoBd.listVid .clrTit{
+            display: inline-block;
+            height: 100px;
+            overflow: hidden;
+        }
+    }
+    /*End 7/10*/
+    @media screen and (min-width: 568px) {
+    	.evtBoxPrBt .btnSe a{
+    		font-size: 18px;
+    	}
+    	.reNsAveTit span{
+    		font-size: 24px;
+    	}
+    	.bxevtNs .btnDf{
+    		width: 140px;
+    		font-size: 20px;
+    	}
+    }
+    @media screen and (min-width: 667px) {
+    	.evtBoxPrBt .btnSe a{
+    		font-size: 20px;
+    	}
+    	.reNsAveTit span{
+    		font-size: 26px;
+    	}
+    	.bxevtNs .btnDf{
+    		width: 150px;
+    		font-size: 22px;
+    	}
+    }
+     .icoVidSm, .vid-ico{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(//test.eva.vn/images/responsive/icoVidSm.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -17px;
+    margin-left: -17px;
+    z-index: 1;
+}
+.rlt{
+	position: relative;
+}
+
+/*Begin 7/10*/
+.itBthBx.contnr.pdT10.pdB10 .itBthBxLt{
+    border-bottom: 1px solid #eee;
+}
+/*End 7/10*/

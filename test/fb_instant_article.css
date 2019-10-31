@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Start Duclv article */
+*{font-family:'Helvetica Neue Regular', 'Helvetica Neue'}
+body{margin:0;}
+a {
+	text-decoration: none;
+}
+.container{margin:0 auto;background:#fff;}
+.logo{width:75px;height:40px;float:left;padding:10px 5px}
+.logoEva{width:67px;height:41px;display:block;background:url(//image.eva.vn/images/m2014/images/logoEva.png) no-repeat;margin-left:10px}
+.like_eva {
+	float: right;
+	line-height: 60px;
+	margin-right: 20px;
+}
+.like_eva a {
+	color: #fff;
+}
+.xemthem-article p a{
+	text-decoration: underline;
+}
+.xemthem-article {
+	background-color: #ebebeb;
+    padding: 10px 10px;
+}
+.tabChuyenMuc-g ul {
+	margin: 0;
+    padding: 0 20px 0 0;
+}
+.tabChuyenMuc-g ul li a.active{
+    text-transform: uppercase;
+    color: #d2577e;
+    margin-top: 10px;
+    display: block;
+}
+.baivietDate{color:#666666;padding-bottom:5px; padding-top: 5px;}
+.text-conent{color:#333333}
+.nguontin{text-align:right;padding:15px 0 10px 0;font-weight:bold;color:#333;}
+.header{height:60px;background:#d2577e;overflow:hidden}
+.xemthem-article p:first-child {
+	margin: 0;
+}
+.text-conent p {
+	line-height: 1.5;
+	margin: 10px 0;
+}
+.tabCM-line-pink {
+    border-bottom: #d2577e 2px solid;
+    color: #d2577e;
+    padding: 0 0 10px;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.baiviet-bailienquan-bottom {
+    padding: 0;
+    background: none;
+    margin-bottom: 10px;
+    text-align: left;
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+.baiviet-bailienquan-bottom .bailienquan-trangtrong {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px dotted #d2577e;
+    padding: 8px 0;
+    position: relative;
+}
+.imgFloat {
+    float: left;
+    margin: 0 2% 0 0;
+    display: block;
+    background: #f5f5f5;
+    position: relative;
+}
+.news-title {
+    display: block;
+    font-weight: 700;
+    color: #333;
+    padding: 0 0 5px;
+    margin: 0;
+}
+.baiviet-bailienquan {
+	margin: 5px 0;
+}
+.baiviet-bailienquan a {
+    display: inline;
+    color: #3d3d3d;
+    font-size: 16px;
+}
+.baiviet-bailienquan ul {
+	padding-left: 20px;
+	margin: 0;
+}
+.baiviet-bailienquan ul li {
+	color: #0000ff;
+	margin-bottom: 10px;
+}
+.baiviet-bailienquan ul li a {
+	color: #0000ff;
+}
+.baiviet-bailienquan p {
+	margin: 10px 0;
+}
+.center-image {
+	text-align: center;
+}
+.note-image {
+	text-align: center;
+    color: #0000ff;
+    font-style: italic;
+}
+/*End Duclv article */
+@media only screen and (min-width: 320px) {
+	.block {
+		padding: 0 10px 10px 10px;
+	}
+	.tabChuyenMuc-g ul li a.active {
+		font-size: 12px;
+	}
+	.baivietDate {font-size: 12px;}
+	/*BAI VIET*/
+	.baivietTitle h1{font-size:28px;font-weight:700;margin: 10px 0;}	
+	.text-conent h2{font-size:16px; margin: 5px 0;}
+	.baiviet-bailienquan p a {font-size: 16px;}
+  }
+@media only screen and (max-width: 319px) {
+	header{height:50px;overflow:hidden}
+	.logo{width:75px;height:35px;float:left;padding:7px 0px}
+	.logoEva{width:57px;height:35px;background-size:57px;margin-left:10px}
+	/*BAI VIET*/
+	.baivietTitle,.baivietTitle h1{font-size:20px}
+	.text-conent,.text-conent h2{font-size:16px;line-height:22px}
+	.block{padding:0 7px 7px 7px}
+}
+@media only screen and (min-width: 321px) {
+	.baivietTitle h1{font-size:28px}
+	.text-conent,.text-conent h2{font-size:18px}
+	.baivietDate{font-size:14px;}
+	.tabChuyenMuc-g ul li a.active{font-size: 14px;}
+	.nguontin, .baiviet-bailienquan a {font-size: 18px;}
+	.baiviet-bailienquan p a {font-size: 18px;}
+	.tabCM-line-pink {
+		font-size: 22px;
+	}
+}
+@media only screen and (min-width: 480px) {
+	.baivietTitle h1{font-size:30px}
+	.text-conent,.text-conent h2{font-size:20px}
+	.baivietDate{font-size:16px;}
+	.tabChuyenMuc-g ul li a.active{font-size: 16px;}
+	.nguontin,.baiviet-bailienquan a {font-size: 20px;}
+	.baiviet-bailienquan p a {font-size: 20px;}
+	.tabCM-line-pink {
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width: 599px) {
+	.baivietTitle h1{font-size:32px}
+	.text-conent,.text-conent h2{font-size:22px}
+	.baivietDate{font-size:18px;}
+	.tabChuyenMuc-g ul li a.active{font-size: 18px;}
+	.nguontin,.baiviet-bailienquan a {font-size: 22px;}
+	.baiviet-bailienquan p a {font-size: 22px;}
+	.tabCM-line-pink {
+		font-size: 26px;
+	}
+}
+@media only screen and (min-width: 699px) {
+	.baivietTitle h1{font-size:34px}
+	.text-conent,.text-conent h2{font-size:26px}
+	.baivietDate{font-size:20px;}
+	.tabChuyenMuc-g ul li a.active{font-size: 20px;}
+	.nguontin, .baiviet-bailienquan a {font-size: 24px;}
+	.baiviet-bailienquan p a {font-size: 24px;}
+	.tabCM-line-pink {
+		font-size: 28px;
+	}
+}

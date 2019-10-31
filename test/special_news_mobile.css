@@ -1,0 +1,294 @@
+/* BEGIN Vudl bu_sung_wikihow 12-07-2019 */
+.flexGrow{
+    flex-grow: 1;
+}
+/* Begin 16/7/2019: dangtq fix */
+.wikiHowInner p, .stepTit p{
+    font-size: 16px;
+}
+.stepHead{
+    background-color: #e8e4e4;
+    font-size: 21px;
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.stepHeadBg{
+    display: inline-block;
+    background-color: #d2577e;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin: 0;
+}
+/* End 16/7/2019: dangtq fix */
+.stepHead .toc_heading{ 
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 0;
+}
+.stepHeadName{ 
+    font-weight: 600;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.mgT15{
+    margin-top: 15px;
+}
+.stepTitNumber{
+    font-size: 51px;
+    color: #d2577e;
+    margin: 0;
+    padding-left: 13px;
+    line-height: 46px;
+    width: 60px;
+    float: left;
+}
+/* Begin 16/7/2019: dangtq fix */
+.stepTitContent{
+    font-weight: normal;
+}
+/* End 16/7/2019: dangtq fix */
+.stepTitContent p{
+    margin: 0;
+    text-align: left;
+}
+.txtFirst{
+    font-size: 20px;
+}
+.txtFirst2{
+    font-size: 24px;
+}
+.colorPink{
+    color: #d2577e;
+}
+.pdL20{
+    padding-left: 20px;
+}
+.listContent li{
+    list-style: disc;
+}
+
+@media screen and (min-width: 375px) {
+    .stepHead .toc_heading{
+        font-size: 22px;
+    }
+     .stepHeadName{
+        font-size: 22px;
+        padding-left: 5px;
+    }
+    /* Begin 16/7/2019: dangtq fix */
+    .stepHeadBg{
+        font-size: 16px;
+    }
+    .wikiHowInner p, .stepTit p{
+        font-size: 18px;
+    }
+    /* End 16/7/2019: dangtq fix */
+    .txtFirst{
+        font-size: 22px;
+    }
+    .stepTitNumber{
+        font-size: 53px;
+    }
+}
+@media screen and (min-width: 568px) {
+    .stepHead .toc_heading{
+        font-size: 28px;
+    }
+    .stepHeadName{
+        font-size: 28px;
+        padding-left: 5px;
+    }
+    /* Begin 16/7/2019: dangtq fix */
+    .stepHeadBg{
+        font-size: 22px;
+    }
+    .wikiHowInner p, .stepTit p{
+        font-size: 24px;
+    }
+    /* End 16/7/2019: dangtq fix */
+    .txtFirst{
+        font-size: 28px;
+    }
+    .stepTitNumber{
+        font-size: 59px;
+    }
+}
+@media screen and (min-width: 667px) {
+    /* Begin 16/7/2019: dangtq fix */
+    .stepHead .toc_heading{
+        font-size: 30px;
+    }
+    .stepHeadName{
+        font-size: 30px;
+        padding-left: 5px;
+    }
+    .stepHeadBg{
+        font-size: 24px;
+    }
+    .wikiHowInner p, .stepTit p{
+        font-size: 26px;
+    }
+    /* End 16/7/2019: dangtq fix */
+    .txtFirst{
+        font-size: 30px;
+    }
+    .stepTitNumber{
+        font-size: 61px;
+    }
+}
+.m-24h-banner-in-image-wrapper{
+    margin-bottom: 10px!important;
+}
+/* END Vudl bu_sung_wikihow 12-07-2019 */
+
+/* BEGIN Vudl bu_sung_alo_bac_si 18-07-2019 */
+/* Begin 15/7/2019: dangtq alo_bacsi */
+.aloDoctorTit *{
+	font-size: 20px;
+}
+.aloDoctor .colorRed{
+	color: #d9001b;
+}
+.aloDoctorHead{
+	padding: 7px 10px 10px 10px;
+	background-color: #f4f4f4;
+}
+.aloDoctorHead .img{
+	float: left;
+	margin-right: 10px;
+    padding-top: 5px;
+}
+.aloDoctorHead .img .news-image{
+	width: auto!important;
+	height: 23px;
+}
+.aloDoctorBody{
+	padding: 0 10px;
+}
+.aloDoctorBody .col.mgL25{
+	margin-right: 15px;
+	float: left;
+	padding-top: 5px;
+    width: 110px;
+}
+.aloDoctor .banr{
+    margin: 0 -20px;
+}
+.aloDoctorHead .banr .banrImg{
+    padding-bottom: 0;
+}
+.aloDoctorHead .banr iframe{
+    padding: 10px 0;
+}
+.lin{
+    position: relative;
+    z-index: 3;
+}
+/* End 15/7/2019: dangtq alo_bacsi */
+
+/* Begin 12/7/2019: dangtq tong_hop_cac_man_hinh_mobile */
+@media screen and (max-width:360px) {
+	/* Begin 15/7/2019: dangtq alo_bacsi */
+	.aloDoctorTit *, .aloDoctor .colorRed{
+		font-size: 18px;
+	}
+	/* End 15/7/2019: dangtq alo_bacsi */
+}
+
+@media screen and (min-width:568px) {	
+	/* Begin 15/7/2019: dangtq alo_bacsi */
+	.aloDoctorTit *, .aloDoctor .colorRed{
+		font-size: 24px;
+	}
+	/* End 15/7/2019: dangtq alo_bacsi */
+}
+@media screen and (min-width:667px) {	
+	/* Begin 15/7/2019: dangtq alo_bacsi */
+	.aloDoctorTit *, .aloDoctor .colorRed{
+		font-size: 26px;
+	}
+	.aloDoctorHead .img{
+		padding-top: 8px;
+	}
+	/* End 15/7/2019: dangtq alo_bacsi */
+}
+
+/* End 12/7/2019: dangtq tong_hop_cac_man_hinh_mobile */
+/* END Vudl bu_sung_alo_bac_si 18-07-2019 */
+/* BEGIN Vudl code_ban_tin_duong_pho_frontend 24-07-2019*/
+.cityNews .evtBxImg, .cityNews .evtBxRt{
+	width: 100%;
+	float: none;
+	margin: 0;
+}
+.cityNews .nsLstTit{
+	padding-bottom: 0;
+}
+.cityNews h3{
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 10px;
+    display: block;
+}
+.cityNews .evtBxsp{
+	margin-bottom: -10px;
+}
+.cityNews .evtBxsp p{
+	font-size: 16px;
+	margin: 10px 0;
+}
+.cityNews .clrFeatr{
+	font-size: 14px;
+}
+.cityNews .lin{
+	margin: 15px 0 20px 0;
+}
+
+@media screen and (min-width: 375px) {
+	.cityNews h3, .cityNews .evtBxsp p{
+		font-size: 18px;
+	}
+	.cityNews .clrFeatr{
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 568px) {
+	.cityNews h3, .cityNews .evtBxsp p{
+		font-size: 22px;
+	}
+	.cityNews h3{
+		line-height: 1.5;
+	}
+	.cityNews .clrFeatr{
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 667px) {
+	.cityNews h3, .cityNews .evtBxsp p{
+		font-size: 24px;
+	}
+	.cityNews .clrFeatr{
+		font-size: 22px;
+	}
+} 
+.disFlex {
+    display:block!important
+}
+/* END Vudl code_ban_tin_duong_pho_frontend 24-07-2019*/

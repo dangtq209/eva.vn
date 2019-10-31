@@ -1,0 +1,60 @@
+.mg-layout-normal *{
+	font-size: 18px !important;
+	line-height: 26px !important;
+}
+.mg-layout-normal .textChuan .textNormal p, .mg-layout-normal .anhTraiTextPhai .textLeft-imgRight p, .mg-layout-normal .anhPhaiTextTrai .textLeft-imgRight p, .mg-layout-normal .imgText .imgTop-textBottom p{
+	font-size: 18px !important;
+	line-height: 26px !important;
+	font-family: Arial,Helvetica,sans-serif!important;
+}
+.mg-layout-normal .container-inner, .mg-layout-normal .width-750{
+	width: auto!important;
+}
+.mg-layout-normal .width-750{
+	padding: 0 10px;
+}
+.mg-layout-normal p{
+	margin: 15px 10px;
+}
+.mg-layout-normal img{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.mg-layout-normal .imgTop-textBottom .name{
+	font-size: 24px;
+	font-weight: 600;
+	color: #582b1c;
+	font-style: oblique;
+	margin: 20px 0;
+	line-height: 1.3;
+	text-align: center;
+}
+.mg-layout-normal .mg-video, .mg-layout-normal .mg-author{
+	text-align: center;
+}
+.mg-layout-normal .mg-video-caption span{
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+}
+.mg-layout-normal .mg-author p{
+	margin: 0;
+}
+.mg-layout-normal .mg-video-inner iframe{
+	height: 371px!important;
+}
+.mg-layout-normal .videoSmall iframe{
+	width: 100%;
+	height: 296px;
+}
+.mg-layout-normal .titleText .tittleTop-textBottom p, .mg-layout-normal .baAnhGiuaText .mg-wrapper p, .mg-layout-normal .slideAnh .mg-wrapper p, .mg-layout-normal .anhGiuaText .mg-container p{
+	font-size: 18px !important;
+	line-height: 26px !important;
+}
+.anhGiuaText .mg-container{
+	width: auto!important;
+}
+.creditPen p, .creditFeather p, .mg-author p {
+	text-align: center !important;
+}
