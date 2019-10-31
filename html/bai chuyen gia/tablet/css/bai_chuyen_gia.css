@@ -1,0 +1,121 @@
+.disBlock {
+  display: block !important; }
+
+.lh0 {
+  line-height: 0; }
+
+.expertTit {
+  font-size: 22px;
+  color: #000;
+  padding: 5px 0 0 15px;
+  font-family: Oswald,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
+
+.expertImg {
+  display: inline-block;
+  width: 78px;
+  height: 78px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.2s; }
+
+.expert {
+  margin-bottom: 10px; }
+  .expert .expertInner {
+    background-color: rgba(153, 153, 153, 0.368627451);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .expert .expertInner .flex {
+      justify-content: space-between;
+      padding: 0 50px 7px; }
+      .expert .expertInner .flex .icoVidPrv, .expert .expertInner .flex .icoVidNxt {
+        top: 30px; }
+      .expert .expertInner .flex .item {
+        margin: 0;
+        text-align: center; }
+        .expert .expertInner .flex .item .doctorName {
+          display: block;
+          font-size: 14px;
+          color: #000;
+          width: 80px; }
+        .expert .expertInner .flex .item:hover .expertImg {
+          border: 3px solid #d2577f; }
+        .expert .expertInner .flex .item:hover .doctorName {
+          color: #d2577f; }
+
+.listExpert {
+  background-color: #f2f2f2;
+  padding: 0 38px 0 10px; }
+  .listExpert .expertTit {
+    color: #d2577f;
+    padding: 10px 0; }
+  .listExpert .lin {
+    border-color: #d7d7d7;
+    width: 96%;
+    float: right;
+    margin: 15px 0; }
+  .listExpert article .borImg {
+    width: 105px;
+    height: 105px;
+    margin: 0 15px 0 10px;
+    text-align: center; }
+  .listExpert article .expertImg:hover {
+    border: 3px solid #d2577f;
+    width: 105px;
+    height: 105px;
+    box-shadow: 0px 0px 7px #999; }
+  .listExpert article .inner {
+    width: 77px;
+    flex-grow: 1; }
+    .listExpert article .inner .doctorName {
+      display: inline-block;
+      font-size: 17px;
+      color: #000;
+      margin-bottom: 10px; }
+      .listExpert article .inner .doctorName:hover {
+        color: #d2577f; }
+    .listExpert article .inner .doctorInfo {
+      font-size: 14px; }
+    .listExpert article .inner .detail {
+      text-align: right;
+      padding-right: 15px; }
+      .listExpert article .inner .detail a {
+        font-style: italic;
+        color: #d2577f;
+        font-weight: 600; }
+
+.sick {
+  border: 1px solid #acacac;
+  padding: 25px 10px 5px 10px;
+  position: relative;
+  margin-top: 23px; }
+  .sick .expertTit {
+    color: #d2577f;
+    padding: 0;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+    background-color: #fff; }
+  .sick .list {
+    display: table;
+    word-spacing: -4px; }
+    .sick .list .item {
+      display: inline-table;
+      width: 33%;
+      margin-bottom: 10px;
+      word-spacing: 0; }
+      .sick .list .item img {
+        max-width: 40px;
+        vertical-align: middle; }
+      .sick .list .item .sickName {
+        font-size: 18px;
+        color: #000;
+        display: inline-block; }
+      .sick .list .item:hover .sickName {
+        color: #d2577f; }
+
+/*# sourceMappingURL=bai_chuyen_gia.css.map */

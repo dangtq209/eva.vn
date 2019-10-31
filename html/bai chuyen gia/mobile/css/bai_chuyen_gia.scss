@@ -1,0 +1,217 @@
+.expertTit{
+	font-size: 24px;
+	color: #d2587e;
+	margin: 15px 10px;
+	font-family: Oswald,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	@media screen and (min-width: 375px) {
+		font-size: 26px;
+	}
+	@media screen and (min-width: 480px) {
+		font-size: 30px;
+	}
+	@media screen and (min-width: 667px) {
+		font-size: 32px;
+	}
+}
+.expertImg{
+	display: inline-block;
+	width: 78px;
+	height: 78px;
+	overflow: hidden;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	transition: 0.2s;
+	&.active{
+		border: 3px solid #d2577f;
+		box-shadow: 0px 0px 7px #999;
+	}
+}
+.viewMore{
+	display: inline-block;
+	font-size: 15px;
+	color: #d0597e;
+	padding: 5px 25px;
+	border: 1px solid #d0597e;
+	margin: 10px 0 20px;
+	@media screen and (min-width: 375px) {
+		font-size: 17px;
+	}
+	@media screen and (min-width: 480px) {
+		font-size: 21px;
+	}
+	@media screen and (min-width: 667px) {
+		font-size: 23px;
+	}
+}
+
+//
+.expert{
+	overflow: hidden;
+	margin-bottom: 15px;
+	.flex{
+		justify-content: space-between;
+		margin: 0 -5px 20px 23px;
+		.item{
+			margin: 0;
+			text-align: center;
+			.doctorName{
+				display: block;
+				font-size: 12px;
+				color: #000;
+				width: 70px;
+				@media screen and (min-width: 375px) {
+					font-size: 14px;
+				}
+				@media screen and (min-width: 480px) {
+					font-size: 18px;
+					width: 100%;
+				}
+				@media screen and (min-width: 667px) {
+					font-size: 20px;
+				}
+			}
+			&.active{
+				.expertImg{
+					border: 3px solid #d2577f;
+					box-shadow: 0px 0px 7px #999;
+				}
+				.doctorName{
+					color: #d2577f;
+				}
+			}
+		}
+	}
+	.icoPrev{
+		display: inline-block;
+		width: 8px;
+		height: 16px;
+		background: url('https://test.eva.vn/images/responsive/icoPrevM.png') no-repeat;
+		margin-right: 14px;
+	}
+	.icoNext{
+		@extend .icoPrev;
+		background-image: url('https://test.eva.vn/images/responsive/icoNextM.png');
+		margin-left: 14px;
+		margin-right: 0;
+	}
+	.pgNumb{
+		font-size: 16px;
+		color: #e083b3;
+		vertical-align: 2px;
+		@media screen and (min-width: 375px) {
+			font-size: 18px;
+		}
+		@media screen and (min-width: 480px) {
+			font-size: 22px;
+			vertical-align: unset;
+		}
+		@media screen and (min-width: 667px) {
+			font-size: 24px;
+		}
+	}
+}
+
+//cac chuyen gia
+.listExpert{
+	background-color: #f2f2f2;
+	padding: 10px 10px 0;
+	.expertTit{
+		margin: 0;
+	}
+	.lin{
+		border-color: #d7d7d7;
+		margin: 10px 0;
+	}
+	article{
+		.expertImg{
+			width: 100px;
+			height: 100px;
+			margin-right: 10px;
+		}
+		.inner{
+			width: 100px;
+			flex-grow: 1;
+			.doctorName{
+				display: inline-block;
+				font-size: 17px;
+				color: #000;
+				margin-bottom: 10px;
+				@media screen and (min-width: 375px) {
+					font-size: 19px;
+				}
+				@media screen and (min-width: 480px) {
+					font-size: 23px;
+				}
+				@media screen and (min-width: 667px) {
+					font-size: 25px;
+				}
+			}
+			.doctorInfo{
+				font-size: 14px;
+				margin-bottom: 10px;
+				@media screen and (min-width: 375px) {
+					font-size: 16px;
+				}
+				@media screen and (min-width: 480px) {
+					font-size: 20px;
+				}
+				@media screen and (min-width: 667px) {
+					font-size: 22px;
+				}
+			}
+			.detail{
+				text-align: right;
+				a{
+					font-style: italic;
+					color: #d2577f;
+					font-weight: 500;
+					font-size: 16px;
+					@media screen and (min-width: 375px) {
+						font-size: 18px;
+					}
+					@media screen and (min-width: 480px) {
+						font-size: 22px;
+					}
+					@media screen and (min-width: 667px) {
+						font-size: 24px;
+					}
+				}
+			}
+		}
+	}
+}
+
+//cac benh thuong gap
+.sick{
+	border: 1px solid #d0597e;
+	padding: 10px 10px 0;
+	margin: 15px 1px 10px;
+	.expertTit{
+		margin: 0 0 20px 0;
+	}
+	.item{
+		margin-bottom: 10px;
+		padding-left: 20px;
+		img{
+			max-width: 62px;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		.sickName{
+			font-size: 16px;
+			color: #000;
+			display: inline-block;
+			@media screen and (min-width: 375px) {
+				font-size: 18px;
+			}
+			@media screen and (min-width: 480px) {
+				font-size: 22px;
+			}
+			@media screen and (min-width: 667px) {
+				font-size: 24px;
+			}
+		}
+	}
+}

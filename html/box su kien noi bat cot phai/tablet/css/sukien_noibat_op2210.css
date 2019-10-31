@@ -1,0 +1,74 @@
+/*Begin template op2210*/
+@font-face {
+  font-family: UTM Androgyne;
+  src: url("../fonts/UTM Androgyne.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+@-webkit-keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+@-moz-keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+@-o-keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+.sknb_op2210 {
+  margin-bottom: 10px; }
+  .sknb_op2210 header {
+    background: url("../images/op2210_top.jpg") no-repeat;
+    height: 137px;
+    position: relative; }
+    .sknb_op2210 header .txt {
+      display: inline-block;
+      background: url("../images/noibat.png") no-repeat;
+      width: 155px;
+      height: 50px;
+      position: absolute;
+      top: 75px;
+      left: 30px;
+      animation: glowing_display 900ms infinite;
+      -webkit-animation: glowing_display 900ms infinite;
+      -moz-animation: glowing_display 900ms infinite;
+      -o-animation: glowing_display 900ms infinite; }
+  .sknb_op2210 .list {
+    background: url("../images/op2210_center.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin-top: -1px;
+    padding: 0px 20px 0 28px; }
+    .sknb_op2210 .list article .icoDot {
+      width: 11px;
+      height: 13px;
+      background: url("../images/icoFlower_2210.png") no-repeat;
+      margin: 6px 8px 0 0; }
+    .sknb_op2210 .list article a {
+      color: #616161;
+      font-family: UTM Androgyne,'Open Sans',sans-serif;
+      line-height: 1.4;
+      padding-bottom: 5px;
+      margin-bottom: 12px;
+      width: 100%;
+      font-size: 15px; }
+      .sknb_op2210 .list article a:hover {
+        color: #d2577e; }
+    .sknb_op2210 .list article:last-child a {
+      padding-bottom: 0;
+      margin-bottom: 0; }
+  .sknb_op2210 .footBg {
+    background-image: url("../images/op2210_bottom.jpg");
+    height: 199px; }
+
+/*End template op2210*/
+
+/*# sourceMappingURL=sukien_noibat_op2210.css.map */
