@@ -1,0 +1,13 @@
+.slideImg{
+	display: flex;
+	width: 660px;
+	.item:first-child{
+		margin-right: 10px;
+		img{
+			max-width: 100%;
+		}
+	}
+}
+.fancybox-overlay{
+	z-index: 999999;
+}

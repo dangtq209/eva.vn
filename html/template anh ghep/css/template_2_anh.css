@@ -1,0 +1,10 @@
+.slideImg {
+  display: flex;
+  width: 660px; }
+  .slideImg .item:first-child {
+    margin-right: 10px; }
+    .slideImg .item:first-child img {
+      max-width: 100%; }
+
+.fancybox-overlay {
+  z-index: 999999; }
