@@ -22,3 +22,13 @@
       object-fit: cover; }
     .slideImg.type01c .item:first-child {
       width: 40%; }
+  .slideImg.type02 .item:nth-child(2) {
+    margin-right: 10px; }
+  .slideImg.type04 {
+    display: table; }
+    .slideImg.type04 .item {
+      margin-bottom: 10px;
+      display: inline-table;
+      width: 325px; }
+      .slideImg.type04 .item:nth-child(2n+1) {
+        margin-right: 10px; }
