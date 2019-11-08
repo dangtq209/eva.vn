@@ -85,4 +85,25 @@
 			width: 49%;
 		}
 	}
+	&.type07{
+		.row1 .item:first-child{
+			width: 50%;
+		}
+	}
+	&.type08{
+		.row1 .item:nth-child(2){
+			width: 50%;
+		}
+		.row2 .item:first-child{
+			width: 40%;
+		}
+	}
+	&.type09{
+		.row1 .item:last-child{
+			width: 215%;
+		}
+		.row2 .item:first-child{
+			width: 60%;
+		}
+	}
 }

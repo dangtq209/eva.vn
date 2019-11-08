@@ -34,3 +34,13 @@
     margin-right: 10px; }
   .slideImg.type06 .row2 .item:last-child {
     width: 49%; }
+  .slideImg.type07 .row1 .item:first-child {
+    width: 50%; }
+  .slideImg.type08 .row1 .item:nth-child(2) {
+    width: 50%; }
+  .slideImg.type08 .row2 .item:first-child {
+    width: 40%; }
+  .slideImg.type09 .row1 .item:last-child {
+    width: 215%; }
+  .slideImg.type09 .row2 .item:first-child {
+    width: 60%; }
