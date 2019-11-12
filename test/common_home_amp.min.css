@@ -3890,7 +3890,7 @@ h2 span.clrTit {
 .lgoEva .ico-sprt{  
     width: 80px;
     height: 38px;
-    background-size: cover!important;
+    background-size: contain!important;
 }
 .mnCat a{
     position: absolute;

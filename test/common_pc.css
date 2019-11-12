@@ -4434,3 +4434,21 @@ li.itBthBxTt a {
     clear:both;
     margin-top:5px;
 }
+/* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+p.linkOrigin, p.linkOrigin * {
+    font-size: 13px !important;
+    color: #757575;
+    margin: 10px 0;
+    text-align: unset;
+}
+p.linkOrigin * {
+    margin: 0; }
+p.linkOrigin .icoDrop {
+    display: inline-block;
+    background: url('//test.eva.vn/images/responsive/icoDrop.png') no-repeat;
+    width: 13px;
+    height: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+/* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */

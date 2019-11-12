@@ -2361,6 +2361,7 @@ span.close {
     margin-bottom: 20px;
     border-bottom: 3px solid #8a8a8a;
     background: #f0f0f0;
+    z-index: 4;
 }
 
 .sp-quotedep5 p {
@@ -4163,7 +4164,7 @@ p[align="center"] {
 .lgoEva .ico-sprt{    
     width: 80px;
     height: 38px;
-    background-size: cover!important;
+    background-size: contain!important;
 }
 .mnCat a{
     position: absolute;
@@ -4358,3 +4359,46 @@ p[align="center"] {
         position: relative;
     }
 /*----End hdr----*/
+/* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+p.linkOrigin, p.linkOrigin * {
+    font-size: 14px;
+    color: #757575;
+    padding: 0 !important;
+    text-align: unset;
+}
+p.linkOrigin * {
+    margin: 0;
+}
+p.linkOrigin .icoDrop {
+    display: inline-block;
+    background: url("//test.eva.vn/images/responsive/icoDrop.png") no-repeat;
+    width: 13px;
+    height: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+@media screen and (max-width: 320px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 414px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 480px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 640px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 736px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 17px;
+    }   }
+/* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */

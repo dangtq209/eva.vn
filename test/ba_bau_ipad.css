@@ -4477,3 +4477,57 @@ p[align="center"] {
 .hdr_contnr_up{
     background-size: 100%!important
 }
+/* BEGIN Vudl bo_sung_cau_hinh_on_off_cap_muc*/
+.itBthBxTt ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.itBthBxTt ul li {
+    display: inline;
+}
+.itBthBxTt ul li a {
+    font-size: 14px;
+    display: inline;
+}
+.itBthBxTt ul li .actv {
+    font-size: 18px;
+}
+.itBthBxCt .btnDf {
+    color: #212121!important;
+    background-color: #fff!important;
+    border: 1px solid #ddd!important;
+    padding: 8px 24px!important;
+}
+.itBthBxCt .prfStr a {
+    color: #757575!important;
+}
+.itBthBxCt .btn {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.itBthBxCt .prfStr a:before{
+    background: none;
+} 
+.itBthBxCt .prfStr a{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.itBthBxCt .prfStr.txtCent {
+    text-align: center;
+}
+.infortin .prfStr{
+    margin-bottom: 20px
+}
+.itBthBxCt .prfStr a:hover{
+    color: #d2577e!important;
+}
+/* END Vudl bo_sung_cau_hinh_on_off_cap_muc*/

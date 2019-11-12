@@ -3915,7 +3915,7 @@ input:checked~a {
 .lgoEva .ico-sprt{    
     width: 82px;
     height: 38px;
-    background-size: cover!important;
+    background-size: contain!important;
 }
 .mnCat a{
     position: absolute;
