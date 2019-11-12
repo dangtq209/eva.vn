@@ -20,6 +20,10 @@
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	transition: 0.2s;
+	img{
+		height: 100%;
+		object-fit: cover;
+	}
 }
 
 //
