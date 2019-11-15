@@ -1,0 +1,111 @@
+@media screen and (min-width: 375px) {
+  .tempProf_2 a.clrTit {
+    font-size: 17px; } }
+@media screen and (min-width: 480px) {
+  .tempProf_2 a.clrTit {
+    font-size: 21px; } }
+@media screen and (min-width: 667px) {
+  .tempProf_2 a.clrTit {
+    font-size: 23px; } }
+.tempProf_2 .boxTop-prf {
+  padding: 10px 0 0 17px;
+  overflow: hidden;
+  position: relative; }
+  .tempProf_2 .boxTop-prf .itBthBxCt {
+    display: flex;
+    width: 125%; }
+    .tempProf_2 .boxTop-prf .itBthBxCt article {
+      margin: 0;
+      width: 100%; }
+      .tempProf_2 .boxTop-prf .itBthBxCt article .boxLtImg {
+        border-bottom: 0; }
+      .tempProf_2 .boxTop-prf .itBthBxCt article:first-child {
+        margin-right: 12px; }
+  .tempProf_2 .boxTop-prf .tempProf_prev, .tempProf_2 .boxTop-prf .tempProf_next {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url("../images/tempProf_prev.png") no-repeat;
+    background-size: 35px 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 5px; }
+  .tempProf_2 .boxTop-prf .tempProf_next {
+    background-image: url("../images/tempProf_next.png");
+    left: auto;
+    right: 5px; }
+  .tempProf_2 .boxTop-prf .tempProf_pagi li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #44687d;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%; }
+    .tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(2) {
+      opacity: 0.8; }
+    .tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(3) {
+      opacity: 0.6; }
+    .tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(4) {
+      opacity: 0.4; }
+    .tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(5) {
+      opacity: 0.2; }
+.tempProf_2 .tempProf_tit {
+  font-size: 14px;
+  color: #e26d8d;
+  background: url("../images/line_template_profile_2.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 15px 10px 5px;
+  text-align: center;
+  line-height: 15px;
+  padding-left: 10px; }
+  .tempProf_2 .tempProf_tit.tempProf_tit2 {
+    background-image: url("../images/line_template_profile_2b.png"); }
+  @media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_tit {
+      font-size: 16px; } }
+  @media screen and (min-width: 480px) {
+    .tempProf_2 .tempProf_tit {
+      font-size: 20px; } }
+  @media screen and (min-width: 667px) {
+    .tempProf_2 .tempProf_tit {
+      font-size: 22px; } }
+.tempProf_2 .tempProf_txtMore {
+  display: inline-block;
+  width: 110px;
+  font-size: 13px;
+  color: #d2587d;
+  border: 2px solid #d2587d;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  background: url("https://test.eva.vn/images/responsive/icoMore.png") no-repeat 93%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  text-align: left; }
+  @media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_txtMore {
+      font-size: 15px;
+      width: 120px; } }
+  @media screen and (min-width: 480px) {
+    .tempProf_2 .tempProf_txtMore {
+      font-size: 19px;
+      width: 140px; } }
+  @media screen and (min-width: 667px) {
+    .tempProf_2 .tempProf_txtMore {
+      font-size: 21px;
+      width: 150px; } }
+.tempProf_2 .sapo {
+  font-size: 13px; }
+  @media screen and (min-width: 375px) {
+    .tempProf_2 .sapo {
+      font-size: 15px; } }
+  @media screen and (min-width: 480px) {
+    .tempProf_2 .sapo {
+      font-size: 19px; } }
+  @media screen and (min-width: 667px) {
+    .tempProf_2 .sapo {
+      font-size: 21px; } }

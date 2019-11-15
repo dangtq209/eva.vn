@@ -1,0 +1,65 @@
+/*Begin template op1411*/
+@font-face {
+	font-family: UTM Androgyne;
+	src:url('../fonts/UTM Androgyne.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.sknb_op1411{
+	margin-bottom: 10px;
+	header{
+		background: url('../images/op1411_top.gif') no-repeat;
+		height: 142px;
+		position: relative;
+	}
+	.list{
+		background: url('../images/op1411_center.jpg') no-repeat;
+		background-size: 100% 100%;
+		padding: 15px 22px 0;
+		article{
+			display: flex;
+			.icoFlower{
+				width: 18px;
+				height: 15px;
+				background: url('../images/icoFlower.png') no-repeat;
+				margin-right: 10px;
+				margin-top: 6px;
+				cursor: pointer;
+			}
+			.icoDot{
+				width: 10px;
+				height: 9px;
+				background-color: #1c5463;
+				margin-right: 10px;
+				margin-left: 4px;
+				margin-top: 8px;
+				border-radius: 50%;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				-o-border-radius: 50%;
+				cursor: pointer;
+			}
+			a{
+				color: #616161;
+				font-family: UTM Androgyne,'Open Sans',sans-serif;
+				line-height: 1.4;
+				padding-bottom: 5px;
+				margin-bottom: 12px;
+				width: 100%;
+				font-size: 15px;
+			}
+			&:last-child a{
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			&:hover a{
+				color: #d2577e;
+			}
+		}
+	}
+	.footBg{
+		background-image: url('../images/op1411_bottom.jpg');
+		height: 177px;
+	}
+}
+/*End template op1411*/

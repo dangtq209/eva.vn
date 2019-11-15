@@ -1,0 +1,27 @@
+.template_profile_title {
+  font-size: 27px;
+  color: #e26d8d;
+  background: url("../images/line_template_profile_2.png") no-repeat;
+  margin-bottom: 25px;
+  text-align: center;
+  height: 31px;
+  line-height: 29px;
+  padding-left: 15px; }
+  .template_profile_title.template_profile_title2 {
+    background-image: url("../images/line_template_profile_2b.png"); }
+
+.template_profile_txtMore {
+  display: inline-block;
+  width: 118px;
+  font-size: 15px;
+  color: #d2587d;
+  border: 2px solid #d2587d;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  background: url("https://test.eva.vn/images/responsive/icoMore.png") no-repeat 93%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 30px 0; }
