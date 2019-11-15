@@ -73,25 +73,39 @@
 
     //
     .tempProf_tit{
-        font-size: 14px;
+        font-size: 17px;
         color: #e26d8d;
-        background: url('../images/line_template_profile_2.png') no-repeat;
-        background-size: 100% 100%;
         margin: 15px 10px 5px;
         text-align: center;
         line-height: 15px;
-        padding-left: 10px;
-        &.tempProf_tit2{
-            background-image: url('../images/line_template_profile_2b.png');
+        display: flex;
+        .imgLineLeft{
+            display: inline-block;
+            background: url('../images/line_template_profile_2x.png') no-repeat;
+            background-size: auto 100%;
+            min-width: 16%;
+            @media screen and (min-width: 375px) {
+                min-width: 14%;
+            }
+        }
+        .imgLineRight{
+            @extend .imgLineLeft;
+            background-image: url('../images/line_template_profile_2xb.png');
+            background-position: right;
+        }
+        .tempProf_tit_name{
+            flex-grow: 1;
+            width: 100%;
+            margin-top: -3px;
         }
         @media screen and (min-width: 375px) {
-            font-size: 16px;
+            font-size: 19px;
         }
         @media screen and (min-width: 480px) {
-            font-size: 20px;
+            font-size: 23px;
         }
         @media screen and (min-width: 667px) {
-            font-size: 22px;
+            font-size: 25px;
         }
     }
     .tempProf_txtMore{
