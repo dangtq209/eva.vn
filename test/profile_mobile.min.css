@@ -1,0 +1,365 @@
+.disBlock{
+    display:block!important;;
+}
+.expertTit {
+    font-size: 24px;
+    color: #d2587e;
+    margin: 15px 10px;
+    font-family: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media screen and (min-width: 375px) {
+    .expertTit {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expertTit {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expertTit {
+        font-size: 32px;
+    }
+}
+
+.expertImg {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.2s;
+}
+
+.expertImg.active {
+    border: 3px solid #d2577f;
+    box-shadow: 0px 0px 7px #999;
+}
+
+.viewMore {
+    display: inline-block;
+    font-size: 15px;
+    color: #d0597e;
+    padding: 5px 25px;
+    border: 1px solid #d0597e;
+    margin: 10px 0 20px;
+}
+
+@media screen and (min-width: 375px) {
+    .viewMore {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .viewMore {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .viewMore {
+        font-size: 23px;
+    }
+}
+
+.expert {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.expert .flex {
+    justify-content: space-between;
+    margin: 0 -5px 20px 23px;
+}
+
+.expert .flex .item {
+    margin: 0;
+    text-align: center;
+}
+
+.expert .flex .item .doctorName {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    width: 78px;
+}
+
+@media screen and (min-width: 375px) {
+    .expert .flex .item .doctorName {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expert .flex .item .doctorName {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expert .flex .item .doctorName {
+        font-size: 20px;
+    }
+}
+
+.expert .flex .item.active .expertImg {
+    border: 3px solid #d2577f;
+    box-shadow: 0px 0px 7px #999;
+}
+
+.expert .flex .item.active .doctorName {
+    color: #d2577f;
+}
+
+.expert .icoPrev,
+.expert .icoNext {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background: url("https://test.eva.vn/images/responsive/icoPrevM.png") no-repeat;
+    margin-right: 14px;
+}
+
+.expert .icoNext {
+    background-image: url("https://test.eva.vn/images/responsive/icoNextM.png");
+    margin-left: 14px;
+    margin-right: 0;
+}
+
+.expert .pgNumb {
+    font-size: 16px;
+    color: #e083b3;
+    vertical-align: 2px;
+}
+
+@media screen and (min-width: 375px) {
+    .expert .pgNumb {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expert .pgNumb {
+        font-size: 22px;
+        vertical-align: unset;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expert .pgNumb {
+        font-size: 24px;
+    }
+}
+
+.expert .txtMore {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+    vertical-align: 2px;
+    color: #212121;
+    padding: 8px 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid #212121;
+}
+
+@media screen and (min-width: 375px) {
+    .expert .txtMore {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expert .txtMore {
+        font-size: 19px;
+        vertical-align: unset;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expert .txtMore {
+        font-size: 21px;
+    }
+}
+
+.listExpert {
+    background-color: #f2f2f2;
+    padding: 10px 10px 0;
+}
+
+.listExpert .expertTit {
+    margin: 0;
+}
+
+.listExpert .lin {
+    border-color: #d7d7d7;
+    margin: 10px 0;
+}
+
+.listExpert article .expertImg {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.listExpert article .inner {
+    width: 100px;
+    flex-grow: 1;
+}
+
+.listExpert article .inner .doctorName {
+    display: inline-block;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 375px) {
+    .listExpert article .inner .doctorName {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .listExpert article .inner .doctorName p {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .listExpert article .inner .doctorName p {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+}
+
+.listExpert article .inner .doctorInfo p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 375px) {
+    .listExpert article .inner .doctorInfo p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .listExpert article .inner .doctorInfo p {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .listExpert article .inner .doctorInfo p {
+        font-size: 22px;
+        margin-top: 0px;
+    }
+}
+
+.listExpert article .inner .detail {
+    text-align: right;
+}
+
+.listExpert article .inner .detail a {
+    font-style: italic;
+    color: #d2577f;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+    .listExpert article .inner .detail a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .listExpert article .inner .detail a {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .listExpert article .inner .detail a {
+        font-size: 24px;
+    }
+}
+
+.sick {
+    border: 1px solid #d0597e;
+    padding: 10px 10px 0;
+    margin: 15px 1px 10px;
+}
+
+.sick .expertTit {
+    margin: 0 0 20px 0;
+}
+
+.sick .item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.sick .item img, .box_benh_thuong_gap_more .item a img {
+    max-width: 62px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.box_benh_thuong_gap_more .item a img{
+    width: 62px;
+    object-fit: cover;
+}
+.sick .item .sickName {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+}
+
+@media screen and (min-width: 375px) {
+    .sick .item .sickName {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .sick .item .sickName {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .sick .item .sickName {
+        font-size: 24px;
+    }
+}
+.expertImg img{
+    height: 78px;
+    object-fit: cover;
+}
+.box_chuyen_gia_full .expertImg img{
+    height: 100px;
+    object-fit: cover;
+    width: 100%;
+}
+.box_chuyen_gia_rut_gon .swiper-slide {
+    width: 122px;
+    margin: initial;
+}
+.box_chuyen_gia_more .inner, .box_benh_thuong_gap_more .item{
+    text-align: left;
+}

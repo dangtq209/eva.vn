@@ -1,0 +1,648 @@
+
+.disBlock{
+    display:block!important;;
+}
+.expertTit {
+    font-size: 24px;
+    color: #d2587e;
+    margin: 15px 10px;
+    font-family: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media screen and (min-width: 375px) {
+    .expertTit {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expertTit {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expertTit {
+        font-size: 32px;
+    }
+}
+
+.expertImg {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.2s;
+}
+
+.expertImg.active {
+    border: 3px solid #d2577f;
+    box-shadow: 0px 0px 7px #999;
+}
+
+.viewMore {
+    display: inline-block;
+    font-size: 15px;
+    color: #d0597e;
+    padding: 5px 25px;
+    border: 1px solid #d0597e;
+    margin: 10px 0 20px;
+}
+
+@media screen and (min-width: 375px) {
+    .viewMore {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .viewMore {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .viewMore {
+        font-size: 23px;
+    }
+}
+
+.expert {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.expert .flex {
+    justify-content: space-between;
+    margin: 0 -5px 20px 23px;
+}
+
+.expert .flex .item {
+    margin: 0;
+    text-align: center;
+}
+
+.expert .flex .item .doctorName {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    width: 78px;
+}
+
+@media screen and (min-width: 375px) {
+    .expert .flex .item .doctorName {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expert .flex .item .doctorName {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expert .flex .item .doctorName {
+        font-size: 20px;
+    }
+}
+
+.expert .flex .item.active .expertImg {
+    border: 3px solid #d2577f;
+    box-shadow: 0px 0px 7px #999;
+}
+
+.expert .flex .item.active .doctorName {
+    color: #d2577f;
+}
+
+.expert .icoPrev,
+.expert .icoNext {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background: url("https://test.eva.vn/images/responsive/icoPrevM.png") no-repeat;
+    margin-right: 14px;
+}
+
+.expert .icoNext {
+    background-image: url("https://test.eva.vn/images/responsive/icoNextM.png");
+    margin-left: 14px;
+    margin-right: 0;
+}
+
+.expert .pgNumb {
+    font-size: 16px;
+    color: #e083b3;
+    vertical-align: 2px;
+}
+
+@media screen and (min-width: 375px) {
+    .expert .pgNumb {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expert .pgNumb {
+        font-size: 22px;
+        vertical-align: unset;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expert .pgNumb {
+        font-size: 24px;
+    }
+}
+
+.expert .txtMore {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+    vertical-align: 2px;
+    color: #212121;
+    padding: 8px 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid #212121;
+}
+
+@media screen and (min-width: 375px) {
+    .expert .txtMore {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .expert .txtMore {
+        font-size: 19px;
+        vertical-align: unset;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .expert .txtMore {
+        font-size: 21px;
+    }
+}
+
+.listExpert {
+    background-color: #f2f2f2;
+    padding: 10px 10px 0;
+}
+
+.listExpert .expertTit {
+    margin: 0;
+}
+
+.listExpert .lin {
+    border-color: #d7d7d7;
+    margin: 10px 0;
+}
+
+.listExpert article .expertImg {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.listExpert article .inner {
+    width: 100px;
+    flex-grow: 1;
+}
+
+.listExpert article .inner .doctorName {
+    display: inline-block;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 375px) {
+    .listExpert article .inner .doctorName {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .listExpert article .inner .doctorName p {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .listExpert article .inner .doctorName p {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+}
+
+.listExpert article .inner .doctorInfo p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 375px) {
+    .listExpert article .inner .doctorInfo p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .listExpert article .inner .doctorInfo p {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .listExpert article .inner .doctorInfo p {
+        font-size: 22px;
+        margin-top: 0px;
+    }
+}
+
+.listExpert article .inner .detail {
+    text-align: right;
+}
+
+.listExpert article .inner .detail a {
+    font-style: italic;
+    color: #d2577f;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+    .listExpert article .inner .detail a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .listExpert article .inner .detail a {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .listExpert article .inner .detail a {
+        font-size: 24px;
+    }
+}
+
+.sick {
+    border: 1px solid #d0597e;
+    padding: 10px 10px 0;
+    margin: 15px 1px 10px;
+}
+
+.sick .expertTit {
+    margin: 0 0 20px 0;
+}
+
+.sick .item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.sick .item img, .box_benh_thuong_gap_more .item a img {
+    max-width: 62px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.box_benh_thuong_gap_more .item a img{
+    width: 62px;
+    object-fit: cover;
+}
+.sick .item .sickName {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+}
+
+@media screen and (min-width: 375px) {
+    .sick .item .sickName {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .sick .item .sickName {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .sick .item .sickName {
+        font-size: 24px;
+    }
+}
+.expertImg img{
+    height: 78px;
+    object-fit: cover;
+}
+.box_chuyen_gia_full .expertImg img{
+    height: 100px;
+    object-fit: cover;
+    width: 100%;
+}
+.box_chuyen_gia_rut_gon .swiper-slide {
+    width: 122px;
+    margin: initial;
+}
+.box_chuyen_gia_more .inner, .box_benh_thuong_gap_more .item{
+    text-align: left;
+}
+.flex {
+    width: 100%;
+    display: flex;
+}
+.box_bai_chuyen_gia .swpContnr{
+    display: flex;
+}
+.box_bai_chuyen_gia i-amphtml-sizer{
+    padding-top: 45%!important;
+}
+@media screen and (max-width: 320px) {
+    .box_bai_chuyen_gia i-amphtml-sizer{
+        padding-top: 49%!important;
+    }
+}
+@media screen and (min-width: 414px) {
+    .box_bai_chuyen_gia i-amphtml-sizer{
+        padding-top: 39%!important;
+    }
+}
+@media screen and (min-width: 480px) {
+    .box_bai_chuyen_gia i-amphtml-sizer{
+        padding-top: 31%!important;
+    }
+}
+@media screen and (min-width: 640px) {
+    .box_bai_chuyen_gia i-amphtml-sizer{
+        padding-top: 23%!important;
+    }
+}
+@media screen and (min-width: 736px) {
+    .box_bai_chuyen_gia i-amphtml-sizer{
+        padding-top: 21%!important;
+    }
+}
+.template-dac-biet-2 .itBthBxCt{
+    padding: 0;
+}
+.template-dac-biet-2 .i-amphtml-slide-item{
+    padding: 0 10px;
+}
+.itBthBxCt .boxLt{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;    
+    text-align: center;
+}
+.itBthBxCt .boxRt {
+    float: right;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.doctorName {
+    display: block!important;
+    font-size: 12px;
+    color: #000;
+    width: 100%;
+}
+.box_bai_chuyen_gia .boxLtImg, .box_bai_chuyen_gia .boxRtImg {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.2s;
+}
+.box_bai_chuyen_gia .boxLtImg amp-img, .box_bai_chuyen_gia .boxLtImg img, .box_bai_chuyen_gia .boxRtImg amp-img, .box_bai_chuyen_gia .boxRtImg img {
+    height: 150px;
+    object-fit: cover!important;
+}
+/*BEGIN xu_ly_hien_thi_template_dac_biet_2*/
+@media screen and (min-width: 375px) {
+    .tempProf_2 a.clrTit {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 a.clrTit {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 a.clrTit {
+        font-size: 23px;
+    }
+}
+
+.tempProf_2 .boxTop-prf {
+    padding: 10px 9px 30px 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt {
+    display: flex;
+    width: 125%;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt article {
+    margin: 0;
+    width: 100%;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt article .boxLtImg {
+    border-bottom: 0;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt article:first-child {
+    margin-right: 12px;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #44687d;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(2) {
+    opacity: 0.8;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(3) {
+    opacity: 0.6;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(4) {
+    opacity: 0.4;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(5) {
+    opacity: 0.2;
+}
+
+.tempProf_2 .tempProf_tit {
+    font-size: 17px;
+    color: #e26d8d;
+    margin: 15px 10px 5px;
+    text-align: center;
+    line-height: 15px;
+    display: flex;
+}
+
+.tempProf_2 .tempProf_tit .imgLineLeft,
+.tempProf_2 .tempProf_tit .imgLineRight {
+    display: inline-block;
+    background: url("//test.eva.vn/images/responsive/line_template_profile_2x.png") no-repeat;
+    background-size: auto 100%;
+    min-width: 16%;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_tit .imgLineLeft,
+    .tempProf_2 .tempProf_tit .imgLineRight {
+        min-width: 14%;
+    }
+}
+
+.tempProf_2 .tempProf_tit .imgLineRight {
+    background-image: url("//test.eva.vn/images/responsive/line_template_profile_2xb.png");
+    background-position: right;
+}
+
+.tempProf_2 .tempProf_tit .tempProf_tit_name {
+    flex-grow: 1;
+    width: 100%;
+    margin-top: -3px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_tit {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 .tempProf_tit {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 .tempProf_tit {
+        font-size: 25px;
+    }
+}
+
+.tempProf_2 .tempProf_txtMore {
+    display: inline-block;
+    width: 110px;
+    font-size: 13px;
+    color: #d2587d;
+    border: 2px solid #d2587d;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: url("https://test.eva.vn/images/responsive/icoMore.png") no-repeat 93%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_txtMore {
+        font-size: 15px;
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 .tempProf_txtMore {
+        font-size: 19px;
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 .tempProf_txtMore {
+        font-size: 21px;
+        width: 150px;
+    }
+}
+
+.tempProf_2 .sapo {
+    font-size: 13px;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .sapo {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 .sapo {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 .sapo {
+        font-size: 21px;
+    }
+}
+.template_dac_biet_2 .swiper-slide{
+    width: 65%;
+    position: relative;
+    margin: initial;
+    max-height: 100%;
+}
+.pagination-template-dac-biet-2 {
+    bottom: 0px;
+    display: block;
+    width: 100%;
+}
+.pagination-template-dac-biet-2  .swiper-pagination-bullet{
+    margin-left: 5px;
+    color: transparent;
+    background: #d0597e;
+}
+.tempProf_tit_name a {
+    color: #e26d8d;
+}
+.rlt{
+    position: relative;
+}
+/*END xu_ly_hien_thi_template_dac_biet_2*/
