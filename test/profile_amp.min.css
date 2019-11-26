@@ -2,6 +2,24 @@
 .disBlock{
     display:block!important;;
 }
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    src: url("//image.eva.vn/css/fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    src: url("//image.eva.vn/css/fonts/Oswald-SemiBold.ttf");
+}
 .expertTit {
     font-size: 24px;
     color: #d2587e;
@@ -75,10 +93,13 @@
     overflow: hidden;
     margin-bottom: 15px;
 }
+.txtCent.expert{
+    margin-bottom: 0;
+}
 
 .expert .flex {
     justify-content: space-between;
-    margin: 0 -5px 20px 23px;
+    margin: 20px -5px 20px 23px;
 }
 
 .expert .flex .item {
@@ -88,27 +109,27 @@
 
 .expert .flex .item .doctorName {
     display: block;
-    font-size: 12px;
+    font-size: 12px!important;
     color: #000;
     width: 78px;
 }
 
 @media screen and (min-width: 375px) {
     .expert .flex .item .doctorName {
-        font-size: 14px;
+        font-size: 14px!important;
     }
 }
 
 @media screen and (min-width: 480px) {
     .expert .flex .item .doctorName {
-        font-size: 18px;
+        font-size: 18px!important;
         width: 100%;
     }
 }
 
 @media screen and (min-width: 667px) {
     .expert .flex .item .doctorName {
-        font-size: 20px;
+        font-size: 20px!important;
     }
 }
 
@@ -220,14 +241,14 @@
 
 .listExpert article .inner .doctorName {
     display: inline-block;
-    font-size: 17px;
+    font-size: 17px!important;
     color: #000;
     margin-bottom: 10px;
 }
 
 @media screen and (min-width: 375px) {
     .listExpert article .inner .doctorName {
-        font-size: 19px;
+        font-size: 19px!important;
     }
 }
 
@@ -316,7 +337,7 @@
     padding-left: 20px;
 }
 
-.sick .item img, .box_benh_thuong_gap_more .item a img {
+.sick .item img, .box_benh_thuong_gap_more .item a img, .sick .item amp-img {
     max-width: 62px;
     vertical-align: middle;
     display: inline-block;
@@ -325,10 +346,17 @@
     width: 62px;
     object-fit: cover;
 }
+.sick .item a{
+    display: flex;
+}
+.sick .item a *{
+    margin: 0;
+}
 .sick .item .sickName {
     font-size: 16px;
     color: #000;
     display: inline-block;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 375px) {
@@ -368,25 +396,28 @@
     width: 100%;
     display: flex;
 }
+.box_bai_chuyen_gia, .bg_box_bai_chuyen_gia{
+    padding-bottom: 0;
+}
 .box_bai_chuyen_gia .swpContnr{
     display: flex;
 }
 .box_bai_chuyen_gia i-amphtml-sizer{
-    padding-top: 45%!important;
+    padding-top: 40%!important;
 }
 @media screen and (max-width: 320px) {
     .box_bai_chuyen_gia i-amphtml-sizer{
-        padding-top: 49%!important;
+        padding-top: 45%!important;
     }
 }
 @media screen and (min-width: 414px) {
     .box_bai_chuyen_gia i-amphtml-sizer{
-        padding-top: 39%!important;
+        padding-top: 35%!important;
     }
 }
 @media screen and (min-width: 480px) {
     .box_bai_chuyen_gia i-amphtml-sizer{
-        padding-top: 31%!important;
+        padding-top: 25%!important;
     }
 }
 @media screen and (min-width: 640px) {
@@ -421,14 +452,30 @@
 }
 .doctorName {
     display: block!important;
-    font-size: 12px;
+    font-size: 12px!important;
     color: #000;
     width: 100%;
 }
-.box_bai_chuyen_gia .boxLtImg, .box_bai_chuyen_gia .boxRtImg {
+@media screen and (min-width: 375px) {
+    .doctorName {
+        font-size: 14px!important;
+    }
+}
+@media screen and (min-width: 480px) {
+    .doctorName {
+        font-size: 18px!important;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 667px) {
+    .doctorName {
+        font-size: 20px!important;
+    }
+}
+.box_bai_chuyen_gia .boxLtImg, .box_bai_chuyen_gia .boxRtImg, .box_bai_chuyen_gia .box_xem_them_chuyen_gia {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 78px;
+    height: 78px;
     overflow: hidden;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -436,8 +483,15 @@
     -o-border-radius: 50%;
     transition: 0.2s;
 }
+.box_bai_chuyen_gia .boxLtImg a{
+    height: 100%;
+}
 .box_bai_chuyen_gia .boxLtImg amp-img, .box_bai_chuyen_gia .boxLtImg img, .box_bai_chuyen_gia .boxRtImg amp-img, .box_bai_chuyen_gia .boxRtImg img {
-    height: 150px;
+    height: 100%;
+    object-fit: cover!important;
+}
+.box_bai_chuyen_gia .box_xem_them_chuyen_gia amp-img, .box_bai_chuyen_gia .box_xem_them_chuyen_gia img{
+    height: 100px;
     object-fit: cover!important;
 }
 /*BEGIN xu_ly_hien_thi_template_dac_biet_2*/
@@ -644,5 +698,8 @@
 }
 .rlt{
     position: relative;
+}
+.vidSet .boxLtImg:before{
+    background: none;
 }
 /*END xu_ly_hien_thi_template_dac_biet_2*/

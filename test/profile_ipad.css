@@ -1,4 +1,6 @@
-
+body{
+    line-height: unset;
+}
 .disBlock {
     display: block !important;
 }
@@ -41,7 +43,7 @@
 
 .expert .expertInner .flex {
     justify-content: space-between;
-    padding: 0 50px 7px;
+    padding: 20px 50px 7px;
 }
 
 .expert .expertInner .flex .icoVidPrv,
@@ -178,6 +180,9 @@
 .box_bai_viet_chuyen_gia .swiper-slide {
     width: 120px;
     margin: initial;
+}
+.profile_thuong .listExpert .pgpge{
+    padding-bottom: 10px;
 }
 /*# sourceMappingURL=bai_chuyen_gia.css.map */
 /* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
