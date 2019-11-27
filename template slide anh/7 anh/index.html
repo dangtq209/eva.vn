@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template Slide Images</title>
+	<script type="text/javascript" src="jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="slideImg type03 type05">
+		<div class="row row1">
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="08-15681149565741138592082.jpg"><img class="loaded" data-src="08-15681149565741138592082.jpg" alt="" src="08-15681149565741138592082.jpg" data-was-processed="true"></a>
+			</div>
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="09-15681149565771495778052.jpg"><img class="loaded" data-src="09-15681149565771495778052.jpg" alt="" src="09-15681149565771495778052.jpg" data-was-processed="true"></a>
+			</div>
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="10-15681150879511731543990.jpg"><img class="loaded" data-src="10-15681150879511731543990.jpg" alt="" src="10-15681150879511731543990.jpg" data-was-processed="true"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="08-15681149565741138592082.jpg"><img class="loaded" data-src="08-15681149565741138592082.jpg" alt="" src="08-15681149565741138592082.jpg" data-was-processed="true"></a>
+			</div>
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="09-15681149565771495778052.jpg"><img class="loaded" data-src="09-15681149565771495778052.jpg" alt="" src="09-15681149565771495778052.jpg" data-was-processed="true"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="08-15681149565741138592082.jpg"><img class="loaded" data-src="08-15681149565741138592082.jpg" alt="" src="08-15681149565741138592082.jpg" data-was-processed="true"></a>
+			</div>
+			<div class="item width-100">
+				<a class="fancybox width-100" rel="type05" href="09-15681149565771495778052.jpg"><img class="loaded" data-src="09-15681149565771495778052.jpg" alt="" src="09-15681149565771495778052.jpg" data-was-processed="true"></a>
+			</div>
+		</div>
+	</section>
+	<!-- / -->
+	<script>
+		$(document).ready(function() {
+			$(".fancybox").fancybox({
+				prevEffect: 'none',
+				nextEffect: 'none',
+				padding: 0,
+				helpers: {
+					overlay: {
+						css: {
+							'background' : '#fff'
+						}
+					}
+				}
+			});
+		});
+
+    //
+    document.addEventListener("DOMContentLoaded", function() {
+    	var lazyloadImages = document.querySelectorAll(".fancybox img");    
+    	var lazyloadThrottleTimeout;
+
+    	function lazyload () {
+    		if(lazyloadThrottleTimeout) {
+    			clearTimeout(lazyloadThrottleTimeout);
+    		}    
+
+    		lazyloadThrottleTimeout = setTimeout(function() {
+    			var scrollTop = window.pageYOffset;
+    			lazyloadImages.forEach(function(img) {
+    				if(img.offsetTop < (window.innerHeight + scrollTop)) {
+    					img.src = img.dataset.src;
+    					img.classList.remove('lazy');
+    				}
+    			});
+    			if(lazyloadImages.length == 0) { 
+    				document.removeEventListener("scroll", lazyload);
+    				window.removeEventListener("resize", lazyload);
+    				window.removeEventListener("orientationChange", lazyload);
+    			}
+    		}, 20);
+    	}
+
+    	document.addEventListener("scroll", lazyload);
+    	window.addEventListener("resize", lazyload);
+    	window.addEventListener("orientationChange", lazyload);
+    });
+</script>
+</body>
+</html>
