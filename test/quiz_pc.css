@@ -183,6 +183,7 @@ a.quiz-question-item-link {
     width: 50%;
         float: left;
     margin-bottom: 1%;
+    margin-top: 15px;
 }
 .inner-body-list-quiz-cung {
     padding: 2%;
@@ -192,6 +193,7 @@ a.quiz-question-item-link {
     text-align: center;
     color: #000;
     padding: 5px;
+    line-height: 1.4;
 }
 .inner-body-list-quiz-cung a img {
     width: inherit;
@@ -401,3 +403,9 @@ a.quiz-question-item-link {
     margin-bottom: 1%;
 }
 /* end 1/2/2018 TuyenNT fix_hien_thi_anh_trong_noi_dung_bai_quiz */
+
+/*Begin 28/11/2019: dangtq sua_bookmark_bai_quizz*/
+.body-quiz-cung{
+    padding-top: 60px;
+}
+/*End 28/11/2019: dangtq sua_bookmark_bai_quizz*/

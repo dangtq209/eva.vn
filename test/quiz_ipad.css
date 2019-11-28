@@ -207,6 +207,7 @@ a.quiz-question-item-link {
     width: 50%;
         float: left;
     margin-bottom: 1%;
+    margin-top: 15px;
 }
 .inner-body-list-quiz-cung {
     padding: 2%;
@@ -225,6 +226,7 @@ a.quiz-question-item-link {
     padding: 5px;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.4;
 }
 .flip-container{-webkit-perspective:1000;-moz-perspective:1000;perspective:1000}
 .flipper{-webkit-transition:.6s;-moz-transition:.6s;transition:.6s;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;position:relative}
@@ -434,3 +436,9 @@ a.quiz-question-item-link {
     margin-bottom: 1%;
 }
 /* end 1/2/2018 TuyenNT fix_hien_thi_anh_trong_noi_dung_bai_quiz */
+
+/*Begin 28/11/2019: dangtq sua_bookmark_bai_quizz*/
+.body-quiz-cung{
+    padding-top: 60px;
+}
+/*End 28/11/2019: dangtq sua_bookmark_bai_quizz*/
