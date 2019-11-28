@@ -83,12 +83,13 @@ body{
 
 .expert .flex {
     justify-content: space-between;
-    margin: 20px -5px 20px 23px;
+    margin: 20px -5px 20px 0px;
 }
 
 .expert .flex .item {
     margin: 0;
     text-align: center;
+    margin-right: 20px;
 }
 
 .expert .flex .item .doctorName {
