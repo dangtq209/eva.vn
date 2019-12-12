@@ -1,0 +1,79 @@
+/*Begin template op1212*/
+@font-face {
+	font-family: UTM Androgyne;
+	src:url('../fonts/UTM Androgyne.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@keyframes glowing_display{
+	0%,100% { opacity: 0 }
+	50% { opacity: 1 }
+}
+@-webkit-keyframes glowing_display{
+	0%,100% { opacity: 0 }
+	50% { opacity: 1 }
+}
+@-moz-keyframes glowing_display{
+	0%,100% { opacity: 0 }
+	50% { opacity: 1 }
+}
+@-o-keyframes glowing_display{
+	0%,100% { opacity: 0 }
+	50% { opacity: 1 }
+}
+.sknb_op1212{
+	margin-bottom: 10px;
+	header{
+		background: url('../images/op1212_top.jpg') no-repeat;
+		height: 178px;
+		position: relative;
+		.txt{
+			display: inline-block;
+			background: url("../images/op1212_text.png") no-repeat;
+			width: 163px;
+			height: 51px;
+			position: absolute;
+			top: 105px;
+			left: 65px;
+			animation: glowing_display 900ms infinite;
+			-webkit-animation: glowing_display 900ms infinite;
+			-moz-animation: glowing_display 900ms infinite;
+			-o-animation: glowing_display 900ms infinite;
+		}
+	}
+	.list{
+		background: url('../images/op1212_center.jpg') no-repeat;
+		background-size: 100% 100%;
+		margin-top: -1px;
+		padding: 0px 20px 0 28px;
+		article{
+			.icoDot{
+				width: 12px;
+				height: 11px;
+				background: url(../images/icoStarRed.png) no-repeat;
+				margin: 7px 8px 0 0;
+			}
+			a{
+				color: #616161;
+				font-family: UTM Androgyne,'Open Sans',sans-serif;
+				line-height: 1.4;
+				padding-bottom: 5px;
+				margin-bottom: 12px;
+				width: 100%;
+				font-size: 15px;
+				&:hover{
+					color: #d2577e;
+				}
+			}
+			&:last-child a{
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+	.footBg{
+		background-image: url('../images/op1212_bottom.jpg');
+		height: 196px;
+	}
+}
+/*End template op1212*/
