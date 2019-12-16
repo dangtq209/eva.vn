@@ -4270,3 +4270,29 @@ p.linkOrigin .icoDrop {
 .banrTop {
     width: 1016px;
 }
+.hdr_contnr_up .tpmnRt ul li:hover #div_menu_c2_header_85{
+    display:block!important;
+}
+#div_menu_c2_header_85 {  
+    position: absolute;
+    top: 50px;
+    left: -35px;
+    z-index: 1;
+}
+#div_menu_c2_header_85 li a{
+    font-size: 14.5px;
+    padding: 0 10px;
+}
+#div_menu_c2_header_85 .brcrmlstuldncm{
+    width: 50%;
+    float: left;
+    padding-bottom: 0px!important;
+    line-height: 2;
+}
+#div_menu_c2_header_85 ul li {
+    margin-right: 0px;
+    width: 100%;
+}
+#div_menu_c2_header_85 ul>li:hover>a {
+    color: #d2577e;
+}
