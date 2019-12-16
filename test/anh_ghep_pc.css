@@ -55,29 +55,28 @@
     width: 215%; }
   .slideImg.type09 .row2 .item:first-child {
     width: 60%; }
-    .sp-img-zoom {
+     .sp-img-zoom {
         cursor: zoom-in;
         cursor: -webkit-zoom-in;
         cursor: -moz-zoom-in;
     }
     .fancybox-image{cursor:zoom-out;cursor:-webkit-zoom-out;cursor:-moz-zoom-out;}
-    .fancybox-opening{opacity:1;display:block;}
+    .fancybox-opening{opacity:1!important;}
     .fancybox-closing{opacity:0!important;}
-    .fancybox-next, .lightbox .lb-next {
-        cursor: url(https://kenh14cdn.com/web_images/sp-next-cursor.png),auto!important;
+    .fancybox-nav span{
+      visibility: visible!important;
     }
-    .fancybox-prev, .lightbox .lb-prev {
-        cursor: url(https://kenh14cdn.com/web_images/sp-prev-cursor.png),auto!important;
+    .fancybox-prev span, .fancybox-next span{
+      background: url(https://cdn.eva.vn/images/responsive/sprites_pc.png) -120px -66px!important;
+      width: 50px!important;
+      height: 50px!important;
     }
-    .fancybox-nav:hover span {
-        visibility: collapse!important;
-    }
-    .fancybox-nav{
-        width:55%!important;
+    .fancybox-next span{
+      background: url(https://cdn.eva.vn/images/responsive/sprites_pc.png) -65px -66px!important;
     }
     .fancybox-next {
-        right: -30%!important;
+        right: -18%!important;
     }
     .fancybox-prev {
-        left: -30%!important;
+        left: -18%!important;
     }
