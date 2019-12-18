@@ -1,0 +1,81 @@
+/*Begin template op1812*/
+@font-face {
+  font-family: UTM Androgyne;
+  src: url("../fonts/UTM Androgyne.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+@-webkit-keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+@-moz-keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+@-o-keyframes glowing_display {
+  0%,100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+.sknb_op1812 {
+  margin-bottom: 10px; }
+  .sknb_op1812 header {
+    background: url("../images/op1812_top.jpg") no-repeat;
+    height: 215px;
+    position: relative; }
+    .sknb_op1812 header .txt {
+      display: inline-block;
+      background: url("../images/op1812_text.png") no-repeat;
+      width: 150px;
+      height: 49px;
+      position: absolute;
+      top: 160px;
+      left: 75px;
+      animation: glowing_display 900ms infinite;
+      -webkit-animation: glowing_display 900ms infinite;
+      -moz-animation: glowing_display 900ms infinite;
+      -o-animation: glowing_display 900ms infinite; }
+  .sknb_op1812 .list {
+    background: url("../images/op1812_bottom.jpg") no-repeat;
+    background-size: cover;
+    padding: 0 15px 70px; }
+    .sknb_op1812 .list .inner {
+      background-color: rgba(255, 255, 255, 0.5411764706);
+      padding: 15px 11px 43px;
+      border-radius: 20px;
+      position: relative; }
+      .sknb_op1812 .list .inner:after {
+        content: '';
+        width: 85px;
+        height: 111px;
+        position: absolute;
+        bottom: -58px;
+        right: 0;
+        background: url("../images/op1812_logo.png") no-repeat; }
+      .sknb_op1812 .list .inner article .icoDot {
+        width: 12px;
+        height: 11px;
+        background: url("../images/icoStarPink.png") no-repeat;
+        margin: 7px 8px 0 0; }
+      .sknb_op1812 .list .inner article a {
+        color: #616161;
+        font-family: UTM Androgyne,'Open Sans',sans-serif;
+        line-height: 1.4;
+        padding-bottom: 5px;
+        margin-bottom: 12px;
+        width: 100%;
+        font-size: 15px; }
+        .sknb_op1812 .list .inner article a:hover {
+          color: #d2577e; }
+      .sknb_op1812 .list .inner article:last-child a {
+        padding-bottom: 0;
+        margin-bottom: 0; }
+
+/*End template op1812*/
