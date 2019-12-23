@@ -1,0 +1,707 @@
+#home .image-trangchu img{
+    width: 100%;
+    height: auto;
+}
+#home .trangchu-nen{
+    position: relative;
+}
+#home .trangchu-components .masthead{
+    position: absolute;top: 1.8%;
+    width: 74.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#home .trangchu-components .double-float-left{
+    position: absolute;
+    top: 8%;
+    left: 1.5%;
+    width: 11%;
+}
+#home .trangchu-components .double-float-right{
+    position: absolute;
+    top: 8%;
+    left: 87.5%;
+    width: 11%;
+}
+#home .trangchu-components .hotbanner{
+    position: absolute;
+    top: 8%;
+    width: 22.5%;
+    left: 65%;
+}
+#home .trangchu-components .medium-rectangle1{
+    position: absolute;
+    top: 22.8%;
+    left: 12.8%;
+    width: 25.5%;
+}
+#home .trangchu-components .medium-rectangle2{
+    position: absolute;
+    top: 54.4%;
+    left: 12%;
+    width: 26%;
+}
+#home .trangchu-components .largerectangle1{
+    position: absolute;
+    top: 34.4%;
+    left: 65%;
+    width: 22.5%;
+}
+#home .trangchu-components .largerectangle2{
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    width: 22.5%;
+}
+#home .trangchu-components .stickybox{
+    position: absolute;
+    top: 69.5%;
+    left: 65%;
+    width: 22.5%;
+}
+#home .content{
+    display: none;
+}
+#home .image-trangchuyenmuc img{
+    width: 100%;
+    height: auto;
+}
+#home .trangchuyenmuc-nen{
+    position: relative;
+}
+#home .trangchuyenmuc-components .masthead{
+    position: absolute;
+    top: 1.7%;
+    width: 63.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#home .trangchuyenmuc-components .double-float-left{
+    position: absolute;
+    top: 8%;
+    left: 4.5%;
+    width: 16%;
+}
+#home .trangchuyenmuc-components .double-float-right{
+    position: absolute;
+    top: 8%;
+    left: 82.5%;
+    width: 16%;
+}
+#home .trangchuyenmuc-components .hotbanner{
+    position: absolute;
+    top: 8%;
+    width: 22.5%;
+    left: 65%;
+}
+#home .trangchuyenmuc-components .medium-rectangle1{
+    position: absolute;
+    top: 19.9%;
+    left: 28.3%;
+    width: 21.5%;
+}
+#home .trangchuyenmuc-components .medium-rectangle2{
+    position: absolute;
+    top: 40.4%;
+    left: 28%;
+    width: 22%;
+}
+#home .trangchuyenmuc-components .largerectangle1{
+    position: absolute;
+    top: 8%;
+    left: 63%;
+    width: 18.6%;
+}
+#home .trangchuyenmuc-components .largerectangle2{
+    position: absolute;
+    top: 40.4%;
+    left: 63%;
+    width: 18.5%;
+}
+#home .trangchuyenmuc-components .stickybox{
+    position: absolute;
+    top: 64.7%;
+    left: 63%;
+    width: 19%;
+}
+/*trang bai viet*/
+#home .image-trangbaiviet img{
+    width: 100%;
+    height: auto;
+}
+#home .trangbaiviet-nen{
+    position: relative;
+}
+#home .trangbaiviet-components .masthead{
+    position: absolute;
+    top: 1.5%;
+    width: 62.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#home .trangbaiviet-components .double-float-left{
+    position: absolute;
+    top: 7.1%;
+    left: 4.5%;
+    width: 16%;
+}
+#home .trangbaiviet-components .double-float-right{
+    position: absolute;
+    top: 7.1%;
+    left: 82%;
+    width: 16%;
+}
+#home .trangbaiviet-components .hotbanner{
+    position: absolute;
+    top: 8%;
+    width: 22.5%;
+    left: 65%;
+}
+#home .trangbaiviet-components .medium-rectangle1{
+    position: absolute;
+    top: 57.3%;
+    left: 28.3%;
+    width: 21.5%;
+}
+#home .trangbaiviet-components .medium-rectangle2{
+    position: absolute;
+    top: 82.2%;
+    left: 28.3%;
+    width: 22%;
+}
+#home .trangbaiviet-components .largerectangle1{
+    position: absolute;
+    top: 7.1%;
+    left: 62.7%;
+    width: 19.3%;
+}
+#home .trangbaiviet-components .largerectangle2{
+    position: absolute;
+    top: 27.8%;
+    left: 63%;
+    width: 19%;
+}
+#home .trangbaiviet-components .stickybox{
+    position: absolute;
+    top: 47.3%;
+    left: 63%;
+    width: 19%;
+}
+#home .trangbaiviet-components .tvc1{
+    position: absolute;
+    top: 12.2%;
+    left: 28.1%;
+    width: 34.1%;
+}
+#home .trangbaiviet-components .tvc2{
+    position: absolute;
+    top: 45%;
+    left: 28.3%;
+    width: 34%;
+}
+#menu1 #mobiletrangchu .image-trangchu .content-iphone{
+    position: absolute;
+    height: 75%;
+    overflow-y: auto;
+    top: 93px;
+    left: 50%;
+    
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchu .image-trangchu{
+    /*position: relative;*/
+    text-align: center;
+}
+
+/*Mobile-Trangchu*/
+#menu1 #mobiletrangchu .image-trangchu .trangchu-nen{
+    /*position: relative;*/
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .masthead{
+    position: absolute;
+    top: 98px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .medium{
+    position: absolute;
+    top: 277.3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .large{
+    position: absolute;
+    top: 1098%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .box{
+    position: absolute;
+    top: 2047%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 .content{
+    display: none;
+}
+/*Mobile-Baiviet*/
+#menu1 #mobiletrangchuyenmuc .image-baiviet .content-iphone{
+    position: absolute;
+    
+    height: 75%;
+    overflow-y: auto;
+    top: 93px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-nen{
+    position: relative;
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .masthead{
+    position: absolute;
+    top: 17.3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .medium{
+    position: absolute;
+    top: 627%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .large{
+    position: absolute;
+    top: 1002.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .box{
+    position: absolute;
+    top: 1248.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .inpage{
+    position: absolute;
+    top: 330%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#trangchu-left-content{
+    margin-top: 80%;
+}
+#trangchu-right-content{
+    margin-top: 80%;
+}
+#trangchu-hotbanner-content{
+    margin-top: 80%;
+}
+#trangchu-medium1-content{
+    margin-top: 255%;
+}
+#trangchu-large1-content{
+    margin-top: 340%;
+}
+#trangchu-large2-content{
+    margin-top: 536%;
+}
+#trangchu-medium2-content{
+    margin-top: 570%;
+}
+#trangchu-stichky-content{
+    margin-top: 690%;
+}
+/*Trang chuyen muc*/
+#trangchuyenmuc-masthead-content{
+    margin-top: 15%;
+}
+#trangchuyenmuc-left-content{
+    margin-top: 68%;
+}
+#trangchuyenmuc-right-content{
+    margin-top: 68%;
+}
+#trangchuyenmuc-large1-content{
+    margin-top: 68%;
+}
+#trangchuyenmuc-medium1-content{
+    margin-top: 168%;
+}
+#trangchuyenmuc-medium2-content{
+    margin-top: 340%;
+}
+#trangchuyenmuc-large2-content{
+    margin-top: 340%;
+}
+#trangchuyenmuc-stichky-content{
+    margin-top: 550%;
+}
+/*Trangbaiviet-content*/
+#trangbaiviet-masthead-content{
+    margin-top: 15%;
+}
+#trangbaiviet-left-content{
+    margin-top: 68%;
+}
+#trangbaiviet-right-content{
+    margin-top: 68%;
+}
+#trangbaiviet-large1-content{
+    margin-top: 68%;
+}
+#trangbaiviet-medium1-content{
+    margin-top: 550%;
+}
+#trangbaiviet-medium2-content{
+    margin-top: 790%;
+}
+#trangbaiviet-large2-content{
+    margin-top: 267%;
+}
+#trangbaiviet-stichky-content{
+    margin-top: 453%;
+}
+#trangbaiviet-tvc1-content{
+    margin-top: 115%;
+}
+#trangbaiviet-tvc2-content{
+    margin-top: 435%;
+}
+#trangchu-masthead-content{
+    margin-top: 18%;
+}
+.baogia .nav-tabs li>a>img{
+    display: inline;
+}
+.baogia .nav-tabs li>a>p{
+    display: inline;
+    padding-left: 10px;
+}
+.dlbaogia{
+    display: inline;
+}
+.dltk{
+    display: inline;
+}
+.table-overflow{
+    overflow-x: auto;
+}
+#home .trangchu-components .masthead{
+    background-color: #e48ca1;
+    height: 6%;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+#home .trangchu-components .double-float-left{
+    background-color: #e48ca1;
+    width: 11%;
+    height: 11%;
+}
+#home .trangchu-components .double-float-right{
+    background-color: #e48ca1;
+    width: 11%;
+    height: 11%;
+}
+#home .trangchu-components .hotbanner{
+    background-color: #e48ca1;
+    width: 22%;
+    height: 11%;
+}
+#home .trangchu-components .medium-rectangle1{
+    background-color: #e48ca1;
+    width: 25%;
+    height: 7%;
+}
+#home .trangchu-components .medium-rectangle2{
+    background-color: #e48ca1;
+    width: 26%;
+    height: 7%;
+}
+#home .trangchu-components .largerectangle1{
+    background-color: #e48ca1;
+    width: 22.5%;
+    height: 14.8%;
+}
+#home .trangchu-components .largerectangle2{
+    background-color: #e48ca1;
+    width: 22.5%;
+    height: 15%;
+}
+#home .trangchu-components .stickybox{
+    background-color: #e48ca1;
+    width: 22.5%;
+    height: 15%;
+}
+
+#home .trangchuyenmuc-components .masthead{
+    background-color: #e48ca1;
+    height: 6.2%;
+}
+#home .trangchuyenmuc-components .double-float-left{
+    background-color: #e48ca1;
+    width: 13%;
+    height: 11%;
+}
+#home .trangchuyenmuc-components .double-float-right{
+    background-color: #e48ca1;
+    width: 13%;
+    height: 11%;
+}
+#home .trangchuyenmuc-components .hotbanner{
+    background-color: #e48ca1;
+    width: 22%;
+    height: 11%;
+}
+#home .trangchuyenmuc-components .medium-rectangle1{
+    background-color: #e48ca1;
+    width: 21.5%;
+    height: 7%;
+}
+#home .trangchuyenmuc-components .medium-rectangle2{
+    background-color: #e48ca1;
+    width: 21.5%;
+    height: 7%;
+}
+#home .trangchuyenmuc-components .largerectangle1{
+    background-color: #e48ca1;
+    width: 19%;
+    height: 15%;
+}
+#home .trangchuyenmuc-components .largerectangle2{
+    background-color: #e48ca1;
+    width: 19%;
+    height: 15%;
+}
+#home .trangchuyenmuc-components .stickybox{
+    background-color: #e48ca1;
+    width: 19%;
+    height: 15%;
+}
+
+#home .trangbaiviet-components .masthead{
+    background-color: #e48ca1;
+    height: 5.5%;
+}
+#home .trangbaiviet-components .double-float-left{
+    background-color: #e48ca1;
+    width: 13%;
+    height: 11%;
+}
+#home .trangbaiviet-components .double-float-right{
+    background-color: #e48ca1;
+    width: 13%;
+    height: 11%;
+}
+#home .trangbaiviet-components .hotbanner{
+    background-color: #e48ca1;
+    width: 22%;
+    height: 11%;
+}
+#home .trangbaiviet-components .medium-rectangle1{
+    background-color: #e48ca1;
+    width: 21.5%;
+    height: 6.1%;
+}
+#home .trangbaiviet-components .medium-rectangle2{
+    background-color: #e48ca1;
+    width: 21.5%;
+    height: 6.2%;
+}
+#home .trangbaiviet-components .largerectangle1{
+    background-color: #e48ca1;
+    width: 19%;
+    height: 13%;
+}
+#home .trangbaiviet-components .largerectangle2{
+    background-color: #e48ca1;
+    width: 19%;
+    height: 13%;
+}
+#home .trangbaiviet-components .stickybox{
+    background-color: #e48ca1;
+    width: 19%;
+    height: 15%;
+}
+#home .trangbaiviet-components .tvc1{
+    background-color: #e48ca1;
+    width: 34%;
+    height: 8%;
+}
+#home .trangbaiviet-components .tvc2{
+    background-color: #e48ca1;
+    width: 34%;
+    height: 8%;
+}
+
+#menu1 .trangchu-components .masthead{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 30%;
+}
+#menu1 .trangchu-components .medium{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 48%;
+}
+#menu1 .trangchu-components .large{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 86%;
+}
+#menu1 .trangchu-components .box{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 50%;
+}
+
+#menu1 .baiviet-components .masthead{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 30%;
+}
+#menu1 .baiviet-components .inpage{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 114%;
+}
+#menu1 .baiviet-components .medium{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 50%;
+}
+#menu1 .baiviet-components .large{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 46%;
+}
+#menu1 .baiviet-components .box{
+    background-color: #e48ca1;
+    width: 100%;
+    height: 50%;
+}
+
+/*Click show image*/
+.modal{
+    display: none;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    z-index: 1;
+}
+.modal img{
+    width: 70%;
+    height: auto;
+}
+.modal #close{
+    font-size: 60px;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    color: #fff;
+}
+#mobile-baihot-modal img{
+    height: 100%;
+    width: auto;
+}
+#mobile-bailink-modal img{
+    height: 100%;
+    width: auto;
+}
+.menu-footer ul{
+    text-align: right;
+}
+#mobiletrangchu .trangchu{
+    text-align: right;
+}
+#mobiletrangchuyenmuc .trangchu{
+    text-align: center;
+}
+.content-first{
+    display: block;
+    font-family: semibold;
+    font-size: 16px;
+    color: #000;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#baiprlayout-modal img{
+    position: static;
+    transform: inherit;
+}
+#package-tabs li a p .text-goi{
+    padding-right: 5px;
+}
+.form-group{
+    display: none;
+}
+#home #trangchu .containe{
+    padding-top: 40px;
+}
+#home #trangchuyenmuc{
+    padding-top: 40px;
+}
+#home #trangbaiviet{
+    padding-top: 40px;
+}
+.fw{
+    float:left;
+    width: 100%;
+}
+.form-control:focus{
+    border: none;
+}
+#opacity #home #trangchuyenmuc #trangchuyenmuc-masthead-content{
+    padding-top: 0;
+}
+#opacity #home #trangchuyenmuc #trangchuyenmuc-masthead-content h1{
+    font-size: 32px;
+}
+#opacity #home #trangchuyenmuc #trangchuyenmuc-masthead-content p{
+    padding-top: 0;
+}
+#opacity #home #trangchuyenmuc #trangchuyenmuc-masthead-content span{
+    padding: 0;
+}
+#menu1 .minhhoa ul{
+    width: 100%;
+    display: table;
+} 
+#menu1 .minhhoa ul li{
+    display: table-cell;
+    float: left;
+    width: 50%;
+}
+#menu1 .minhhoa ul li a:hover{
+    height: inherit;
+}
+#menu1 #mobiletrangchitiet .image-trangchu .content-iphone{
+    position: absolute;
+    height: 75%;
+    overflow-y: auto;
+    top: 93px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (min-width: 400px){
+    #menu1 .content-iphone{
+        height: 571px !important;
+        width: 322px !important;
+    }
+}
+
+

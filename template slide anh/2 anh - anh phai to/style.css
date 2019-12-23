@@ -21,7 +21,7 @@
       margin-right: 7px; }
   .slideImg img {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     object-fit: cover; }
   .slideImg.type01b .item {
     width: 40%; }

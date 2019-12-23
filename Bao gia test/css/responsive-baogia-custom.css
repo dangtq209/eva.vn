@@ -1,0 +1,978 @@
+@media screen and (max-width: 768px){
+	.minhhoa .nav-tabs li{
+		margin-right: 0;
+	}
+	.minhhoa .nav-tabs li{
+		height: auto;
+	}
+	.baogia .nav-tabs li>a>img{
+		display: initial;
+		height: 48px;
+	}
+	.baogia .nav-tabs li>a>p{
+		display: block;
+		padding-left: 0;
+	}
+	.baogia .nav li{
+		height: auto;
+	}
+	.baogia .tab-content .containe .dlbaogia button{
+		margin-bottom: 30px;
+	}
+	.dlbaogia{
+		display: block;
+	}
+	#home .containe{
+		padding-top: 30px;
+	}
+	.time{
+		padding: 30px 0;
+	}
+	.tonghop .download{
+		padding: 0;
+	}
+	#home .trangchu-components .double-float-left{
+		left: 2%;
+		width: 11%;
+	}
+	#home .trangchu-components .hotbanner{
+		left: 64.7%;
+	}
+	#home .trangchu-components .double-float-right{
+		left: 87%;
+		width: 11%;
+	}
+	#menu1 #mobiletrangchu .image-trangchu .content-iphone{
+		width: auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchu .image-trangchu .trangchu-components .masthead{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchu .image-trangchu .trangchu-components .medium{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchu .image-trangchu .trangchu-components .large{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchu .image-trangchu .trangchu-components .box {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 .content{
+		margin-left: 30px;
+	}
+	#mobiletrangchuyenmuc .row{
+		margin: 60px 0;
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .content-iphone{
+		width: auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .masthead{
+		left: 50%;
+		transform: translateX(-50%);;
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .inpage{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .medium{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .large{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .box{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.baogia .tab-content .containe .dlbaogia{
+		padding: 0;
+	}
+	.baogia .tab-content .containe .dltk{
+		padding: 0;
+	}
+	#menu2 .tonghop .download{
+		padding-bottom: 30px;
+	}
+	.baogia .nav-tabs li a p{
+		padding: 10px;
+		padding-bottom: 0;
+		font-size: 13px;
+	}
+	.banner h4{
+		font-size: 12px;
+	}
+	.modal img{
+		width: 100%;
+	}
+	#mobiletrangchu .trangchu{
+		text-align: center;
+	}
+	#mobiletrangchuyenmuc .trangchu{
+		text-align: center;
+	}
+	#mobiletrangchu .left-masthead{
+		
+	}
+	#mobiletrangchuyenmuc .left-masthead{
+		
+	}
+	#home .trangchu-components .masthead{
+		width: 73%;
+	}
+	#home .trangchu-components .hotbanner{
+		width: 21.5%;
+	}
+	#home .trangchu-components .double-float-right{
+		left: 86.5%;
+		width: 11%;
+	}
+	#home #trangchu .row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	#home #trangchuyenmuc .row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#home #trangbaiviet .row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#trangchuyenmuc .trangchu{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#trangbaiviet .trangchu{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#trangchu .trangchu{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#menu1 .nav-tabs li{
+		padding:0 10px; !important;
+		width: 50% !important;
+	}
+	#menu1 .nav-tabs{
+		margin-top: 30px;
+	}
+	
+	.content-first{
+		display: none !important;
+	}
+	.content{
+		position: fixed !important;
+		top: 0 !important;
+		left: 50% !important;
+		transform: translateX(-50%) !important;
+		margin: 0 !important;
+		margin-top: 30px !important;
+		border-radius: 10px;
+		z-index: 999 !important;
+	}
+	.show{
+		display: block;
+	}
+	.content h3{
+		font-size: 20px !important;
+		margin: 0 !important;
+		padding-bottom: 10px !important;
+	}
+	.masthead .content:after{
+		display: none !important;
+	}
+	.content h1{
+		font-size: 30px !important;
+	}
+	.content span{
+		font-size: 12px;
+	}
+	.content p{
+		padding-bottom: 0 !important;
+	}
+	.content .content-close:before{
+		content: url(../img/icon-close.png);
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    padding-right: 10px;
+	    font-size: 30px;
+	    color: #ccc;
+	}
+	.text-goi{
+		display: none !important;
+	}
+	.dlbaogia{
+		display: block !important;
+	}
+	.dltk{
+		display: block !important;
+	}
+	.minhhoa .nav-tabs>li.active>a, .minhhoa .nav-tabs>li.active>a:focus{
+		padding: 18px 0px;
+	}
+	.minhhoa .nav-tabs li a{
+		padding: 33px 0;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle1{
+		left: 28.4%;
+	    top: 19.8%;
+	    height: 7.1%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle2{
+		width: 21.5%;
+		top: 40.35%;
+		left: 28.4%;
+	}
+	#home .trangchuyenmuc-components .double-float-left{
+		left: 4.5%;
+	}
+	#home .trangchu-components .medium-rectangle1{
+		width: 25%;
+    	left: 13%;
+	}
+	#home .trangchu-components .largerectangle1{
+		width: 22%;
+    	left: 64.8%;
+	}
+	#home .trangchu-components .largerectangle2{
+		width: 22%;
+    	left: 64.8%;
+	}
+	#home .trangchu-components .stickybox{
+		width: 22%;
+    	left: 64.8%;
+	}
+	#home .trangchu-components .medium-rectangle2{
+		width: 25%;
+    	left: 13%;
+	}
+	#home .trangchu-components .hotbanner{
+		width: 22.5%;
+	    left: 64.5%;
+	    height: 11.1%;
+	}
+	#home .trangchu-components .double-float-right{
+		left: 87.5%;
+    	width: 11.5%;
+	}
+	#home .trangchu-components .double-float-left{
+		left: 1%;
+		width: 11.5%;
+	}
+	#home .trangbaiviet-components .tvc1{
+		width: 33.5%;
+    	left: 28.5%;
+	}
+	#home .trangbaiviet-components .tvc2{
+		width: 34%;
+    	left: 28.5%;
+	}
+	#home .trangbaiviet-components .largerectangle1{
+		width: 18.5%;
+    	left: 63%;
+	}
+	#home .trangbaiviet-components .largerectangle2{
+		width: 18.5%;
+    	left: 63%;
+	}
+	#home .trangbaiviet-components .stickybox{
+		width: 18.5%;
+    	left: 63%;
+	}
+	#home .trangbaiviet-components .double-float-right{
+		left: 82%;
+    	width: 15%;
+	}
+	#home .trangbaiviet-components .double-float-left{
+		width: 15%;
+    	left: 3%;
+	}
+	#home .trangbaiviet-components .medium-rectangle1{
+		width: 21.5%;
+	    left: 28.5%;
+	    top: 57.1%;
+	    height: 6.4%;
+	}
+	#home .trangbaiviet-components .medium-rectangle2{
+		width: 21.5%;
+    	left: 28.5%;
+	}
+	#menu1 .trangchu-components .medium{
+		height: 48%;
+	}
+	#menu1 .trangchu-components .large{
+		height: 85%;
+	}
+	#menu1 #mobiletrangchu .image-trangchu .trangchu-components .box{
+		top: 2046%;
+		height: 87%;
+	}
+	#menu1 .baiviet-components .masthead{
+		height: 28%;
+	}
+	#menu1 .baiviet-components .inpage{
+		height: 115%;
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .medium{
+		top: 627%;
+		height: 52%;
+	}
+	#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .large{
+		top: 1002.5%;
+	}
+	#menu1 .baiviet-components .box{
+		height: 85%;
+	}
+	#home .trangchu-components .medium-rectangle1{
+		top: 22.8%;
+    	height: 8%;
+	}
+	#home .trangchu-components .medium-rectangle2{
+		top: 54.4%;
+	}
+	.masthead .content{
+		padding-top: 0;
+	}
+
+}
+@media screen and (max-width: 320px){
+	.baogia .tab-content .containe button{
+		padding: 15px 40px;
+	}
+}
+@media screen and (max-width: 1035px){
+	.menu-footer ul li{
+		padding-right: 5%;
+	}
+}
+@media screen and (max-width: 984px){
+	.menu-footer ul li{
+		padding-right: 4%;
+	}
+}
+@media screen and (max-width: 938px){
+	.menu-footer ul li{
+		padding-right: 3%;
+	}
+}
+@media screen and (max-width: 896px){
+	.menu-footer ul li{
+		padding-right: 2%;
+	}
+}
+@media screen and (max-width: 857px){
+	.menu-footer ul li{
+		padding-right: 1%;
+	}
+}
+@media screen and (max-width: 822px){
+	.menu-footer ul li{
+		padding-right: 1px;
+	}
+	.home span img{
+		padding: 0;
+	}
+	.footer .home span{
+		padding: 0 !important;
+	}
+	.menu-footer ul{
+		text-align: center !important;
+	}
+	.menu-footer ul li{
+		padding-right: 5% !important;
+	}
+	.footer .home span{
+		padding-right: 5px !important;
+	}
+}
+@media screen and (max-width: 333px){
+	.banner h4{
+		font-size: 10px;
+	}
+	.baogia{
+		font-size: 8px;
+	}
+	.minhhoa .nav-tabs>li.active>a, .minhhoa .nav-tabs>li.active>a:focus{
+		padding: 10px 0;
+	}
+	.minhhoa .nav-tabs li a{
+		padding: 30px 0;
+	}
+
+}
+@media screen and (max-width: 367px){
+	.baogia .tab-content .containe button{
+		padding: 10px 40px;
+	}
+}
+@media screen and (max-width: 287px){
+	.baogia .tab-content .containe button{
+		padding: 7px 30px;
+	}
+}
+@media screen and (max-width: 364px){
+  #menu1 .image-trangchu img{
+    width: 100%;
+  }
+  #menu1 #mobiletrangchu .image-trangchu .content-iphone{
+    width: calc(100% - 65px);
+    left: 50%;
+    top: 12.3%;
+  }
+
+  #menu1 .image-baiviet img{
+    width: 100%;
+  }
+  #menu1 #mobiletrangchuyenmuc .image-baiviet .content-iphone{
+    width: calc(100% - 65px);
+    left: 50%;
+    top: 12.3%;
+  }
+  #menu1 #mobiletrangchitiet .image-trangchu .content-iphone{
+    width: calc(100% - 65px);
+    left: 50%;
+    top: 12.3%;
+  }
+  #menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .masthead{
+  	top: 21.3%;
+  	height: 44%;
+  }
+  #menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .medium{
+  	top: 785.3%;
+  	height: 63%;
+  }
+  #menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .box{
+  	top: 1544%;
+  }
+  #menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .inpage{
+  	top:413%;
+  	height: 143%;
+  }
+  #menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .large{
+  	top: 1257.5%;
+  	height: 56%
+  }
+
+
+}
+@media screen and (max-width: 768px){
+	.logo-goi{
+		height: 45px;
+		position: relative;
+	}
+	.logo-goi>img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	#package-tabs li a img{
+		width: 24px;
+		height: auto;
+		padding-top: 8px;
+	}
+	#package-tabs li a{
+		padding: 0;
+	}
+	#package-tabs{
+		padding: 0;
+	}
+	#package-tabs li a p{
+		padding: 0;
+		margin: 0;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-size: 12px;
+	}
+	.time{
+		font-size: 16px;
+		padding:0;
+		margin: 0;
+	}
+	.baogia .tab-content .containe .dlbaogia button{
+		padding: 0;
+		width: 100%;
+		height: 50px;
+	}
+	.baogia .tab-content .containe .dltk button{
+		padding: 0;
+		width: 100%;
+		height: 50px;
+	}
+	.baogia .tab-content .containe .dlbaogia button{
+		margin: 0;
+	}
+	.baogia .tab-content .containe .dlbaogia{
+		padding-left: 16px;
+	    padding-right: 16px;
+	    padding-top: 24px;
+	    padding-bottom: 16px;
+	}
+	.baogia .tab-content .containe .dltk{
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-bottom: 32px;
+	}
+	#home .tonghop .containe{
+		padding: 0;
+	}
+	.containe h1{
+		padding-bottom: 20px;
+		font-size: 24px;
+	}
+	.tonghop h4{
+		font-size: 20px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.tonghop span{
+		font-size: 14px;
+	}
+	.tonghop table{
+		margin-top: 24px;
+	}
+	.tonghop .note{
+		padding-top: 24px;
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-bottom: 48px;
+	}
+	.time{
+		padding-top: 32px;
+	}
+	#home .containe{
+		padding-top: 0;
+	}
+	ul#menudesktop{
+		display: none;
+	}
+	#home .minhhoa #desktopselect{
+		width: 100%;
+		height: 55px;
+		border-top: 5px solid #d2577e;
+		font-size: 16px;
+		color:#d2377e;
+		font-family: OpenSans;
+		border-radius: 0;
+	}
+	.form-group{
+		margin: 0;
+	}
+	#trangchu .image-trangchu{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	#trangchuyenmuc .image-trangchuyenmuc{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	#trangbaiviet .image-trangbaiviet{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	#menu1 #menumobile{
+		display: none;
+	}
+	 #menu1 #mobileselect{
+		width: 100%;
+		height: 55px;
+		border-top: 5px solid #d2577e;
+		font-size: 16px;
+		color:#d2377e;
+		font-family: OpenSans;
+		border-radius: 0;
+	}
+
+	/*.form-group{
+		background: url(../img/icon-down.png) no-repeat right center;
+	} */
+	.masthead .content{
+		max-height: 500px;
+		overflow: auto;
+	}
+	.form-group{
+		display: block;
+	}
+	.form-group select{
+		border: 0 ;  /*Removes border*/
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+		background: url('../img/icon-down.png') no-repeat;  /*Adds background-image*/
+		background-position: 97% 50%;  /*Position of the background-image*/
+		width: 100px; /*Width of select dropdown to give space for arrow image*/
+		text-indent: 0.01px; /* Removes default arrow from firefox*/
+		text-overflow: "";  /*Removes default arrow from firefox*/
+
+		/*My custom style for fonts*/
+
+		color: #1455a2;
+		background-color: #fff;
+		border-bottom: 2px solid #f5f5f5;
+	}
+	#home #trangchu .containe{
+		padding-top: 16px;
+	}
+	#home #image-trangchuyenmuc{
+		padding-top: 16px;
+	}
+	#home #image-trangbaiviet{
+		padding-top: 16px;
+	}
+	#package-tabs li a p{
+		position: static;
+		top: 0;
+		left: 0;
+		transform: inherit;
+	}
+	#package-tabs li a p{
+		display: block;
+	}
+	#package-tabs li a .logo-goi{
+		display: block;
+	}
+	.baogia #package-tabs li a p span{
+		padding: 0;
+	}
+	.baogia table{
+		font-size: 16px;
+		width: 1170px
+	}
+	.tonghop table tr th{
+		padding: 10px 15px;
+	}
+	#menu1 .minhhoa .containe .clearfix{
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 364px){
+	.form-group select{
+	  	height: 65px !important;
+	  	white-space: normal;
+	}
+	#home .trangchu-components .hotbanner{
+		left: 64%;
+	}
+	#home .trangchu-components .largerectangle1{
+		left: 64%;
+	}
+	#home .trangchu-components .largerectangle2{
+		left: 64%;
+	}
+	#home .trangchu-components .stickybox{
+		left: 64%;
+	}
+	#home .trangchu-components .medium-rectangle1{
+		left: 12.5%;
+	}
+	#home .trangchu-components .medium-rectangle2{
+		left: 12.5%;
+	}
+	#home .trangchu-components .double-float-left{
+		left: 4%;
+	}
+	#home .trangchu-components .double-float-right{
+		left: 88%;
+	}
+	#home .trangchuyenmuc-components .largerectangle1{
+		left: 62%;
+	}
+	#home .trangchuyenmuc-components .largerectangle2{
+		left: 62%;
+	}
+	#home .trangchuyenmuc-components .stickybox{
+		left: 62%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle1{
+		left: 29.5%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle2{
+		left: 29.5%;
+	}
+	#home .trangbaiviet-components .tvc1 {
+	    width: 31.5%;
+	    left: 30%;
+	}
+	#home .trangbaiviet-components .largerectangle1 {
+	    width: 19.5%;
+	    left: 62%;
+	}
+	#home .trangbaiviet-components .largerectangle2 {
+	    width: 19.5%;
+	    left: 62%;
+	}
+	#home .trangbaiviet-components .tvc2 {
+	    width: 32.5%;
+	    left: 29.5%;
+	}
+	#home .trangbaiviet-components .stickybox {
+	    width: 19.5%;
+	    left: 62.5%;
+	}
+	#home .trangbaiviet-components .medium-rectangle1 {
+	    width: 21%;
+	    left: 30%;
+	}
+	#home .trangbaiviet-components .medium-rectangle2 {
+	    width: 20.5%;
+	    left: 29.5%;
+	}
+	#home .trangbaiviet-components .masthead {
+	    background-color: #e48ca1;
+	    height: 5.3%;
+	}
+	#home .trangbaiviet-components .double-float-left {
+	    width: 10%;
+	    left: 9.5%;
+	}
+	#home .trangbaiviet-components .double-float-right {
+	    left: 82.5%;
+	    width: 10%;
+	}
+	.banner h4{
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 500px){
+	#home .trangchu-components .largerectangle1{
+		width: 22%;
+    	left: 64.5%;
+	}
+	#home .trangchu-components .medium-rectangle1{
+		left: 14%;
+	}
+	#home .trangchu-components .medium-rectangle2{
+		left: 14%;
+	}
+	#home .trangchu-components .double-float-left{
+		left: 2%;
+	}
+	#home .trangchuyenmuc-components .masthead{
+		width: 62%;
+	}
+	#home .trangchuyenmuc-components .largerectangle1{
+		width: 18.5%;
+		left: 62.5%;
+	}
+	#home .trangchuyenmuc-components .largerectangle2{
+		width: 18.5%;
+    	left: 62.5%;
+	}
+	#home .trangchuyenmuc-components .stickybox{
+		width: 18.5%;
+    	left: 62.5%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle1{
+		left: 29%;
+    	width: 20.5%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle2{
+		left: 29%;
+    	width: 20.5%;
+	}
+	#home .trangchuyenmuc-components .double-float-left{
+		left: 3.5%;
+    	width: 15%;
+	}
+	#home .trangchuyenmuc-components .double-float-right{
+		left: 81.5%;
+		width: 15%;
+	}
+}
+@media screen and (max-width: 400px){
+	#home .trangchu-components .hotbanner{
+		left: 64%;
+	}
+	#home .trangchu-components .largerectangle1{
+		left: 64%;
+	}
+	#home .trangchu-components .largerectangle2{
+		left: 64%;
+	}
+	#home .trangchu-components .stickybox{
+		left: 64%;
+	}
+	#home .trangchu-components .double-float-left{
+		left: 4%;
+    	width: 10%;
+	}
+	#home .trangchu-components .double-float-right{
+		left: 87%;
+    	width: 10%;
+	}
+	.banner h4{
+		font-size: 10px;
+	}
+	#home .trangbaiviet-components .largerectangle1{
+		left: 62%;
+	}
+	#home .trangbaiviet-components .largerectangle2{
+		left: 62%;
+	}
+	#home .trangbaiviet-components .stickybox{
+		left: 62%;
+	}
+	#home .trangbaiviet-components .tvc1{
+		width: 32.5%;
+	    left: 29%;
+	    top: 12%;
+	}
+	#home .trangbaiviet-components .tvc2{
+		width: 32.7%;
+    	left: 29%;
+	}
+	#home .trangbaiviet-components .masthead{
+		width: 61%;
+	}
+	#home .trangbaiviet-components .double-float-left{
+		left: 4%;
+	}
+	#home .trangbaiviet-components .double-float-right{
+		left: 81%;
+	}
+	#home .trangbaiviet-components .medium-rectangle1{
+		width: 21%;
+    	left: 29%;
+	}
+	#home .trangbaiviet-components .medium-rectangle2{
+		width: 21%;
+    	left: 29%;
+	}
+
+}
+@media screen and (max-width: 350px){
+	#home .trangchu-components .medium-rectangle1{
+		left: 15%;
+    	width: 24%;
+	}
+	#home .trangchu-components .medium-rectangle2{
+		left: 15%;
+    	width: 24%;
+	}
+	.banner p{
+		font-size: 7px;
+	}
+	#home .trangchuyenmuc-components .masthead{
+		height: 6%;
+	}
+	#home .trangchuyenmuc-components .double-float-left{
+		left: 5%;
+    	width: 14%;
+	}
+	#home .trangchuyenmuc-components .largerectangle1{
+		left: 62%;
+	}
+	#home .trangchuyenmuc-components .largerectangle2{
+		left: 62%;
+	}
+	#home .trangchuyenmuc-components .stickybox{
+		left: 62%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle1{
+		left: 29.5%;
+	    width: 20.5%;
+	    top: 19.8%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle2{
+		left: 29.5%;
+	    width: 20.5%;
+	}
+	#home .trangbaiviet-components .double-float-left{
+		left: 5%;
+		width: 14%;
+	}
+	#home .trangbaiviet-components .largerectangle1{
+		width: 18%;
+	}
+	#home .trangbaiviet-components .largerectangle2{
+		width: 18%;
+	}
+	#home .trangbaiviet-components .stickybox{
+		width: 18%;
+	}
+	#home .trangbaiviet-components .double-float-right{
+		left: 80.5%;
+    	width: 14%;
+	}
+}
+@media screen and (max-width: 250px){
+	#home .trangchu-components .masthead{
+		width: 66%;
+	}
+	#home .trangchu-components .hotbanner{
+		left: 63%;
+    	width: 20.5%;
+	}
+	#home .trangchu-components .largerectangle1{
+		left: 63%;
+    	width: 20.5%;
+	}
+	#home .trangchu-components .largerectangle2{
+		left: 63%;
+    	width: 20.5%;
+	}
+	#home .trangchu-components .stickybox{
+		left: 63%;
+    	width: 20.5%;
+	}
+	#home .trangchu-components .double-float-left{
+		left: 7%;
+    	width: 8%;
+	}
+	#home .trangchu-components .double-float-right{
+		left: 84.5%;
+    	width: 8%;
+	}
+	.banner h4{
+		font-size: 5px;
+	}
+	.banner p{
+		font-size: 5px;
+	}
+	#home .trangchuyenmuc-components .double-float-left{
+		left: 7%;
+    	width: 13%;
+	}
+	#home .trangchuyenmuc-components .double-float-right{
+		left: 81%;
+    	width: 13%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle1{
+		left: 30.5%;
+    	width: 18.5%;
+	}
+	#home .trangchuyenmuc-components .medium-rectangle2{
+		left: 30.5%;
+    	width: 18.5%;
+	}
+	#home .trangbaiviet-components .tvc1{
+		width: 30.5%;
+    	left: 30.5%;
+	}
+	#home .trangbaiviet-components .tvc2{
+		width: 30.7%;
+    	left: 30.5%;
+	}
+	#home .trangbaiviet-components .medium-rectangle2{
+		width: 19%;
+    	left: 30.5%;
+	}
+	#home .trangbaiviet-components .medium-rectangle1{
+		width: 19%;
+    	left: 30.5%;
+	}
+	#home .trangbaiviet-components .double-float-left{
+		left: 6%;
+	}
+}

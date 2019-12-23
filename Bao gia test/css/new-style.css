@@ -1,0 +1,405 @@
+#home .trangchu-components .masthead{
+    top: 1%;
+    max-width: 65%;
+    height: 1.4%;
+    max-height: 1.4%;
+    padding: 0;
+    width: 74%;
+}
+#home .trangchu-components .double-float-left{
+    top: 2.65%;
+    max-width: 11%;
+    width: 10.4%;
+    left: 5.4%;
+    right: 2%;
+    height: 8.55%;
+    max-height: 8.55%;
+}
+#home .trangchu-components .hotbanner{
+    max-width: 23.1%;
+    width: 20%;
+    top: 2.65%;
+    height: 6.45%;
+    max-height: 6.45%;
+    left: 63.5%;
+    right: 11.8%;
+}
+#home .trangchu-components .double-float-right{
+    top: 2.65%;
+    max-width: 11%;
+    width: 10.4%;
+    left: 84.8%;
+    right: 2%;
+    height: 8.55%;
+    max-height: 8.55%;
+}
+#home .trangchu-components .largerectangle1{
+    top: 15.3%;
+    height: 8.55%;
+    max-height: 10.4%;
+    width: 23.1%;
+    right: 11.8%;
+    left: 63.5%;
+    max-width: 23.1%;
+    width: 20%;
+}
+#home .trangchu-components .stickybox{
+    top: 30.07%;
+    height: 8.55%;
+    max-height: 10.4%;
+    width: 23.1%;
+    right: 11.8%;
+    left: 63.5%;
+    max-width: 23.1%;
+    width: 20%;
+}
+#trangchu-stichky-content{
+    margin-top: 518%;
+}
+#trangchu-large1-content{
+    margin-top: 260%;
+}
+#trangchu-hotbanner-content{
+    margin-top: 46%;
+}
+#trangchu-right-content{
+    margin-top: 46%;
+}
+#trangchu-left-content{
+    margin-top: 46%;
+}
+#home .trangchuyenmuc-components .masthead{
+    padding: 0;
+    top: 1.4%;
+    height: 2%;
+    max-height: 2%;
+}
+#home .trangchuyenmuc-components .double-float-left{
+    left: 2%;
+    top: 4%;
+    width: 14.4%;
+    max-width: 14.4%;
+    height: 19.4%;
+    max-height: 19.4%;
+}
+#home .trangchuyenmuc-components .double-float-right{
+    top: 4%;
+    width: 14.4%;
+    max-width: 14.4%;
+    height: 19.4%;
+    max-height: 19.4%;
+    left: initial;
+    right: 2%;
+}
+#home .trangchuyenmuc-components .largerectangle1{
+    top: 4%;
+    right: 17%;
+    left: initial;
+    width: 19.6%;
+    max-width: 19.6%;
+    height: 12.9%;
+    max-height: 12.9%;
+}
+#home .trangchuyenmuc-components .largerectangle2{
+    top: 26.2%;
+    left: initial;
+    right: 17%;
+    width: 19.7%;
+    max-width: 19.7%;
+    height: 14.2%;
+    max-height: 14.2%;
+}
+#home .trangchuyenmuc-components .stickybox{
+    left: initial;
+    right: 17%;
+    width: 19.7%;
+    max-width: 19.7%;
+    top: 48.6%;
+}
+#trangchuyenmuc-masthead-content{
+    margin-top: 13%;
+}
+#trangchuyenmuc-left-content{
+    margin-top: 39%;
+}
+#trangchuyenmuc-right-content{
+    margin-top: 39%;
+}
+#trangchuyenmuc-large1-content{
+    margin-top: 39%;
+}
+#trangchuyenmuc-large2-content{
+    margin-top: 255%;
+}
+#trangchuyenmuc-stichky-content{
+    margin-top: 476%;
+}
+/*Trang bài viết*/
+#home .trangbaiviet-components .masthead{
+    padding: 0;
+    top: 1.15%;
+    height: 1.45%;
+    max-height: 1.45%;
+    width: 63.5%;
+    max-width: 64%;
+}
+#home .trangbaiviet-components .double-float-left{
+    left: 2%;
+    width: 14.5%;
+    max-width: 14.5%;
+    top: 2.8%;
+    height: 15%;
+    max-height: 15%;
+}
+#home .trangbaiviet-components .largerectangle1{
+    top: 2.8%;
+    right: 17%;
+    left: initial;
+    width: 19.7%;
+    max-width: 19.7%;
+    height: 10.2%;
+    max-height: 10.2%;
+}
+#home .trangbaiviet-components .largerectangle2{
+    left: initial;
+    right: 17%;
+    width: 19.7%;
+    max-width: 19.7%;
+    height: 10%;
+    max-height: 10%;
+    top: 20.1%;
+}
+#home .trangbaiviet-components .stickybox{
+    left: initial;
+    right: 17%;
+    width: 19.7%;
+    max-width: 19.7%;
+    height: 10%;
+    max-height: 10%;
+    top: 37.1%;
+}
+#home .trangbaiviet-components .double-float-right{
+    top: 2.8%;
+    left: initial;
+    right: 2%;
+    width: 14.5%;
+    max-width: 14.5%;
+    height: 15%;
+    max-height: 15%;
+}
+#home .trangbaiviet-components .medium-rectangle1{
+    top: 64.7%;
+    left: 19%;
+    width: 19.7%;
+    max-width: 19.7%;
+    height: 3.9%;
+    max-height: 3.9%;
+}
+#home .trangbaiviet-components .medium-rectangle2{
+    top: 64.7%;
+    left: initial;
+    right: 40%;
+    width: 19.7%;
+    max-width: 19.7%;
+    height: 3.9%;
+    max-height: 3.9%;
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-nen img{
+    width: 308px;
+    height: auto;
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-nen{
+    position: relative;
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .masthead{
+    transform: none;
+    left: 15px;
+    top: 1.15%;
+    width: 90%;
+    max-width: 90%;
+    padding: 0;
+    height: 1.65%;
+    max-height: 25%;
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .medium{
+    top: 29.65%;
+    transform: none;
+    left: 25px;
+    width: 84%;
+    height: 2.6%;
+    max-width: 84%;
+    max-height: 2.6%;
+    padding: 0;
+}
+#menu1 #mobiletrangchu .image-trangchu .trangchu-components .large{
+    top: 56.49%;
+    transform: none;
+    left: 25px;
+    padding: 0;
+    width: 84%;
+    max-height: 2.55%;
+    max-width: 84%;
+    height: 2.55%;
+}
+
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .masthead{
+    padding: 0;
+    top: 1.37%;
+    transform: none;
+    left: 15px;
+    width: 90%;
+    max-width: 90%;
+    height: 2%;
+    max-height: 2%;
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .medium{
+    top: 35.15%;
+    transform: none;
+    left: 25px;
+    width: 84%;
+    max-width: 84%;
+    height: 3%;
+    max-height: 3%;
+    padding: 0;
+}
+#menu1 #mobiletrangchuyenmuc .image-baiviet .baiviet-components .large{
+    top: 61.95%;
+    left: 25px;
+    transform: none;
+    width: 84%;
+    max-width: 84%;
+    padding: 0;
+    height: 3%;
+    max-height: 3%;
+}
+#menu1 #mobiletrangchitiet .image-trangchu .trangchu-components .masthead{
+    top: 0.62%;
+    left: 17px;
+    width: 90%;
+    max-width: 90%;
+    padding: 0;
+    height: 1.3%;
+    max-height: 1.3%;
+}
+#menu1 #mobiletrangchitiet .image-trangchu .trangchu-components .onpage1{
+    top: 14.25%;
+    left: 25px;
+    width: 84%;
+    height: 2.02%;
+    background-color: #e48ca1;
+    max-width: 84%;
+    max-height: 2.1%;
+}
+#menu1 #mobiletrangchitiet .image-trangchu .trangchu-components .inpage{
+    top: 22.5%;
+    height: 5.2%;
+    max-height: 6%;
+    padding: 0;
+    left: 17px;
+    width: 90%;
+    max-width: 90%;
+}
+#menu1 #mobiletrangchitiet .image-trangchu .trangchu-components .onpage2{
+    top: 34.03%;
+    left: 26px;
+    width: 84%;
+    height: 2.04%;
+    background-color: #e48ca1;
+    max-width: 84%;
+    max-height: 2.5%;
+}
+#menu1 #mobiletrangchitiet .trangchu-components .medium{
+    top: 56.95%;
+    height: 2.04%;
+    padding: 0;
+    left: 26px;
+    width: 84%;
+    max-width: 84%;
+    max-height: 2.5%;
+}
+#menu1 #mobiletrangchitiet .trangchu-components .box{
+    top: 58.17%;
+    left: 25px;
+    width: 84%;
+    height: 1.9%;
+    padding: 0;
+    max-width: 84%;
+    max-height: 1.9%;
+}
+#menu1 #mobiletrangchitiet .trangchu-components .large{
+    top: 63.68%;
+    height: 2.04%;
+    padding: 0;
+    left: 26px;
+    width: 84%;
+    max-width: 84%;
+    max-height: 2.5%;
+}
+#mobile-trangchu-masthead-content p{
+    padding-top: 0;
+}
+#mobile-trangchitiet-medium-content p{
+    padding-top: 0;
+}
+#mobile-trangchitiet-large-content p{
+    padding-top: 0;
+}
+#mobile-baiviet-large-content p{
+    padding-top: 0;
+}
+#mobile-baiviet-medium-content p{
+    padding-top: 0;
+}
+#menu1 #mobiletrangchitiet .content-iphone .trangchu-nen{
+    position: relative;
+}
+#menu1 #mobiletrangchitiet .content-iphone .trangchu-nen img{
+    width: 308px;
+    height: auto;
+}
+#menu1 #mobiletrangchuyenmuc .content-iphone .baiviet-nen img{
+    width: 308px;
+    height: auto;
+}
+
+@media screen and (max-width: 400px){
+    #menu1 #mobiletrangchitiet .banner{
+        position: absolute;
+    }
+    #menu1 #mobiletrangchu .image-trangchu img{
+        width: 290px;
+    }
+    #menu1 #mobiletrangchitiet .image-trangchu img{
+        width: 290px;
+    }
+    #menu1 #mobiletrangchuyenmuc .image-baiviet img{
+        width: 290px;
+    }
+    #menu1 #mobiletrangchu .image-trangchu .trangchu-nen img{
+        width: 253px;
+    }
+    #menu1 #mobiletrangchitiet .content-iphone .trangchu-nen img{
+        width: 253px;
+    }
+    #menu1 #mobiletrangchuyenmuc .content-iphone .baiviet-nen img{
+        width: 253px;
+    }
+    #menu1 #mobiletrangchu .image-trangchu .content-iphone{
+        width: 255px;
+    }
+    #menu1 #mobiletrangchitiet .image-trangchu .content-iphone{
+        width: 255px;
+        top: 75px;
+    }
+    #menu1 #mobiletrangchu .image-trangchu .content-iphone{
+        top: 75px;
+    }
+    #menu1 #mobiletrangchuyenmuc .image-baiviet .content-iphone{
+        width: 255px;
+        top: 75px;
+    }
+}
+@media screen and (max-width: 400px){
+    
+}
+

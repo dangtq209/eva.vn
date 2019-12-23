@@ -1,0 +1,315 @@
+#square {
+width: 100px;
+height: 100px;
+background: red;
+}
+
+.dotuoi {
+color: #d2577e;
+margin-top: 0px;
+margin-bottom: 45px;
+font-weight: bolder}
+.gioitinh {
+color: #d2577e;
+margin-top: 0px;
+margin-bottom: 65px;
+font-weight: bolder}
+.contact-poin {
+margin-right: 20px}
+#owl-contact1 .prev {
+    content: url(../img/icon-prev.png);}
+#owl-contact1 .prev {
+    width: 40px;}
+#owl-contact1 .owl-prev {
+    top: 30%;
+    left: -20px;}
+#owl-contact1 .next {
+    content: url(../img/icon-next.png);
+}
+#owl-contact1 .next {
+    width: 40px;
+}
+#owl-contact1 .owl-next {
+    top: 30%;
+    right: 0;
+}
+#owl-contact1 .item img {
+    display: block;
+    width:100%;
+    height: auto;
+    margin-bottom: 50px;
+    padding: 0 30px;
+
+}
+#owl-contact1 .owl-pagination {
+padding-bottom: 60px;}
+#owl-demo .item .contentbanner-review{
+position: absolute;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    max-width: 600px;
+    transform: translate(-50%,-50%)
+}
+#owl-demo .item .contentbanner-review p{
+  font-family: OpenSans;
+  font-size: 15px;
+}
+#owl-demo .item .contentbanner-review h2{
+  font-size: 50px;
+  color: #black;
+  font-family: semibold;}
+.truycap {
+padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px}
+.nhan-khau-hoc img {max-width: 100%}	
+.map {
+margin-bottom: 0px;
+background-color: #f5f5f5;
+}
+.map p {
+margin-top: 10px;
+}
+.map img {max-width: 100%;}
+.wrap-contact {
+padding-top: 35px;
+padding-bottom: 35px;
+}
+.contact-khachhang {
+padding-top: 85px;
+padding-bottom: 85px;}
+.col-contact1 {
+padding-right: 50px;}
+.col-contact2 {
+padding-left: 50px;}
+.wrap-contact .form-control {
+border-radius: 0px!important;
+padding-top: 20px!important;
+padding-bottom: 20px! important;
+}
+#box-capcha {
+width: 80%;
+float: left;
+margin-bottom: 20px;}
+.capcha {
+padding-top: 10px;
+width: 20%;
+float: right;
+text-align: end;
+padding-left: 10px;
+}
+#contact-button .btn:hover {color: white; background-color: rgb(185,61,100);}
+.btn-contact {
+  background-color: #d2577e;
+  border-radius: 35px;
+  color: #fff;
+  padding: 13px 50px;
+  box-shadow: 1px 2px #cfcfcf;
+}
+.after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #d2577e;
+  margin-bottom: 25px;
+}
+.content-404 {
+max-width: 550px;
+margin: 0 auto;
+padding-top: 45px;
+padding-bottom: 65px;
+}
+.bg-404 {
+background-color: #d2577e;
+/*margin-top: 15px;*/
+
+}
+.bg-404 p {
+color: #fff;
+font-size: 20px;
+}
+.btn-404 {
+color: #d2577e;
+background: #fff;
+margin-top: 50px;
+margin-bottom: 30px;
+font-size: 20px;
+padding: 10px 50px;
+border-radius: 25px;
+box-shadow: 1px 2px #cfcfcf;
+}
+.btn-404:hover {
+color: #d2577e;}
+.btn-404 a {color: #d2577e}
+#review-content2 {
+text-align: center;
+padding-right:25px;
+padding-left: 25px;
+margin-bottom: 20px;
+display:none}
+#review-content2 p {
+font-size: 16px;}
+.tin-hot-content img {
+width: 100%;
+}
+.btn-tinhot {
+color: #6a6b6b;
+background-color: #f5f5f5;
+border-radius: 0px;
+border: 1px solid grey;
+margin-bottom: 5px;
+margin-right: 5px;
+font-size: 12px;}
+.tin-hot-content a {
+color: #db839d}
+.tin-hot-content a:hover {
+color: rgb(185,61,100)}
+.tin-hot-body {
+background-color: #f5f5f5;
+margin-left: 0px;
+margin-right: 0px}
+.tin-hot-col1{
+padding-top: 30px;}
+.tin-hot-col2 {
+padding-top: 30px;}
+.tin-hot-col3 {
+padding-right: 5px}
+.tin-hot-col3 ul {padding-left: 0px;}
+.tin-hot-col3 ul li {list-style-type: none; margin-bottom: 20px;}
+.tin-hot-col3 ul li a {color: #c0c0c0; font-size: 16px}
+.tin-hot-content {
+background-color: #ffffff;
+padding-bottom: 15px;
+margin-bottom: 30px;}
+.tin-hot-chuyenmuc h2 {
+margin-top: 28px;
+font-size: 24px;}
+.tin-hot-content img {margin-bottom: 10px}
+#text-content {
+padding: 0px 20px 5px 20px;}
+#text-content p {font-size: 16px;}
+#text-content h2 {
+font-size: 25px;
+margin-bottom: 25px;
+margin-top: 30px;}
+.anh-tinnoibat {
+width:48%;
+float:left;
+margin-right: 4%;}
+.title-tinnoibat {
+width: 48%;
+float: left;}
+.title-tinnoibat h4 {
+margin-top: 0px;
+font-size: 15px}
+.title-tinnoibat a {
+color: black;
+}
+.title-tinnoibat p {
+color: #c0c0c0}
+.tinhot-box {
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 10px;}
+.tin-hot-chuyenmuc img {
+margin-top: -3px;
+margin-right: 10px}
+
+.tin-hot-noibat {
+margin-top: 35px;}
+.tin-hot-noibat img {width: 100%}
+.tinhot-tag {
+margin-top: 35px;}
+.tinhot-luutru {
+margin-top: 35px;}
+.tinhot-luutru img {
+margin-top: -3px;
+margin-right: 10px}
+.tinhot-background {
+background-color: #d36e88;}
+.tinhot-content {
+padding-left: 8%;
+padding-right: 8%}
+.wrap-tinhot {
+max-width: 1170px;
+margin: 0 auto;
+}
+.pagination-tinhot>.active>a {
+background-color: #d2577e;
+border-radius: 50%;
+color: white;
+}
+#tinhot-time {
+color: #afafaf;
+padding-top: 15px}
+#tinhot-title {
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+#tinhot-title h2, #tinhot-title p {
+color: #fff}
+#tinhot-title h2 {
+font-size: 50px}
+.ul.pagination-tinhot {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination-tinhot li {
+display: inline;
+border: 0px;
+}
+
+ul.pagination-tinhot li a {
+    color: #757575;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+	font-size: 16px;
+}
+
+ul.pagination-tinhot li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ul.pagination li a:hover {
+background-color: rgb(185,61,100);
+    border-radius: 50%;
+    color: white;}
+
+ul.pagination li a:hover:not(.active) {
+    background-color: #d2577e;
+    border-radius: 50%;
+    color: white;}
+.pagination-tinhot>li>a {
+background-color: #f5f5f5;
+border: 0px;
+margin-left: 10px;
+margin-right: 10px;}
+#pani-first a:hover {
+background-color: #f5f5f5;}
+.tinhot{
+  position: relative;
+}
+.tinhot:before{
+  content: "";
+  width: 100%;
+  height: 0;
+  border: 2px solid #d2577e;
+  position: absolute;
+  top: -20px;
+}
+.wrapper-tinhot {
+    padding-left: 15px;
+    padding-right: 15px;
+	margin: 0 auto;
+	padding-bottom: 35px;}
+#googleMap {
+padding-top: 10px;}
+#googleMap2 {
+max-width: 767px;
+height: 300px;
+}
