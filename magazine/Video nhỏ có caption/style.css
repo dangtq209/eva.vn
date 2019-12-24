@@ -1,0 +1,127 @@
+.videoSmallCap .clearfix{
+	clear: both;
+}
+.videoSmallCap *{
+	margin: 0 auto;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: 400;
+}
+.videoSmallCap *, .videoSmallCap *:before, .videoSmallCap *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.videoSmallCap .mg-leftright, .videoSmallCap .mg-leftanhright {
+	padding: 0px;
+}
+.videoSmallCap .container-inner{
+	/*width: 1530px;*/
+	margin: 0 auto;
+	text-align: justify;
+}
+.videoSmallCap .wrapper-contain{
+	/*width: 80%;*/
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.videoSmallCap .mg-text-center{
+	text-align: center;
+}
+.videoSmallCap .wow{
+	visibility: hidden;
+}
+.videoSmallCap .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.videoSmallCap .fullscreen1{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+.videoSmallCap .mg-video-caption{
+	text-align: center;
+	margin: 15px;
+}
+.videoSmallCap .mg-video-caption span{
+	font-size: 20px!important;
+	line-height: 32px!important;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+@media (min-width: 800px){
+	.videoSmallCap .container-inner {
+		/*width: 750px;*/
+	}
+	.videoSmallCap .wrapper-contain{
+		font-size: 22px;
+	}
+}
+@media (min-width: 992px){
+	.videoSmallCap .container-inner {
+		/*width: 970px;*/
+	}
+}
+@media (min-width: 1200px) {
+	.videoSmallCap .container-inner {
+		/*width: 1004px;*/
+	}
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+	.videoSmallCap .mg-leftright, .videoSmallCap .mg-leftanhright{
+		padding: 0;
+	}
+	.videoSmallCap .container-inner{
+		width: 100%;
+	}
+	.videoSmallCap .wrapper-contain{
+		width: auto;
+		margin: 0px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.videoSmallCap .video-container iframe{
+		width: 100%;
+		height: 162px;
+	}
+	.videoSmallCap .mg-video-caption span{
+		font-size: 18px!important;
+		line-height: 32px!important;
+	}
+}
+/*end tablet, mobile*/
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+	.videoSmallCap .video-container iframe{
+		height: 193px;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px){
+	.videoSmallCap .video-container iframe{
+		height: 215px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 568px){
+	.videoSmallCap .video-container iframe{
+		height: 313px;
+	}
+}
+
+@media only screen and (min-width: 569px) and (max-width: 667px){
+	.videoSmallCap .video-container iframe{
+		height: 356px;
+	}
+}
+@media only screen and (min-width: 668px) and (max-width: 736px){
+	.videoSmallCap .video-container iframe{
+		height: 395px;
+	}
+}

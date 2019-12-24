@@ -1,0 +1,112 @@
+.videoSmall .clearfix{
+	clear: both;
+}
+.videoSmall *, .videoSmall *:before, .videoSmall *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.videoSmall .mg-leftright, .videoSmall .mg-leftanhright {
+	padding: 0px;
+}
+.videoSmall .container-inner{
+	/*width: 1530px;*/
+	margin: 0 auto;
+	text-align: justify;
+}
+.videoSmall .wrapper-contain{
+	/*width: 80%;*/
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.videoSmall .mg-text-center{
+	text-align: center;
+}
+.videoSmall .wow{
+	visibility: hidden;
+}
+.videoSmall .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.videoSmall .fullscreen1{
+	max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+@media (min-width: 800px){
+	.videoSmall .container-inner {
+		/*width: 750px;*/
+	}
+	.videoSmall .wrapper-contain{
+		font-size: 22px;
+	}
+}
+@media (min-width: 992px){
+	.videoSmall .container-inner {
+		/*width: 970px;*/
+	}
+}
+@media (min-width: 1200px) {
+	.videoSmall .container-inner {
+		/*width: 1004px;*/
+	}
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+	.videoSmall .mg-leftright, .videoSmall .mg-leftanhright{
+		padding: 0;
+	}
+	.videoSmall .container-inner{
+		width: 100%;
+	}
+	.videoSmall .wrapper-contain{
+		width: auto;
+		margin: 0px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.videoSmall .video-container iframe{
+		width: 100%;
+		height: 162px;
+	}
+	.videoSmall .mg-video-caption span{
+		font-size: 18px!important;
+		line-height: 32px!important;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 375px){
+	.videoSmall .video-container iframe{
+		height: 193px;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px){
+	.videoSmall .video-container iframe{
+		height: 215px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 568px){
+	.videoSmall .video-container iframe{
+		height: 313px;
+	}
+}
+
+@media only screen and (min-width: 569px) and (max-width: 667px){
+	.videoSmall .video-container iframe{
+		height: 356px;
+	}
+}
+@media only screen and (min-width: 668px) and (max-width: 736px){
+	.videoSmall .video-container iframe{
+		height: 395px;
+	}
+}
+/*end tablet, mobile*/

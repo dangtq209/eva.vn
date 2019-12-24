@@ -1,0 +1,118 @@
+.slideAnh * {margin: 0 auto}
+.slideAnh .mg-wrapper {
+  position: relative;
+  box-sizing: border-box;
+}
+.slideAnh .mg-wrapper * {
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #212121;
+    line-height: 16px;
+}
+/*-----End font------*/
+
+/*-----Start Common------*/
+.slideAnh .mg-wrapper img {
+    border: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.slideAnh .mg-wrapper p {
+    font-size: 20px!important;
+    line-height: 32px!important;
+    margin: 15px 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.slideAnh .clearfix, .slideAnh .clear {
+    clear: both;
+}
+
+/*-----Start section 6*/
+.slideAnh .width-750 {
+    width: 750px;
+}
+.slideAnh .mg-layout-normal .width-750 {
+    width: 100%;
+}
+
+/*-----Start section 8*/
+.slideAnh .bx-wrapper {
+    width: 980px;
+    position: relative;
+}
+.slideAnh .mg-container-eight .bx-controls-direction .bx-prev, .slideAnh .mg-container-eight .bx-controls-direction .bx-next {
+    position: absolute;
+    top: 45%;
+    outline: 0;
+    width: 26px;
+    height: 42px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.slideAnh .bx-wrapper .bx-prev {
+    left: 10px;
+    background: url('//cdn.24h.com.vn/upload/4-2018/images/2018-12-27/1545881503-293-icon-prev-1545881511-width26height42.png') no-repeat;
+}
+.slideAnh .bx-wrapper .bx-next {
+    right: 10px;
+    background: url('//cdn.24h.com.vn/upload/4-2018/images/2018-12-27/1545881503-650-icon-next-1545881511-width26height43.png') no-repeat;
+}
+.slideAnh .mg-container-eight .bx-default-pager {
+    text-align: center;
+}
+.slideAnh .bx-wrapper .bx-pager-item {
+    font-size: 0;
+    line-height: 0;
+}
+.slideAnh .bx-wrapper .bx-pager, .slideAnh .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    z-index: 999;
+}
+.slideAnh .bx-wrapper .bx-pager-item, .slideAnh .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.slideAnh .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #fff;
+    text-indent: -9999px;
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.slideAnh .bx-wrapper .bx-pager.bx-default-pager a:hover, .slideAnh .bx-wrapper .bx-pager.bx-default-pager a.active, .slideAnh .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #fff;
+    width: 10px;
+    height: 10px;
+}
+/*-----End section 8*/
+
+@media (min-width: 1024px) {
+    .slideAnh img[data-src-desktop] {
+        content: attr([data-src-desktop], url);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .slideAnh .width-750 {
+        width: 100%;
+    }
+    .slideAnh .mg-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .slideAnh .mg-layout-normal .mg-section, .slideAnh .mg-layout-infographic .mg-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slideAnh .mg-wrapper p {
+        font-size: 18px!important;
+    }
+}
+/*-----End Common------*/

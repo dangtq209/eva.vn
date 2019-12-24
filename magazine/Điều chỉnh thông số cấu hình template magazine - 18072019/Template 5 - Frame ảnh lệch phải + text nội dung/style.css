@@ -1,0 +1,106 @@
+.anhPhaiTextTrai .clearfix{
+    clear: both;
+}
+.anhPhaiTextTrai *{
+    margin: 0 auto;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.anhPhaiTextTrai *, .anhPhaiTextTrai *:before, .anhPhaiTextTrai *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.anhPhaiTextTrai .mg-leftright, .anhPhaiTextTrai .mg-leftanhright {
+    padding: 0px;
+}
+.anhPhaiTextTrai .container-inner{
+    width: 1530px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.anhPhaiTextTrai .wrapper-contain{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.anhPhaiTextTrai .textLeft-imgRight p{
+    font-size: 20px!important;
+    line-height: 32px!important;
+    margin: 15px 0;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.anhPhaiTextTrai .mg-text-center{
+    text-align: center;
+}
+.anhPhaiTextTrai .wow{
+    visibility: hidden;
+}
+.anhPhaiTextTrai .fullscreen{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.anhPhaiTextTrai .fullscreen1{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+} 
+.anhPhaiTextTrai .mg-anhright{
+    float: right;
+    width: 55%;
+    margin: 20px 0px 20px 30px;
+}
+.anhPhaiTextTrai .colorblue p{
+    color: #c85a5a !important;
+}
+
+@media (min-width: 800px){
+    .anhPhaiTextTrai .container-inner {
+        width: 750px;
+    }
+    .anhPhaiTextTrai .wrapper-contain{
+        font-size: 22px;
+    }
+}
+@media (min-width: 992px){
+    .anhPhaiTextTrai .container-inner {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .anhPhaiTextTrai .container-inner {
+        width: 1004px;
+    }
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+    .anhPhaiTextTrai .mg-leftright, .anhPhaiTextTrai .mg-leftanhright{
+        padding: 0;
+    }
+    .anhPhaiTextTrai .container-inner{
+        width: 100%;
+    }
+    .anhPhaiTextTrai .wrapper-contain{
+        width: auto;
+        margin: 0px 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .anhPhaiTextTrai .textLeft-imgRight p, .anhPhaiTextTrai .textLeft-imgRight h4, .anhPhaiTextTrai .quote, .anhPhaiTextTrai span{
+        font-size: 18px !important;
+        line-height: 32px !important;
+        margin: 1px 0;
+    }
+    .anhPhaiTextTrai .mg-anhright, .anhPhaiTextTrai .mg-anhleft, .anhPhaiTextTrai .mg-anhright1, .anhPhaiTextTrai .mg-anhright2, .anhPhaiTextTrai .mg-anhleft1, .anhPhaiTextTrai .mg-tet .mg-anhright{
+        width: 100%;
+        margin: 15px 0px;
+        text-align: center;
+        padding: 0;
+    }
+}
+/*end tablet, mobile*/

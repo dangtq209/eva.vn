@@ -1,0 +1,120 @@
+body,p{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.fourPic .clearfix{
+	clear: both;
+}
+.fourPic *, .fourPic *:before, .fourPic *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.fourPic .mg-leftright, .fourPic .mg-leftanhright {
+	padding: 0px;
+}
+.fourPic .container-inner{
+	/*width: 1530px;*/
+	margin: 0 auto;
+	text-align: justify;
+}
+.fourPic .wrapper-contain{
+	/*width: 80%;*/
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.fourPic .mg-text-center{
+	text-align: center;
+}
+.fourPic .wow{
+	visibility: hidden;
+}
+.fourPic .text-center{
+	width: 945px;
+	margin: 0 auto;
+}
+.fourPic .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.fourPic .fullscreen1{
+	height: 320px;
+	width: 470px;
+}
+.fourPic .col_1_3{
+	width: 470px;
+	height: 320px;
+	float: left;
+	position: relative;
+	margin-bottom: 5px;
+	line-height: 0;
+}
+.fourPic .col_1_3:nth-child(2n+1){
+	margin-right: 5px;
+}
+.fourPic .row_1_2 {
+	float: left;
+	width: 100%;
+}
+.fourPic .twoImg{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 800px){
+	/*.fourPic .container-inner {
+		width: 750px;
+		}*/
+		.fourPic .wrapper-contain{
+			font-size: 22px;
+		}
+	}
+/*@media (min-width: 992px){
+	.fourPic .container-inner {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.fourPic .container-inner {
+		width: 50%;
+	}
+	}*/
+	/*end pc*/
+
+	@media only screen and (max-width: 800px){
+		.fourPic .mg-leftright, .fourPic .mg-leftanhright{
+			padding: 0;
+		}
+		.fourPic .container-inner{
+			width: 100%;
+		}
+		.fourPic .wrapper-contain{
+			width: auto;
+			margin: 0px 15px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.fourPic .twoImg{
+			margin-bottom: 2px;
+		}
+	}
+	/*end tablet, mobile*/
+
+	@media (max-width: 600px){
+		.fourPic .col_1_3 .row_1_2, .fourPic .col_1_2 .row_1_2, .fourPic .col_1_3, .fourPic .col_1_2, .fourPic .text-center{
+			width: 100%;
+		}
+		.fourPic .col_1_3:nth-child(2n+1){
+			margin-right: 0;
+		}
+		.fourPic .col_1_3, .fourPic .fullscreen1{
+			width: 100%;
+			height: auto;
+		}
+	}
+/*end mobile*/

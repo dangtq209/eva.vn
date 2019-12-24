@@ -1,0 +1,109 @@
+.titleTextTo .clearfix{
+	clear: both;
+}
+.titleTextTo *{
+	margin: 0 auto;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.titleTextTo *, .titleTextTo *:before, .titleTextTo *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.titleTextTo .mg-leftright, .titleTextTo .mg-leftanhright {
+	padding: 0px;
+}
+.titleTextTo .container-inner{
+	width: 1530px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.titleTextTo .wrapper-contain{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.titleTextTo .tittleTop-textBottom p{
+	font-size: 20px!important;
+	line-height: 32px!important;
+	margin: 15px 0;
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.titleTextTo .mg-text-center{
+	text-align: center;
+}
+.titleTextTo .wow{
+	visibility: hidden;
+}
+.titleTextTo .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.titleTextTo .tittleTop-textBottom h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: #582b1c;
+	font-style: oblique;
+	margin: 20px 0px;
+	font-family: Arial,Helvetica,sans-serif;
+	line-height: 1.3;
+}
+.bigTxt{
+	font-size: 55px!important;
+    float: left;
+    margin-right: 5px;
+}
+.titleTextTo .tittleTop-textBottom p.bigTxt{
+	font-size: 65px!important;
+    float: left;
+    margin-right: 5px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+@media (min-width: 800px){
+	.titleTextTo .container-inner {
+		width: 750px;
+	}
+	.titleTextTo .wrapper-contain{
+		font-size: 22px;
+	}
+}
+@media (min-width: 992px){
+	.titleTextTo .container-inner {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.titleTextTo .container-inner {
+		width: 1004px;
+	}
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+	.titleTextTo .mg-leftright, .titleTextTo .mg-leftanhright{
+		padding: 0;
+	}
+	.titleTextTo .container-inner{
+		width: 100%;
+	}
+	.titleTextTo .wrapper-contain{
+		width: auto;
+		margin: 0px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.titleTextTo .tittleTop-textBottom p, .titleTextTo .tittleTop-textBottom h4{
+		font-size: 18px !important;
+		line-height: 32px !important;
+		margin: 5px 0;
+	}
+}
+/*end tablet, mobile*/

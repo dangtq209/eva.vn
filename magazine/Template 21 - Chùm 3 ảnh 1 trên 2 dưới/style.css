@@ -1,0 +1,113 @@
+body, p{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.threePic .clearfix{
+	clear: both;
+}
+.threePic *, .threePic *:before, .threePic *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.threePic .mg-leftright, .threePic .mg-leftanhright {
+	padding: 0px;
+}
+.threePic .container-inner{
+	/*width: 1530px;*/
+	margin: 0 auto;
+	text-align: justify;
+}
+.threePic .wrapper-contain{
+	/*width: 80%;*/
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.threePic .mg-text-center{
+	text-align: center;
+}
+.threePic .wow{
+	visibility: hidden;
+}
+.threePic .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.threePic .fullscreen1{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+.threePic .col_1_3{
+	width: 49.6%;
+	float: left;
+	position: relative;
+}
+.threePic .col_1_3:nth-child(2n+1){
+	margin-right: 0.4%;
+}
+.threePic .row_1_2 {
+	float: left;
+	width: 100%;
+}
+.threePic .twoImg{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.threePic .text-center>p>img{
+	margin-bottom: 5px;
+}
+
+@media (min-width: 800px){
+	/*.threePic .container-inner {
+		width: 750px;
+		}*/
+		.threePic .wrapper-contain{
+			font-size: 22px;
+		}
+	}
+/*@media (min-width: 992px){
+	.threePic .container-inner {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.threePic .container-inner {
+		width: 50%;
+	}
+	}*/
+	/*end pc*/
+
+	@media only screen and (max-width: 800px){
+		.threePic .mg-leftright, .threePic .mg-leftanhright{
+			padding: 0;
+		}
+		.threePic .container-inner{
+			width: 100%;
+		}
+		.threePic .wrapper-contain{
+			width: auto;
+			margin: 0px 15px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.threePic .twoImg{
+			margin-bottom: 2px;
+		}
+	}
+	/*end tablet, mobile*/
+
+	@media (max-width: 600px){
+		.threePic .col_1_3 .row_1_2, .threePic .col_1_2 .row_1_2, .threePic .col_1_3, .threePic .col_1_2{
+			width: 100%;
+		}
+		.threePic .col_1_3:nth-child(2n+1){
+			margin-right: 0;
+		}
+	}
+/*end mobile*/

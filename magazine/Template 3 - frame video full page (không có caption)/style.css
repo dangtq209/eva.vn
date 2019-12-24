@@ -1,0 +1,52 @@
+.frameVideo * {margin: 0 auto}
+.frameVideo .mg-wrapper {
+	position: relative;
+	box-sizing: border-box;
+}
+/*-----End font------*/
+
+/*-----Start Common------*/
+.frameVideo .mg-wrapper a {
+	text-decoration: none;
+}
+.frameVideo .italic {
+	font-style: italic;
+}
+.frameVideo .clearfix, .frameVideo .clear {
+	clear: both;
+}
+.frameVideo .text-center {
+	text-align: center;
+}
+/*-----Start section 3*/
+.frameVideo .mg-video-inner {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
+.frameVideo .mg-video-inner iframe,
+.frameVideo .mg-video-inner object,
+.frameVideo .mg-video-inner embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.frameVideo .mg-section-three .mg-video-caption {
+	text-align: center;
+	margin: 15px;
+}
+.frameVideo .mg-section-three .mg-video-caption span {
+	font-size: 22px;
+	font-style: italic;
+
+}
+.frameVideo .mg-video iframe{
+	margin: 5px auto;
+	margin-top: 15px;
+	max-width: 100%;
+	display: block;
+}
+/*-----End section 3*/
+/*-----End Common------*/
