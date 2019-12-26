@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery.min.js"></script>
+	<script src="wow.min.js"></script>
+	<script src="custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="haiAnh">
+		<div class="mg-wrapper twoImg">
+			<div class="mg-leftanhright clearfix">
+				<div class="container-inner">
+					<p class="text-center">
+						<span class="col_1_3"><span class="row_1_2"><img data-df-rules="width<800;height<600;file_size<5MB;type=png,jpg" data-is-df-image alt="" class="fullscreen1 wow fadeInLeft" src="image.jpg"></span></span> 
+						<span class="col_1_3"><span class="row_1_2"><img data-df-rules="width<=1920;height<=1080;file_size<5MB;type=jpg,jpeg,png,gif,svg,pjpeg" data-is-df-image alt="" class="fullscreen1 wow fadeInDown" src="image1.jpg"></span></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 23/7/2019: dangtq Loai_bo_hieu_ung_ban_mobile -->
+	<script>
+		var width = $(window).width();
+		if (width < 768) {
+			$("img").removeClass("fadeInLeft fadeInDown");
+		}
+	</script>
+</body>
+</html>

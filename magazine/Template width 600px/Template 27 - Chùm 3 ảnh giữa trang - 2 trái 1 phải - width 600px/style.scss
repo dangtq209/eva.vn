@@ -1,0 +1,112 @@
+.template27 * {margin: 0 auto}
+.template27 .mg-wrapper {
+  position: relative;
+  box-sizing: border-box;
+}
+.template27 .mg-wrapper * {
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #212121;
+    line-height: 16px;
+}
+/*-----End font------*/
+
+/*-----Start Common------*/
+.template27 .mg-wrapper img {
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.template27 .mg-wrapper p {
+    font-size: 20px!important;
+    line-height: 32px!important;
+    margin: 15px 0;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: justify;
+}
+.template27 .clearfix, .template27 .clear {
+    clear: both;
+}
+
+/*-----Start section 6*/
+.template27 .width-750 {
+    width: 803px;
+}
+.template27 .mg-layout-normal .width-750 {
+    width: 100%;
+}
+/*-----End section 6*/
+.template27 .threeImg{
+    overflow: hidden;
+}
+.mgR8{
+    margin-right: 8px;
+}
+.mgBt8{
+    margin-bottom: 8px;
+}
+.disFlex{
+    display: flex;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.h100{
+    height: 100%;
+}
+.ofCover{
+    object-fit: cover;
+}
+
+//
+.template27{
+    .image-item{
+        height: 918px;
+        @media only screen and (max-width: 800px){
+            height: auto;
+        }
+    }
+    .threeImg{
+        .image-item{
+            height: 455px;
+            @media only screen and (max-width: 800px){
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .template27 img[data-src-desktop] {
+        content: attr([data-src-desktop], url);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .template27 .width-750 {
+        width: 100%;
+    }
+    .template27 .mg-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .template27 .mg-layout-normal .mg-section, .template27 .mg-layout-infographic .mg-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .template27 .image-set-3, .template27 .image-set-3 div{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .template27 .mg-wrapper p {
+        font-size: 18px!important;
+    }
+    .template27 .disFlex{
+        flex-direction: column;
+    }
+    .template27 .mg-wrapper img{
+        margin-bottom: 5px;
+    }
+}
+/*-----End Common------*/
