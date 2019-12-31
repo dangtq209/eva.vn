@@ -607,6 +607,10 @@ a.quiz-question-item-link {
     line-height: 22px;
 }
 
+.quizz5 .listImg .item.active .name{
+    color: #ef5477;
+}
+
 .quizz5 .listImg.listImg2 {
     width: 625px;
     display: table;

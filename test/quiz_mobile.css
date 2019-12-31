@@ -664,6 +664,10 @@ a.quiz-question-item-link {
     font-weight: 600;
 }
 
+.quizz5 .listImg .item.active .name{
+    color: #ef5477;
+}
+
 @media screen and (min-width: 375px) {
     .quizz5 .listImg .item .name {
         font-size: 22px;
