@@ -1,0 +1,79 @@
+.popularTopic {
+  margin: 35px 0 30px;
+  .title {
+    font-size: 22px;
+    background-color: #f9f9f9;
+    color: #d2577f;
+    padding: 10px 0;
+    margin-bottom: 14px;
+  }
+
+  //
+  .list {
+    position: relative;
+    display: table;
+    width: 100%;
+    .icoVidPrv,
+    .icoVidNxt {
+      top: 19px;
+    }
+    .inner {
+      word-spacing: -4px;
+    }
+    article {
+      display: inline-table;
+      width: 23.5%;
+      min-height: 58px;
+      border: 1px solid #d0597f;
+      border-radius: 5px;
+      margin-bottom: 2%;
+      margin-right: 2%;
+      word-spacing: 0;
+      position: relative;
+      &.active {
+        border: 2px solid #fd9fb4;
+        a {
+          font-size: 12px;
+          font-weight: bold;
+          color: #d2577f;
+        }
+      }
+      &:nth-child(4n + 4) {
+        margin-right: 0;
+      }
+      a {
+        color: #212121;
+        height: 58px;
+        display: block;
+        padding: 13px 0 13px 45px;
+        img {
+          width: 45px;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        header {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+
+  //
+  .pagi {
+    span {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #767676;
+      cursor: pointer;
+      &.active {
+        background-color: #ce5b7f;
+      }
+    }
+  }
+}

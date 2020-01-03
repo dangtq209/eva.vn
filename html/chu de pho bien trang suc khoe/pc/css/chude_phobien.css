@@ -1,0 +1,59 @@
+.popularTopic {
+  margin: 35px 0 30px; }
+  .popularTopic .title {
+    font-size: 22px;
+    background-color: #f9f9f9;
+    color: #d2577f;
+    padding: 10px 0;
+    margin-bottom: 14px; }
+  .popularTopic .list {
+    position: relative;
+    display: table;
+    width: 100%; }
+    .popularTopic .list .icoVidPrv,
+    .popularTopic .list .icoVidNxt {
+      top: 19px; }
+    .popularTopic .list .inner {
+      word-spacing: -4px; }
+    .popularTopic .list article {
+      display: inline-table;
+      width: 23.5%;
+      min-height: 58px;
+      border: 1px solid #d0597f;
+      border-radius: 5px;
+      margin-bottom: 2%;
+      margin-right: 2%;
+      word-spacing: 0;
+      position: relative; }
+      .popularTopic .list article.active {
+        border: 2px solid #fd9fb4; }
+        .popularTopic .list article.active a {
+          font-size: 12px;
+          font-weight: bold;
+          color: #d2577f; }
+      .popularTopic .list article:nth-child(4n + 4) {
+        margin-right: 0; }
+      .popularTopic .list article a {
+        color: #212121;
+        height: 58px;
+        display: block;
+        padding: 13px 0 13px 45px; }
+        .popularTopic .list article a img {
+          width: 45px;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%); }
+        .popularTopic .list article a header {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+  .popularTopic .pagi span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #767676;
+    cursor: pointer; }
+    .popularTopic .pagi span.active {
+      background-color: #ce5b7f; }

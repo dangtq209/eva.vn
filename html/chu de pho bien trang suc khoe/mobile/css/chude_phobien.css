@@ -1,0 +1,77 @@
+.popularTopic {
+  margin: 15px 0 30px; }
+  .popularTopic .title {
+    font-size: 22px;
+    color: #d2577f;
+    margin-bottom: 15px; }
+    @media screen and (min-width: 375px) {
+      .popularTopic .title {
+        font-size: 24px; } }
+    @media screen and (min-width: 480px) {
+      .popularTopic .title {
+        font-size: 28px; } }
+    @media screen and (min-width: 667px) {
+      .popularTopic .title {
+        font-size: 30px; } }
+  .popularTopic .list {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 0 10px;
+    word-spacing: -4px; }
+    .popularTopic .list article {
+      display: inline-table;
+      width: 49%;
+      min-height: 58px;
+      border: 1px solid #d0597f;
+      border-radius: 5px;
+      margin-bottom: 2%;
+      margin-right: 2%;
+      word-spacing: 0;
+      position: relative; }
+      .popularTopic .list article:nth-child(2n + 2) {
+        margin-right: 0; }
+      .popularTopic .list article a {
+        color: #212121;
+        height: 58px;
+        display: block;
+        padding: 13px 0 13px 45px; }
+        .popularTopic .list article a img {
+          width: 45px;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%); }
+        .popularTopic .list article a header {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 16px; }
+          @media screen and (min-width: 375px) {
+            .popularTopic .list article a header {
+              font-size: 18px; } }
+          @media screen and (min-width: 480px) {
+            .popularTopic .list article a header {
+              font-size: 22px; } }
+          @media screen and (min-width: 667px) {
+            .popularTopic .list article a header {
+              font-size: 24px; } }
+      .popularTopic .list article.active {
+        border: 2px solid #fd9fb4; }
+        .popularTopic .list article.active header {
+          font-size: 12px;
+          font-weight: bold;
+          color: #d2577f; }
+          @media screen and (min-width: 375px) {
+            .popularTopic .list article.active header {
+              font-size: 14px; } }
+          @media screen and (min-width: 480px) {
+            .popularTopic .list article.active header {
+              font-size: 18px; } }
+          @media screen and (min-width: 667px) {
+            .popularTopic .list article.active header {
+              font-size: 20px; } }
+  .popularTopic .seMr a {
+    border: 1px solid #e9e6e4;
+    padding: 5px 10px;
+    border-radius: 25px; }

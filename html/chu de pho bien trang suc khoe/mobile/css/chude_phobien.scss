@@ -1,0 +1,94 @@
+.popularTopic {
+  margin: 15px 0 30px;
+  .title {
+    font-size: 22px;
+    color: #d2577f;
+    margin-bottom: 15px;
+    @media screen and (min-width: 375px) {
+      font-size: 24px;
+    }
+    @media screen and (min-width: 480px) {
+      font-size: 28px;
+    }
+    @media screen and (min-width: 667px) {
+      font-size: 30px;
+    }
+  }
+
+  //
+  .list {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 0 10px;
+    word-spacing: -4px;
+    article {
+      display: inline-table;
+      width: 49%;
+      min-height: 58px;
+      border: 1px solid #d0597f;
+      border-radius: 5px;
+      margin-bottom: 2%;
+      margin-right: 2%;
+      word-spacing: 0;
+      position: relative;
+      &:nth-child(2n + 2) {
+        margin-right: 0;
+      }
+      a {
+        color: #212121;
+        height: 58px;
+        display: block;
+        padding: 13px 0 13px 45px;
+        img {
+          width: 45px;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        header {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 16px;
+          @media screen and (min-width: 375px) {
+            font-size: 18px;
+          }
+          @media screen and (min-width: 480px) {
+            font-size: 22px;
+          }
+          @media screen and (min-width: 667px) {
+            font-size: 24px;
+          }
+        }
+      }
+
+      //
+      &.active {
+        border: 2px solid #fd9fb4;
+        header {
+          font-size: 12px;
+          font-weight: bold;
+          color: #d2577f;
+          @media screen and (min-width: 375px) {
+            font-size: 14px;
+          }
+          @media screen and (min-width: 480px) {
+            font-size: 18px;
+          }
+          @media screen and (min-width: 667px) {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  //
+  .seMr a {
+    border: 1px solid #e9e6e4;
+    padding: 5px 10px;
+    border-radius: 25px;
+  }
+}
