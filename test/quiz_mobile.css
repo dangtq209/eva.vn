@@ -490,7 +490,7 @@ a.quiz-question-item-link {
 /*End 28/11/2019: dangtq sua_bookmark_bai_quizz*/
 /* quiz 5*/
 .quizz5 {
-  background: url("//test.eva.vn/images/responsive/bgQuizz_quiz5.jpg") #fff;
+  background: url("//test.eva.vn/images/responsive/bgQuizz_quiz5.jpg") #fff; 
   margin: 0 -10px;
 }
 
@@ -804,7 +804,7 @@ a.quiz-question-item-link {
   border-radius: 0;
   margin-bottom: 0;
 }
-.quizz5 #dap_an_quiz img {
+.quizz5 .txtQuizz img {
   width: 100% !important;
   height: auto !important;
 }
