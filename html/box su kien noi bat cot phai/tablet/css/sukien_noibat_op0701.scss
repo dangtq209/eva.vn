@@ -1,0 +1,61 @@
+/*Begin template op0701*/
+@font-face {
+	font-family: UTM Androgyne;
+	src: url("../fonts/UTM Androgyne.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+  }
+  .sknb_op0701 {
+	margin-bottom: 10px;
+	header {
+	  background: url("../images/op0701_top.gif") no-repeat;
+	  height: 150px;
+	  position: relative;
+	}
+	.list {
+	  background: url("../images/op0701_center.jpg") no-repeat;
+	  background-size: 100% 100%;
+	  margin-top: -1px;
+	  padding: 0px 20px 0 28px;
+	  article {
+		.icoFlower {
+		  width: 18px;
+		  height: 15px;
+		  background: url(../images/icoFlower.png) no-repeat;
+		  margin-right: 10px;
+		  margin-top: 6px;
+		  cursor: pointer;
+		}
+		.icoDot {
+		  width: 10px;
+		  height: 9px;
+		  background-color: #fff;
+		  margin: 8px 10px 0 4px;
+		  border-radius: 50%;
+		  cursor: pointer;
+		}
+		a {
+		  color: #fff;
+		  font-family: UTM Androgyne, "Open Sans", sans-serif;
+		  line-height: 1.4;
+		  padding-bottom: 5px;
+		  margin-bottom: 12px;
+		  width: 100%;
+		  font-size: 15px;
+		  &:hover {
+			color: #d2577e;
+		  }
+		}
+		&:last-child a {
+		  padding-bottom: 0;
+		  margin-bottom: 0;
+		}
+	  }
+	}
+	.footBg {
+	  background-image: url("../images/op0701_bottom.jpg");
+	  height: 210px;
+	}
+  }
+  /*End template op0701*/
+  
