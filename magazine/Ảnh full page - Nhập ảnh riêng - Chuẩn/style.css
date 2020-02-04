@@ -1,0 +1,107 @@
+.imgFullPage_chuan .clearfix{
+	clear: both;
+}
+.imgFullPage_chuan *, .imgFullPage_chuan *:before, .imgFullPage_chuan *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.imgFullPage_chuan .mg-leftright, .imgFullPage_chuan .mg-leftanhright {
+	padding: 0px;
+}
+.imgFullPage_chuan .container-inner{
+	width: 1530px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.imgFullPage_chuan .wrapper-contain{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.imgFullPage_chuan .mg-text-center{
+	text-align: center;
+}
+.imgFullPage_chuan .wow{
+	visibility: hidden;
+}
+.imgFullPage_chuan .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.imgFullPage_chuan .fullscreen1{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+.imgFullPage_chuan .col_1_3{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.imgFullPage_chuan .row_1_2 {
+	float: left;
+	width: 96%;
+}
+.imgFullPage_chuan .imgFull_chuan{
+	margin-bottom: 5px;
+}
+.imgFull_chuan{
+	display: none;
+}
+.imgFull_chuan.imgFullPc_chuan{
+	display: block;
+}
+
+@media (min-width: 800px){
+	.imgFullPage_chuan .container-inner {
+		width: 750px;
+	}
+	.imgFullPage_chuan .wrapper-contain{
+		font-size: 22px;
+	}
+}
+@media (min-width: 992px){
+	.imgFullPage_chuan .container-inner {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.imgFullPage_chuan .container-inner {
+		width: 1004px;
+	}
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+	.imgFullPage_chuan .mg-leftright, .imgFullPage_chuan .mg-leftanhright{
+		padding: 0;
+	}
+	.imgFullPage_chuan .container-inner{
+		width: 100%;
+	}
+	.imgFullPage_chuan .wrapper-contain{
+		width: auto;
+		margin: 0px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+/*end tablet, mobile*/
+
+@media screen and (max-width: 767px) {
+	.imgFullPage_chuan .col_1_3 .row_1_2, .imgFullPage_chuan .col_1_2 .row_1_2, .imgFullPage_chuan .col_1_3, .imgFullPage_chuan .col_1_2{
+		width: 100%;
+	}
+	.imgFull_chuan.imgFullMobile_chuan{
+		display: block;
+	}
+	.imgFull_chuan.imgFullPc_chuan{
+		display: none;
+	}
+}
+/*end mobile*/
