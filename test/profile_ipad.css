@@ -204,6 +204,7 @@ p.linkOrigin .icoDrop {
 }
 /* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 /*BEGIN xu_ly_hien_thi_template_dac_biet_2*/
+/*Begin 4/2/2020: dangtq*/
 .template_profile_title {
     font-size: 27px;
     color: #e26d8d;
@@ -220,6 +221,7 @@ p.linkOrigin .icoDrop {
 .template_profile_title a{
     color: #e26d8d;
 }
+/*End 4/2/2020: dangtq*/
 .template_profile_txtMore {
     display: inline-block;
     width: 118px;
@@ -238,7 +240,7 @@ p.linkOrigin .icoDrop {
 }
 
 .noCnt {
-    height: 53px;
+    height: 20px; /*Begin 4/2/2020: dangtq*/
 }
 
 .template_profile_txtMore.last {

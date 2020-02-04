@@ -564,16 +564,19 @@
     opacity: 0.2;
 }
 
+/*Begin 4/2/2020: dangtq*/
 .tempProf_2 .tempProf_tit {
     font-size: 17px;
     color: #e26d8d;
     margin: 15px 10px 5px;
-    text-align: center;
+    /*text-align: center;*/
     line-height: 15px;
     display: flex;
+    padding-top: 20px;
+    background: url('https://cdn.eva.vn/images/responsive/pink-line.png') 0 0 repeat-x;
 }
 
-.tempProf_2 .tempProf_tit .imgLineLeft,
+/*.tempProf_2 .tempProf_tit .imgLineLeft,
 .tempProf_2 .tempProf_tit .imgLineRight {
     display: inline-block;
     background: url("//test.eva.vn/images/responsive/line_template_profile_2x.png") no-repeat;
@@ -591,7 +594,8 @@
 .tempProf_2 .tempProf_tit .imgLineRight {
     background-image: url("//test.eva.vn/images/responsive/line_template_profile_2xb.png");
     background-position: right;
-}
+}*/
+/*End 4/2/2020: dangtq*/
 
 .tempProf_2 .tempProf_tit .tempProf_tit_name {
     flex-grow: 1;
@@ -693,9 +697,12 @@
     color: transparent;
     background: #d0597e;
 }
+/*Begin 4/2/2020: dangtq*/
 .tempProf_tit_name a {
     color: #e26d8d;
+    line-height: 1.2;
 }
+/*End 4/2/2020: dangtq*/
 .rlt{
     position: relative;
 }

@@ -493,6 +493,7 @@ body{
     opacity: 0.2;
 }
 
+/*Begin 4/2/2020: dangtq*/
 .tempProf_2 .tempProf_tit {
     font-size: 17px;
     color: #e26d8d;
@@ -505,6 +506,10 @@ body{
 }
 .tempProf_tit_name a {
     color: #e26d8d;
+    line-height: 1.2;
+}
+.bg_color_image_conver_mobile img{
+    width: auto;
 }
 
 /*.tempProf_2 .tempProf_tit .imgLineLeft,
@@ -526,6 +531,7 @@ body{
     background-image: url("//test.eva.vn/images/responsive/line_template_profile_2xb.png");
     background-position: right;
 }*/
+/*End 4/2/2020: dangtq*/
 
 .tempProf_2 .tempProf_tit .tempProf_tit_name {
     flex-grow: 1;

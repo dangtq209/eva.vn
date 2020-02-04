@@ -195,6 +195,7 @@ p.linkOrigin .icoDrop {
 /* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 
 /*BEGIN xu_ly_hien_thi_template_dac_biet_2*/
+/*Begin 4/2/2020: dangtq*/
 .template_profile_title {
     font-size: 27px;
     color: #e26d8d;
@@ -208,6 +209,7 @@ p.linkOrigin .icoDrop {
     padding-top: 20px;
     background: url('https://cdn.eva.vn/images/responsive/pink-line.png') 0 0 repeat-x;
 }
+/*End 4/2/2020: dangtq*/
 .template_profile_title a{
     color: #e26d8d;
 }
