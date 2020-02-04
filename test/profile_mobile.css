@@ -321,6 +321,7 @@ body{
 
 .sick .item img, .box_benh_thuong_gap_more .item a img {
     max-width: 62px;
+    max-height: 62px; /*21/1/2020: dangtq*/
     vertical-align: middle;
     display: inline-block;
 }
@@ -496,14 +497,17 @@ body{
     font-size: 17px;
     color: #e26d8d;
     margin: 15px 10px 5px;
-    text-align: center;
+    /*text-align: center;*/
     line-height: 15px;
     display: flex;
+    padding-top: 20px;
+    background: url('https://cdn.eva.vn/images/responsive/pink-line.png') 0 0 repeat-x;
 }
 .tempProf_tit_name a {
     color: #e26d8d;
 }
-.tempProf_2 .tempProf_tit .imgLineLeft,
+
+/*.tempProf_2 .tempProf_tit .imgLineLeft,
 .tempProf_2 .tempProf_tit .imgLineRight {
     display: inline-block;
     background: url("//test.eva.vn/images/responsive/line_template_profile_2x.png") no-repeat;
@@ -521,7 +525,7 @@ body{
 .tempProf_2 .tempProf_tit .imgLineRight {
     background-image: url("//test.eva.vn/images/responsive/line_template_profile_2xb.png");
     background-position: right;
-}
+}*/
 
 .tempProf_2 .tempProf_tit .tempProf_tit_name {
     flex-grow: 1;

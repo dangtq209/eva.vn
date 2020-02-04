@@ -43,7 +43,7 @@ body{
 
 .expert .expertInner .flex {
     justify-content: space-between;
-    padding: 20px 50px 7px;
+    padding: 35px 50px 7px;
 }
 
 .expert .expertInner .flex .icoVidPrv,
@@ -207,13 +207,15 @@ p.linkOrigin .icoDrop {
 .template_profile_title {
     font-size: 27px;
     color: #e26d8d;
-    background: url("//test.eva.vn/images/responsive/line_template_profile_2.png") no-repeat;
+    /*background: url("//test.eva.vn/images/responsive/line_template_profile_2.png") no-repeat;*/
     margin-bottom: 25px;
-    text-align: center;
-    height: 31px;
+    /*text-align: center;*/
+    /*height: 31px;*/
     line-height: 29px;
-    padding-left: 15px;
+    /*padding-left: 15px;*/
     text-transform: uppercase;
+    padding-top: 20px;
+    background: url('https://cdn.eva.vn/images/responsive/pink-line.png') 0 0 repeat-x;
 }
 .template_profile_title a{
     color: #e26d8d;
@@ -241,5 +243,11 @@ p.linkOrigin .icoDrop {
 
 .template_profile_txtMore.last {
     margin-bottom: 30px;
+}
+.profile_thuong .color-featured {
+    color: #d2577e;
+}
+.profile_thuong .brcrmlstuldn .brcrmlstuldncm .ico-sprt{
+    display: none;
 }
 /*END xu_ly_hien_thi_template_dac_biet_2*/

@@ -808,4 +808,7 @@ a.quiz-question-item-link {
   width: 100% !important;
   height: auto !important;
 }
+#id_socical_quiz1 img{
+  width: 55px;
+}
 /* end quiz 5*/

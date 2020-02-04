@@ -317,6 +317,7 @@
 
 .sick .item img, .box_benh_thuong_gap_more .item a img {
     max-width: 62px;
+    max-height: 62px; /*21/1/2020: dangtq*/
     vertical-align: middle;
     display: inline-block;
 }
@@ -363,3 +364,252 @@
 .box_chuyen_gia_more .inner, .box_benh_thuong_gap_more .item{
     text-align: left;
 }
+/*BEGIN xu_ly_hien_thi_template_dac_biet_2*/
+@media screen and (min-width: 375px) {
+    .tempProf_2 a.clrTit {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 a.clrTit {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 a.clrTit {
+        font-size: 23px;
+    }
+}
+
+.tempProf_2 .boxTop-prf {
+    padding: 10px 9px 0px 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt {
+    display: flex;
+    width: 125%;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt article {
+    margin: 0;
+    width: 100%;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt article .boxLtImg {
+    border-bottom: 0;
+}
+
+.tempProf_2 .boxTop-prf .itBthBxCt article:first-child {
+    margin-right: 12px;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #44687d;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(2) {
+    opacity: 0.8;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(3) {
+    opacity: 0.6;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(4) {
+    opacity: 0.4;
+}
+
+.tempProf_2 .boxTop-prf .tempProf_pagi li:nth-child(5) {
+    opacity: 0.2;
+}
+
+.tempProf_2 .tempProf_tit {
+    font-size: 17px;
+    color: #e26d8d;
+    margin: 15px 10px 5px;
+    /*text-align: center;*/
+    line-height: 15px;
+    display: flex;
+    padding-top: 20px;
+    background: url('https://cdn.eva.vn/images/responsive/pink-line.png') 0 0 repeat-x;
+}
+.tempProf_tit_name a {
+    color: #e26d8d;
+}
+
+/*.tempProf_2 .tempProf_tit .imgLineLeft,
+.tempProf_2 .tempProf_tit .imgLineRight {
+    display: inline-block;
+    background: url("//test.eva.vn/images/responsive/line_template_profile_2x.png") no-repeat;
+    background-size: auto 100%;
+    min-width: 16%;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_tit .imgLineLeft,
+    .tempProf_2 .tempProf_tit .imgLineRight {
+        min-width: 14%;
+    }
+}
+
+.tempProf_2 .tempProf_tit .imgLineRight {
+    background-image: url("//test.eva.vn/images/responsive/line_template_profile_2xb.png");
+    background-position: right;
+}*/
+
+.tempProf_2 .tempProf_tit .tempProf_tit_name {
+    flex-grow: 1;
+    width: 100%;
+    margin-top: -3px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_tit {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 .tempProf_tit {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 .tempProf_tit {
+        font-size: 25px;
+    }
+}
+
+.tempProf_2 .tempProf_txtMore {
+    display: inline-block;
+    width: 110px;
+    font-size: 13px;
+    color: #d2587d;
+    border: 2px solid #d2587d;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: url("https://test.eva.vn/images/responsive/icoMore.png") no-repeat 93%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .tempProf_txtMore {
+        font-size: 15px;
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 .tempProf_txtMore {
+        font-size: 19px;
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 .tempProf_txtMore {
+        font-size: 21px;
+        width: 150px;
+    }
+}
+
+.tempProf_2 .sapo {
+    font-size: 13px;
+}
+
+@media screen and (min-width: 375px) {
+    .tempProf_2 .sapo {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .tempProf_2 .sapo {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .tempProf_2 .sapo {
+        font-size: 21px;
+    }
+}
+.template_dac_biet_2 .swiper-slide{
+    width: 65%;
+    position: relative;
+    margin: initial;
+    max-height: 100%;
+}
+.pagination-template-dac-biet-2 {
+    bottom: 0px;
+    display: block;
+    width: 100%;
+}
+.pagination-template-dac-biet-2  .swiper-pagination-bullet{
+    margin-left: 5px;
+    color: transparent;
+    background: #d0597e;
+}
+.vidChsoBd {   
+    position: relative;
+}
+.icoVidPrv {
+    position: absolute;
+    background: url(//test.eva.vn/images/responsive/tempProf_prev.png) center no-repeat;
+    width: 35px;
+    height: 35px;    
+    background-size: 35px 35px;
+    top: 25%;
+    left: 0;
+    display: inline-block;
+    z-index: 2;
+}
+.icoVidNxt {
+    position: absolute;
+    background: url(//test.eva.vn/images/responsive/tempProf_next.png) center no-repeat;
+    width: 35px;
+    height: 35px;    
+    background-size: 35px 35px;
+    top: 25%;
+    right: 0;
+    display: inline-block;
+    z-index: 2;
+}
+.template_dac_biet_2 .vidChsoCm{
+margin-bottom: 30px;
+}
+.template_dac_biet_2 .vid-ico, .img-ico, .template_dac_biet_2 .icoMz, .icon-ava{
+	bottom:5px;
+}
+@media only screen and (max-width: 320px) {
+	.bg_color_image_conver_mobile img{
+		  width:100%;
+	}
+	.template_dac_biet_2 .vid-ico, .img-ico, .template_dac_biet_2 .icoMz, .icon-ava {
+		bottom: 4px;
+	}
+}
+@media only screen and (max-width: 360px) {
+  .template_dac_biet_2 .vid-ico, .img-ico, .template_dac_biet_2 .icoMz, .icon-ava {
+		bottom: 4px;
+	}
+}
+/*END xu_ly_hien_thi_template_dac_biet_2*/

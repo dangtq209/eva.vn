@@ -30,6 +30,7 @@
     object-fit: cover; 
 }
 
+
 .expert .expertInner {
     background-color: rgba(153, 153, 153, 0.54);
     position: absolute;
@@ -194,3 +195,45 @@ p.linkOrigin .icoDrop {
     cursor: pointer;
 }
 /* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+/*BEGIN xu_ly_hien_thi_template_dac_biet_2*/
+.template_profile_title {
+    font-size: 27px;
+    color: #e26d8d;
+    /*background: url("//test.eva.vn/images/responsive/line_template_profile_2.png") no-repeat;*/
+    margin-bottom: 25px;
+    /*text-align: center;*/
+    /*height: 31px;*/
+    line-height: 29px;
+    /*padding-left: 15px;*/
+    text-transform: uppercase;
+    padding-top: 20px;
+    background: url('https://cdn.eva.vn/images/responsive/pink-line.png') 0 0 repeat-x;
+}
+.template_profile_title a{
+    color: #e26d8d;
+}
+.template_profile_txtMore {
+    display: inline-block;
+    width: 118px;
+    font-size: 15px;
+    color: #d2587d;
+    border: 2px solid #d2587d;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: url("//test.eva.vn/images/responsive/icoMore.png") no-repeat 93%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 30px 0 10px 0;
+}
+
+.noCnt {
+    height: 53px;
+}
+
+.template_profile_txtMore.last {
+    margin-bottom: 30px;
+}
+/*END xu_ly_hien_thi_template_dac_biet_2*/
