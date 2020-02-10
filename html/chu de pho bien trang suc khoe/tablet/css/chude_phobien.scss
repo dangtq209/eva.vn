@@ -6,6 +6,7 @@
     color: #d2577f;
     padding: 10px 0;
     margin-bottom: 14px;
+    font-family: Oswald;
   }
 
   //
@@ -30,14 +31,6 @@
       margin-right: 2%;
       word-spacing: 0;
       position: relative;
-      &.active {
-        border: 2px solid #fd9fb4;
-        a {
-          font-size: 12px;
-          font-weight: bold;
-          color: #d2577f;
-        }
-      }
       &:nth-child(4n + 4) {
         margin-right: 0;
       }
@@ -57,6 +50,7 @@
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
+          line-height: 1.3;
         }
       }
     }

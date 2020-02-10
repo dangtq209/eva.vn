@@ -1,0 +1,17 @@
+.fancybox-overlay {
+  z-index: 999999; }
+
+.width-100 {
+  width: 100%; }
+
+.slideImg {
+  display: flex;
+  width: 660px;
+  margin: 0 auto; }
+  .slideImg * {
+    margin: 0 auto;
+    box-sizing: border-box; }
+  .slideImg img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover; }

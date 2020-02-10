@@ -1,0 +1,38 @@
+//Template 3 anh
+.fancybox-overlay{
+	z-index: 999999;
+}
+.width-100{
+	width: 100%;
+}
+.slideImg{
+	display: flex;
+	width: 660px;
+	margin: 0 auto;
+	*{
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.item{
+		margin-bottom: 7px;
+		background-color: #f5f6f7;
+		&:first-child{
+			margin-right: 7px;
+		}
+	}
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	&.type02{
+		.item:nth-child(2){
+			margin-right: 7px;
+		}
+		&.style2{
+			.item:nth-child(2){
+				width: 140%;
+			}
+		}
+	}
+}
