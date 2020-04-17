@@ -1,0 +1,113 @@
+.template31_660px{
+	margin-top: 15px;
+}
+.template31_660px .container-inner strong{
+	color: inherit!important;
+}
+.template31_660px .clearfix{
+	clear: both;
+}
+.template31_660px *{
+	margin: 0 auto;
+	font-family: tahoma!important;
+}
+.template31_660px *, .template31_660px *:before, .template31_660px *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.template31_660px .mg-leftright, .template31_660px .mg-leftanhright {
+	padding: 0px;
+}
+.template31_660px .container-inner{
+	width: 1530px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.template31_660px .wrapper-contain{
+	width: 660px;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.template31_660px .textNormal p{
+	font-size: 20px!important;
+	line-height: 32px!important;
+	margin: 15px 0;
+	font-family: Arial!important;
+	color: #223442;
+}
+.template31_660px .mg-text-center{
+	text-align: center;
+}
+.template31_660px .wow{
+	visibility: hidden;
+}
+.template31_660px .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.template31_660px .textNormal h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: #582b1c;
+	font-style: oblique;
+	margin: 20px 0px;
+	font-family: Arial!important;
+	line-height: 1.3;
+}
+.template31_660px .innerBor{
+	padding: 10px 30px;
+	border: 1px solid #77B23F;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+.template31_660pxTit *{
+	font-size: 26px!important;
+}
+
+@media (min-width: 800px){
+	.template31_660px .container-inner {
+		width: 750px;
+	}
+	.template31_660px .wrapper-contain{
+		font-size: 22px;
+	}
+}
+@media (min-width: 992px){
+	.template31_660px .container-inner {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.template31_660px .container-inner {
+		width: 1004px;
+	}
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+	.template31_660px .mg-leftright, .template31_660px .mg-leftanhright{
+		padding: 0;
+	}
+	.template31_660px .container-inner{
+		width: 100%;
+	}
+	.template31_660px .wrapper-contain{
+		width: auto;
+		margin: 0px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.template31_660px .textNormal p, .template31_660px .textNormal h4{
+		font-size: 18px !important;
+		line-height: 32px !important;
+		margin: 5px 0;
+	}
+}
+/*end tablet, mobile*/
