@@ -182,9 +182,10 @@ ul.topnav li.active:before {
 }
 #owl-contact .item img {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
-    margin-bottom: 50px;
+    max-height: 80px;
+    margin: 0 auto 50px;
     padding: 0 30px;
 }
 #owl-feedback .item .feedback {
